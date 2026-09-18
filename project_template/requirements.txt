@@ -1,0 +1,8 @@
+pandas>=2.2
+requests>=2.32
+beautifulsoup4>=4.12
+duckdb>=1.1
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+jupyterlab>=4

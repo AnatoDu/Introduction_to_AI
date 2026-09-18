@@ -1,0 +1,8 @@
+# Секреты: ключи API храните в .env и никогда не коммитьте
+.env
+
+# Служебные файлы
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store

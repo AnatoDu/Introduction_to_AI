@@ -1,0 +1,32 @@
+# Настройки IDE и служебные файлы
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+
+# Ноутбуки преподавателя с решениями — не публикуются
+_teacher/
+
+# Секреты
+.env
+
+# Локальная разработка курса; не относится к студенческой выдаче
+/AGENTS.md
+/_teacher/
+/tools/
+/archive/
+/.codex/
+/.agents/
+/.idea/
+/.vscode/
+/.DS_Store
+
+# Локальные ведомости и результаты разработки
+/*.xlsx
+/outputs/
+.env
+__pycache__/
+.ipynb_checkpoints/
+.venv/

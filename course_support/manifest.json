@@ -1,0 +1,11 @@
+{
+  "course": "Introduction_to_AI",
+  "version": "073d02890b15",
+  "files": {
+    "README.md": "8ecaa2ac6af51f8d8629b7d2933521205045a0d97fc068645ab95ab60d50d29c",
+    "__init__.py": "18caa9da8261d294aae3840e601747018851635982a3fd3eb76c995e2a34a6b1",
+    "checks.py": "a789ae796b1e476024de9c2287230f012fbeeab3a461cec0b757f129f6e7b2e1",
+    "data/ai_systems.csv": "237ae374997a37c712fc924f0690718ff96caf986d3e204edc9256e2836c0de5",
+    "data/gost_59277_classes.csv": "63b29c804c03fa3cc2685b405a99540ed3cab0415f422370079573864d2c632c"
+  }
+}
