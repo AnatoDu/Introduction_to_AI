@@ -166,7 +166,7 @@ def _check_project_created(project_dir):
     missing = [name for name in required if not (project_dir / name).exists()]
     if missing:
         return False, f'неполная копия проекта: отсутствует {missing}. Нужен весь project_template'
-    return True, 'самостоятельная папка проекта на месте. Покажите свой README; Git сегодня необязателен'
+    return True, 'самостоятельная папка проекта на месте. Покажите свой README; Git необязателен весь семестр'
 
 
 
@@ -189,7 +189,7 @@ def _check_saved(project_dir):
         code, url = _git(project_dir, 'remote', 'get-url', 'origin')
         if code != 0 or not url:
             return None, ('удалённая копия Git не настроена. На первом блоке достаточно '
-                          'проверенной копии файлов; GitHub подключите к следующему занятию (docs/СДАЧА.md)')
+                          'проверенной копии файлов; GitHub подключайте по желанию (docs/СДАЧА.md)')
         return False, f'адрес {url} подключён, но отправки ещё не было: git push -u origin main'
     remote = upstream.split('/', 1)[0]
     code, url = _git(project_dir, 'remote', 'get-url', remote)
@@ -320,7 +320,7 @@ def _check_github(project_dir):
             servers.append((name, url))
     if not servers:
         return None, ('GitHub пока не подключён — это нормально: отправляем дома или со своего ноутбука, '
-                      'срок — ко второму занятию (docs/СДАЧА.md)')
+                      'обязательного срока подключения нет (docs/СДАЧА.md)')
     code, branch = _git(project_dir, 'rev-parse', '--abbrev-ref', 'HEAD')
     for name, url in servers:
         code, _ = _git(project_dir, 'rev-parse', '--verify', '--quiet', f'refs/remotes/{name}/{branch}')
@@ -334,3 +334,36 @@ def _check_github(project_dir):
         return True, f'всё отправлено на {url}. Эту ссылку и кладите в резюме'
     name, url = servers[0]
     return False, f'{url} подключён, но туда ещё ничего не отправлено: git push -u {name} {branch}'
+
+
+# Блок 2: проверки результатов, не выбранного способа решения.
+@_task('02.1.1')
+def _lab_points(value):
+    expected = pd.Series([15,15,20,20,10,20], index=[f'ЛР{i}' for i in range(1,7)])
+    ok = isinstance(value, pd.Series) and value.equals(expected)
+    return ok, 'Шесть работ, сумма 100' if ok else 'Проверьте значения и индекс ЛР1…ЛР6'
+
+@_task('02.1.2')
+def _marks_selection(row, col, scalar):
+    ok = list(row.index)==['Ivanov','Petrov','Sidorov'] and row.tolist()==[5,4,3] and col.tolist()==[4,3,5,4,5,5,4] and scalar==4
+    return bool(ok), 'Строка, столбец и позиция согласованы' if ok else 'Проверьте выбор строки Algebra и столбца Petrov'
+
+@_task('02.1.3')
+def _alternating(value):
+    expected = pd.DataFrame([[5,4,3],[4,5,3],[4,5,3],[4,4,5]], index=['Algebra','Chemistry','History','Literature'], columns=['Ivanov','Petrov','Sidorov'])
+    ok = isinstance(value,pd.DataFrame) and value.equals(expected)
+    return ok, 'Каждая вторая строка выбрана' if ok else 'Начните с первой строки, шаг 2; сохраните все столбцы'
+
+@_task('02.2.1')
+def _titanic_profile(shape, missing, counts):
+    data = pd.read_csv(DATA_DIR/'titanic.csv',index_col='PassengerId')
+    expected = data.Pclass.value_counts().sort_index()
+    ok = tuple(shape)==data.shape and missing==data.isna().sum().idxmax() and counts.sort_index().equals(expected)
+    return ok, 'Размер, пропуски и классы проверены' if ok else 'PassengerId — индекс; используйте isna().sum() и value_counts()'
+
+@_task('02.2.2')
+def _titanic_rates(rates, fare):
+    data = pd.read_csv(DATA_DIR/'titanic.csv')
+    expected = data.groupby('Sex').Survived.mean()
+    ok = set(rates.index)==set(expected.index) and all(abs(rates[k]-expected[k])<1e-6 for k in expected.index) and abs(fare-data.Fare.max())<1e-6
+    return bool(ok), 'Доли и максимум проверены; ограничения объясните сами' if ok else 'Нужны доли 0…1 отдельно по Sex и максимум Fare'
