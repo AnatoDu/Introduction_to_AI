@@ -367,3 +367,83 @@ def _titanic_rates(rates, fare):
     expected = data.groupby('Sex').Survived.mean()
     ok = set(rates.index)==set(expected.index) and all(abs(rates[k]-expected[k])<1e-6 for k in expected.index) and abs(fare-data.Fare.max())<1e-6
     return bool(ok), 'Доли и максимум проверены; ограничения объясните сами' if ok else 'Нужны доли 0…1 отдельно по Sex и максимум Fare'
+
+# Блок 3: локальный каталог. Старые проверки сохраняются без изменений.
+@_task('03.1.1')
+def _first_listing(listing_id, title):
+    ok = listing_id == '101' and title == 'Квартира у парка'
+    return ok, 'ID и название извлечены' if ok else 'Нужна первая карточка article.listing: атрибут data-id и текст title'
+
+
+@_task('03.1.2')
+def _listing_titles(titles):
+    expected = ['Квартира у парка', 'Студия с видом на кота',
+                'Две комнаты и никакой магии', 'Квартира с большой кухней']
+    ok = list(titles) == expected
+    return ok, 'Четыре названия, без меню' if ok else 'Ищите заголовки внутри article.listing, сохраняя порядок страницы'
+
+
+@_task('03.1.3')
+def _listing_table(table):
+    if not isinstance(table, pd.DataFrame):
+        return False, 'Передайте DataFrame'
+    fields = {'listing_id', 'title', 'address', 'price', 'area', 'href'}
+    if not fields.issubset(table.columns) or len(table) != 4:
+        return False, 'Нужны четыре строки и поля listing_id/title/address/price/area/href'
+    expected_ids = ['101', '102', '103', '104']
+    expected_prices = ['4200000₽', '3100000₽', '5600000₽', '6300000₽']
+    expected_areas = ['42,0 м²', '28 м²', '56,5 м²', '63 м²']
+    table = table.sort_values('listing_id')
+    ok = (table['listing_id'].tolist() == expected_ids
+          and _listing_titles(table['title'].tolist())[0]
+          and [''.join(str(x).split()) for x in table['price']] == expected_prices
+          and table['area'].tolist() == expected_areas
+          and all(str(href).endswith('#offer-'+ident) for ident,href in zip(expected_ids,table['href']))
+          and table['address'].notna().all())
+    return bool(ok), 'Карточки согласованы с таблицей' if ok else 'Проверьте, не перемешались ли поля разных карточек; исходную цену пока сохраняем текстом'
+
+
+@_task('03.2.1')
+def _robots_paths(catalog, private):
+    ok = catalog is True and private is False
+    return ok, 'Правила путей прочитаны; это не проверка лицензии' if ok else 'Сверьте can_fetch с Allow/Disallow учебного robots.txt'
+
+
+@_task('03.2.2')
+def _parse_price_result(func):
+    cases = {'17\u00a0500\u00a0000 ₽':17500000, '4\u202f200\u202f000 ₽':4200000,
+             ' 900 ₽ ':900, 'По запросу':None}
+    for text, expected in cases.items():
+        value = func(text)
+        if value != expected or (expected is not None and not isinstance(value,int)):
+            return False, f'Для {text!r} ожидалось целое число либо None'
+    for text in ['3–5 млн ₽', '12.5 ₽', '900 $']:
+        try:
+            func(text)
+        except ValueError:
+            continue
+        return False, 'Неизвестный формат должен давать ValueError; не склеивайте все цифры'
+    return True, 'Целые цены и пропуски разобраны, незнакомые форматы замечены'
+
+
+@_task('03.2.3')
+def _clean_listings(table):
+    if not isinstance(table, pd.DataFrame):
+        return False, 'Передайте DataFrame'
+    required = {'listing_id','price','price_rub','address','source_page'}
+    if not required.issubset(table.columns) or len(table) != 10 or not table['listing_id'].is_unique:
+        return False, 'Нужны 10 уникальных ID, исходные поля, source_page и price_rub'
+    expected = {'101':4200000,'102':3100000,'103':5600000,'104':6300000,
+                '105':4900000,'106':None,'107':7200000,'108':2900000,'109':None,'110':8400000}
+    values = table.set_index('listing_id')['price_rub']
+    if set(values.index) != set(expected) or str(values.dtype) != 'Int64':
+        return False, 'Сверьте ID 101…110 и nullable-тип Int64'
+    for key, value in expected.items():
+        if (pd.isna(values[key]) if value is None else not pd.isna(values[key]) and values[key] == value):
+            continue
+        return False, f'Проверьте цену ID {key}: пропуск не равен нулю'
+    if not all(isinstance(x,str) and x == ' '.join(x.split()) for x in table['address']):
+        return False, 'В адресах остались лишние пробелы'
+    if not set(table['source_page']).issubset({'page-1.html','page-2.html','page-3.html'}):
+        return False, 'Сохраните имя страницы-источника'
+    return True, '10 объявлений, два пропуска цены. Вывод и файлы проверьте отдельно'

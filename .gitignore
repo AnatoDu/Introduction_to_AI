@@ -30,3 +30,6 @@ _teacher/
 __pycache__/
 .ipynb_checkpoints/
 .venv/
+
+# Результаты демонстраций в репозитории преподавателя
+/reports/
