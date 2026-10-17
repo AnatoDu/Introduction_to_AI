@@ -447,3 +447,47 @@ def _clean_listings(table):
     if not set(table['source_page']).issubset({'page-1.html','page-2.html','page-3.html'}):
         return False, 'Сохраните имя страницы-источника'
     return True, '10 объявлений, два пропуска цены. Вывод и файлы проверьте отдельно'
+
+# Блок 4: структурированные локальные ответы и форматы.
+@_task('04.1.1')
+def _api_first(count, city, lower):
+    ok = count == 4 and city == 'Сыктывкар' and lower == 60000
+    return bool(ok), 'Путь внутри ответа прочитан' if ok else 'items — список; area и salary — вложенные словари первой записи'
+
+@_task('04.1.2')
+def _api_table(table):
+    required = {'id','name','city','salary_from','salary_to','currency','gross','source_page'}
+    if not isinstance(table,pd.DataFrame) or not required.issubset(table.columns) or len(table)!=8:
+        return False, 'Нужны 8 строк, исходные поля зарплаты и source_page'
+    ids = table.set_index('id')
+    expected = {'j001':60000,'j002':None,'j003':80000,'j004':120000,'j005':90000,'j006':1000,'j007':55000,'j008':None}
+    if not table['id'].is_unique or set(ids.index)!=set(expected):
+        return False,'Проверьте ID и полноту обеих страниц'
+    for key,value in expected.items():
+        actual=ids.loc[key,'salary_from']
+        if not (pd.isna(actual) if value is None else actual==value):return False,'Отсутствующая зарплата — пропуск, не ноль'
+    ok=ids.loc['j006','currency']=='USD' and ids.loc['j004','gross']==True and set(table.source_page)=={0,1}
+    return bool(ok),'Поля и происхождение сохранены' if ok else 'Не теряйте валюту, признак налогов и номер страницы'
+
+@_task('04.1.3')
+def _salary_subset(count, median):
+    ok=count==4 and abs(median-70000)<1e-8
+    return bool(ok),'Сопоставимы 4 нижние границы; это не медиана реальных зарплат' if ok else 'Оставьте RUB, gross=False и известную нижнюю границу; затем median'
+
+@_task('04.2.1')
+def _format_csv(table):
+    return _stations_ok(table)
+
+@_task('04.2.2')
+def _format_xml(table):
+    return _stations_ok(table)
+
+@_task('04.2.3')
+def _format_roundtrip(table):
+    return _stations_ok(table)
+
+def _stations_ok(table):
+    if not isinstance(table,pd.DataFrame) or list(table.columns)!=['station_id','city','temperature_c'] or len(table)!=3:
+        return False,'Нужны три станции и столбцы station_id/city/temperature_c'
+    ok=(table.station_id.tolist()==['001','002','003'] and table.city.tolist()==['Сыктывкар','Ухта','Воркута'] and pd.api.types.is_numeric_dtype(table.temperature_c) and all(abs(a-b)<1e-8 for a,b in zip(table.temperature_c,[18.5,15.0,9.25])))
+    return bool(ok),'Идентификаторы и числовые значения сохранены' if ok else 'Проверьте кодировку, разделитель, десятичный знак и ведущие нули ID'

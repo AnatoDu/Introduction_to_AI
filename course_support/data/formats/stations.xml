@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations unit="C" kind="synthetic">
+  <station id="001"><city>Сыктывкар</city><temperature>18.5</temperature></station>
+  <station id="002"><city>Ухта</city><temperature>15.0</temperature></station>
+  <station id="003"><city>Воркута</city><temperature>9.25</temperature></station>
+</stations>

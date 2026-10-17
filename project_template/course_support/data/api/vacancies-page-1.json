@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "j005",
+      "name": "Разработчик учебных моделей",
+      "area": {
+        "name": "Ухта"
+      },
+      "salary": {
+        "from": 90000,
+        "to": 110000,
+        "currency": "RUB",
+        "gross": false
+      }
+    },
+    {
+      "id": "j006",
+      "name": "Ассистент исследователя",
+      "area": {
+        "name": "Удалённо"
+      },
+      "salary": {
+        "from": 1000,
+        "to": 1500,
+        "currency": "USD",
+        "gross": false
+      }
+    },
+    {
+      "id": "j007",
+      "name": "Стажёр Python",
+      "area": {
+        "name": "Сыктывкар"
+      },
+      "salary": {
+        "from": 55000,
+        "to": null,
+        "currency": "RUB",
+        "gross": false
+      }
+    },
+    {
+      "id": "j008",
+      "name": "Стажёр ML",
+      "area": {
+        "name": "Москва"
+      },
+      "salary": {
+        "from": null,
+        "to": 100000,
+        "currency": "RUB",
+        "gross": false
+      }
+    }
+  ],
+  "page": 1,
+  "pages": 2,
+  "per_page": 4,
+  "found": 8
+}

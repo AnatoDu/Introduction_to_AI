@@ -1,0 +1,55 @@
+{
+  "items": [
+    {
+      "id": "j001",
+      "name": "Стажёр-аналитик",
+      "area": {
+        "name": "Сыктывкар"
+      },
+      "salary": {
+        "from": 60000,
+        "to": 80000,
+        "currency": "RUB",
+        "gross": false
+      }
+    },
+    {
+      "id": "j002",
+      "name": "Практикант по данным",
+      "area": {
+        "name": "Ухта"
+      },
+      "salary": null
+    },
+    {
+      "id": "j003",
+      "name": "Младший аналитик",
+      "area": {
+        "name": "Сыктывкар"
+      },
+      "salary": {
+        "from": 80000,
+        "to": 100000,
+        "currency": "RUB",
+        "gross": false
+      }
+    },
+    {
+      "id": "j004",
+      "name": "Стажёр CV",
+      "area": {
+        "name": "Москва"
+      },
+      "salary": {
+        "from": 120000,
+        "to": 150000,
+        "currency": "RUB",
+        "gross": true
+      }
+    }
+  ],
+  "page": 0,
+  "pages": 2,
+  "per_page": 4,
+  "found": 8
+}
