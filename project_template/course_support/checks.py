@@ -491,3 +491,50 @@ def _stations_ok(table):
         return False,'Нужны три станции и столбцы station_id/city/temperature_c'
     ok=(table.station_id.tolist()==['001','002','003'] and table.city.tolist()==['Сыктывкар','Ухта','Воркута'] and pd.api.types.is_numeric_dtype(table.temperature_c) and all(abs(a-b)<1e-8 for a,b in zip(table.temperature_c,[18.5,15.0,9.25])))
     return bool(ok),'Идентификаторы и числовые значения сохранены' if ok else 'Проверьте кодировку, разделитель, десятичный знак и ведущие нули ID'
+
+
+# Блок 5: преобразования проверяем отдельно от объяснения их уместности.
+@_task('05.1.1')
+def _hours(values):
+    values = list(values)
+    ok = len(values) == 3 and all(abs(a-b) < 1e-8 for a,b in zip(values, [1.5, 2, 2.5]))
+    return bool(ok), 'Единицы согласованы' if ok else 'Делите на 60 только минуты; часы сохраняют своё значение'
+
+@_task('05.1.2')
+def _fee_conversion(values, failed):
+    values, failed = list(values), list(failed)
+    ok = (len(values) == 4 and values[0] == 1200 and values[1] == 0
+          and pd.isna(values[2]) and pd.isna(values[3])
+          and failed == [False, False, True, False])
+    return bool(ok), 'Ноль, пустота и неразобранная строка различены' if ok else 'Ноль сохраняем; ошибка преобразования — непустой исходник, ставший пропуском'
+
+@_task('05.1.3')
+def _median_fill(median, count, values):
+    ok = median == 2000 and count == 1 and list(values) == [1000, 2000, 9000, 2000]
+    return bool(ok), 'Заполнение выполнено; его смысл объясните в выводе' if ok else 'Медиана известных значений — 2000, заменяется только один пропуск'
+
+@_task('05.2.1')
+def _education_labels(values):
+    values = list(values)
+    ok = len(values) == 5 and values[:4] == ['высшее', 'высшее', 'спо', 'среднее'] and pd.isna(values[4])
+    return bool(ok), 'Написания унифицированы без слияния разных категорий' if ok else 'Сначала strip/lower, затем словарь сокращений; пропуск сохраняется'
+
+@_task('05.2.2')
+def _iqr_signal(lower, upper, suspects):
+    ok = abs(lower-6) < 1e-8 and abs(upper-22) < 1e-8 and list(suspects) == [100]
+    return bool(ok), 'Сигнал найден; причина ещё не установлена' if ok else 'Q1=12, Q3=16; вычислите обе границы, исходную Series не удаляйте'
+
+@_task('05.2.3')
+def _quality_function(function):
+    cases = [
+        ({'request_id': ['001','002'], 'fee_rub': [0,None]}, True, 'ноль и неизвестная стоимость разрешены'),
+        ({'request_id': ['001','001'], 'fee_rub': [100,200]}, False, 'повтор ключа'),
+        ({'request_id': ['001',None], 'fee_rub': [100,200]}, False, 'неизвестный ключ'),
+        ({'request_id': ['001','002'], 'fee_rub': [100,-1]}, False, 'отрицательная стоимость'),
+        ({'request_id': [], 'fee_rub': []}, False, 'пустая таблица'),
+    ]
+    for data, expected, meaning in cases:
+        actual = function(pd.DataFrame(data))
+        if not isinstance(actual, bool) or actual != expected:
+            return False, 'Проверьте случай: ' + meaning + '; функция должна возвращать bool'
+    return True, 'Проверки принимают допустимые данные и замечают нарушения'

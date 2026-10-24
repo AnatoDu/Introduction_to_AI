@@ -1,10 +1,10 @@
 {
   "course": "Introduction_to_AI",
-  "version": "62c98682072b",
+  "version": "ecf09d87b02d",
   "files": {
     "README.md": "8ecaa2ac6af51f8d8629b7d2933521205045a0d97fc068645ab95ab60d50d29c",
     "__init__.py": "18caa9da8261d294aae3840e601747018851635982a3fd3eb76c995e2a34a6b1",
-    "checks.py": "fbf634b6511f5c4a74763a643f746603b36203007a3eb34d4579a5987cd20f1a",
+    "checks.py": "faada9ff909507f7866c650d66e623ba5d52a001e5c426daf3ae846bd69bd237",
     "data/TITANIC_SOURCE.md": "69a0250a61087c8ba7655f4983e9d0ab1cde410923e794befbb93a5b652ed02a",
     "data/ai_systems.csv": "237ae374997a37c712fc924f0690718ff96caf986d3e204edc9256e2836c0de5",
     "data/api/SOURCE.md": "c1953477adb52f7c202bc652e3d65fd2c750b543d81ffaa122b43ab75e8eb785",
@@ -19,6 +19,9 @@
     "data/parsing/page-2.html": "6cc41f71b662de09ca61eeb2b7e7c5e26d34875afd8ff7c62a661d569322a419",
     "data/parsing/page-3.html": "d9d51154158c896ef20ff40e2d2b3bd66eb49f2b1a53d54862384224f7a5074c",
     "data/parsing/robots.txt": "48700bc254e834e3ca302c2b1d8cd3d4588f5a4043d1810943b817c2dde7f6c6",
+    "data/preprocessing/SOURCE.md": "414692092be4917893a1415c79bcd4a2b168768aac2fda8980de5ab602d4c314",
+    "data/preprocessing/requests_raw.csv": "fa6c9f97e72719a588cc16ee633efe3cb10f0447bfd144708e02b72a0f4d5a21",
+    "data/preprocessing/requests_stage1.csv": "06cdeecf14c4fbebfd3d36880eb68f66f7d96aa7de1d818b5a5c745517aef976",
     "data/titanic.csv": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f",
     "parsing.py": "a4f8e7408b956e38f0e61d481a22e5cbfeddfa76cf2dd6f9aacda7881a558a9a"
   }
