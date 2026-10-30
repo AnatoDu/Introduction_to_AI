@@ -1,11 +1,14 @@
 {
   "course": "Introduction_to_AI",
-  "version": "ecf09d87b02d",
+  "version": "e0cd494bd650",
   "files": {
     "README.md": "8ecaa2ac6af51f8d8629b7d2933521205045a0d97fc068645ab95ab60d50d29c",
     "__init__.py": "18caa9da8261d294aae3840e601747018851635982a3fd3eb76c995e2a34a6b1",
-    "checks.py": "faada9ff909507f7866c650d66e623ba5d52a001e5c426daf3ae846bd69bd237",
+    "checks.py": "b84b3fab1d6e1a9904dd1d25a2a4ae37aaddb2d3cca5eb7807f6e6f59500f841",
     "data/TITANIC_SOURCE.md": "69a0250a61087c8ba7655f4983e9d0ab1cde410923e794befbb93a5b652ed02a",
+    "data/aggregation/SOURCE.md": "2a3910c4145fed6f36b9ca3f56f43ef265a9fb3db5a2d0eefebf3bc29ccc6461",
+    "data/aggregation/listens.csv": "16cb372cd4b996264830b799d99ea7932b156d710bac92bc943de2e2b02e0d87",
+    "data/aggregation/tracks.csv": "49fbeabce1ad81bdd3b6621e84a26008b845893dc733e87d167b1714c9c4e20b",
     "data/ai_systems.csv": "237ae374997a37c712fc924f0690718ff96caf986d3e204edc9256e2836c0de5",
     "data/api/SOURCE.md": "c1953477adb52f7c202bc652e3d65fd2c750b543d81ffaa122b43ab75e8eb785",
     "data/api/vacancies-page-0.json": "caf8d1f8ec48dd89c7dd5e1002358d4f1fe5826c04d924d1ec8063ca08ca2c3c",

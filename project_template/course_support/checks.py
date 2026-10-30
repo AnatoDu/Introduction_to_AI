@@ -538,3 +538,41 @@ def _quality_function(function):
         if not isinstance(actual, bool) or actual != expected:
             return False, 'Проверьте случай: ' + meaning + '; функция должна возвращать bool'
     return True, 'Проверки принимают допустимые данные и замечают нарушения'
+# Блок 6: результаты группировок и запросов; баллы эти проверки не выставляют.
+@_task('06.1.1')
+def _aggregation_city(sizes, known, means):
+    ok = (dict(sizes) == {'Север': 6, 'Юг': 6} and dict(known) == {'Север': 6, 'Юг': 4}
+          and set(means.index) == {'Север', 'Юг'}
+          and abs(means['Север'] - 19/6) < 1e-8 and abs(means['Юг'] - 21/4) < 1e-8)
+    return bool(ok), 'Число событий и знаменатель среднего различены' if ok else 'size считает строки; count и mean не включают пропуски'
+
+@_task('06.1.2')
+def _aggregation_unmatched(ids, minutes):
+    ok = list(ids) == ['009'] and minutes == 7
+    return bool(ok), 'Событие без справочника сохранено' if ok else 'Ищите left_only: событие009, трекt99'
+
+@_task('06.1.3')
+def _aggregation_duplicates(table, extra):
+    ok = len(table) == 2 and list(table['track_id']) == ['t01', 't01'] and extra == 3
+    return bool(ok), 'Найдена причина размножения строк' if ok else 'Повтор ключа справа затронул три события слева'
+
+@_task('06.2.1')
+def _sql_filter(table):
+    ok = (list(table.columns) == ['event_id','minutes'] and list(table['event_id']) == ['012','009','003']
+          and list(table['minutes']) == [8,7,4])
+    return bool(ok), 'Фильтр и порядок верны' if ok else 'Юг, minutes >=4, порядок8→7→4; нужны обе колонки'
+
+@_task('06.2.2')
+def _sql_having(table):
+    ok = list(table.columns) == ['city','total_minutes'] and list(table['city']) == ['Юг'] and list(table['total_minutes']) == [21]
+    return bool(ok), 'Условие применено к сумме группы' if ok else 'HAVING отбирает готовые группы; ожидается Юг с21минутой'
+
+@_task('06.2.3')
+def _sql_join(sql_table, pandas_table):
+    for table in (sql_table, pandas_table):
+        if list(table.columns) != ['event_id','genre'] or list(table['event_id']) != ['003','004','007','009','011','012']:
+            return False, 'Сохраните шесть событий Юга и порядок ключей, включая событие без жанра'
+        genres = table['genre'].fillna('<unknown>').tolist()
+        if genres != ['рок','эмбиент','рок','<unknown>','джаз','эмбиент']:
+            return False, 'Проверьте соединение по track_id; неизвестный жанр не придумываем'
+    return True, 'Оба способа сохранили события и дали одинаковые жанры'
