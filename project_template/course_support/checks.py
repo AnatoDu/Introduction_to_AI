@@ -576,3 +576,51 @@ def _sql_join(sql_table, pandas_table):
         if genres != ['рок','эмбиент','рок','<unknown>','джаз','эмбиент']:
             return False, 'Проверьте соединение по track_id; неизвестный жанр не придумываем'
     return True, 'Оба способа сохранили события и дали одинаковые жанры'
+
+@_task('07.1.1')
+def _window_best(t):
+    ok=list(t.columns)==['store','day','revenue'] and list(t.itertuples(index=False,name=None))==[('Север',5,140),('Юг',2,100),('Юг',3,100)]
+    return bool(ok),'Все лучшие дни и равенства сохранены' if ok else 'Проверьте отдельную группу каждого магазина и равные лучшие результаты Юга'
+
+@_task('07.1.2')
+def _window_first(t):
+    ok=list(t.columns)==['store','first_day'] and list(t.itertuples(index=False,name=None))==[('Север',2),('Юг',2)]
+    return bool(ok),'Первый наблюдаемый момент найден' if ok else 'После накопления и фильтра нужен один первый день на магазин'
+
+@_task('07.1.3')
+def _window_alert(t):
+    ok=list(t.columns)==['store','day','change'] and list(t.itertuples(index=False,name=None))==[('Север',6,-140),('Юг',6,-80)]
+    return bool(ok),'Интервал между днями учтён' if ok else 'Север в день4 сравнивается с днём2: это не суточная тревога'
+
+@_task('07.2.1')
+def _warehouse_conflicts(raw,conflicts,accepted):
+    ok=(raw.event_id.tolist()==['a','b','b','c'] and raw.amount.tolist()==[10,20,25,0]
+        and conflicts.event_id.tolist()==['b','b'] and conflicts.amount.tolist()==[20,25]
+        and accepted.event_id.tolist()==['a','c'] and accepted.amount.tolist()==[10,0])
+    return bool(ok),'Неоднозначность сохранена для расследования' if ok else 'Обе строки b спорные; raw и нулевую стоимость c сохраняем'
+
+@_task('07.2.2')
+def _warehouse_constraints(connection):
+    import sqlite3
+    connection.execute('SAVEPOINT checker')
+    try:
+        connection.execute('DELETE FROM my_reservations')
+        connection.execute("INSERT INTO my_reservations VALUES ('valid',15)")
+        for row in [('zero',0),('large',16),('fraction',1.5),('none',None),('valid',2),(None,2),('text','oops')]:
+            try: connection.execute('INSERT INTO my_reservations VALUES (?,?)',row)
+            except sqlite3.IntegrityError: continue
+            return False,'Договор пропустил недопустимую запись: '+repr(row)
+        connection.execute("INSERT INTO my_reservations VALUES ('lower',1)")
+        return True,'Обе границы допустимы, нарушения замечены; исходные ответы сохранены'
+    finally:
+        connection.execute('ROLLBACK TO checker');connection.execute('RELEASE checker')
+
+@_task('07.2.3')
+def _warehouse_mean(function):
+    for amount,count,north in [(100,2,80),(200,4,68)]:
+        table=pd.DataFrame({'city':['Север','Север','Юг'],'customer_id':['A','C','B'],
+                            'known_total':[amount,140,270],'known_count':[count,1,2]})
+        result=function(table.copy())
+        if list(result.columns)!=['city','known_mean'] or list(result.itertuples(index=False,name=None))!=[('Север',north),('Юг',135)]:
+            return False,'Сложите суммы и количества до деления: вес клиента меняется вместе с числом событий'
+    return True,'Оба набора сведены правильно; среднее клиента не подменяет среднее события'

@@ -1,10 +1,10 @@
 {
   "course": "Introduction_to_AI",
-  "version": "e0cd494bd650",
+  "version": "68ebe2023a43",
   "files": {
     "README.md": "8ecaa2ac6af51f8d8629b7d2933521205045a0d97fc068645ab95ab60d50d29c",
     "__init__.py": "18caa9da8261d294aae3840e601747018851635982a3fd3eb76c995e2a34a6b1",
-    "checks.py": "b84b3fab1d6e1a9904dd1d25a2a4ae37aaddb2d3cca5eb7807f6e6f59500f841",
+    "checks.py": "2307ed7830a0e45fe082a64c1c519363c8e6cec6fdd563f9ebd87d82f992b777",
     "data/TITANIC_SOURCE.md": "69a0250a61087c8ba7655f4983e9d0ab1cde410923e794befbb93a5b652ed02a",
     "data/aggregation/SOURCE.md": "2a3910c4145fed6f36b9ca3f56f43ef265a9fb3db5a2d0eefebf3bc29ccc6461",
     "data/aggregation/listens.csv": "16cb372cd4b996264830b799d99ea7932b156d710bac92bc943de2e2b02e0d87",
@@ -26,6 +26,8 @@
     "data/preprocessing/requests_raw.csv": "fa6c9f97e72719a588cc16ee633efe3cb10f0447bfd144708e02b72a0f4d5a21",
     "data/preprocessing/requests_stage1.csv": "06cdeecf14c4fbebfd3d36880eb68f66f7d96aa7de1d818b5a5c745517aef976",
     "data/titanic.csv": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f",
+    "data/warehouse/SOURCE.md": "6891f4d81e0a1d2d3c1f099df7b6295245de344c843132e34934ed2b67492050",
+    "data/warehouse/demo.json": "9dbb27fae57a60b87ac2a93e4e43f09f6b2709b43dcb02d6a4f7eb7eddf0510a",
     "parsing.py": "a4f8e7408b956e38f0e61d481a22e5cbfeddfa76cf2dd6f9aacda7881a558a9a"
   }
 }

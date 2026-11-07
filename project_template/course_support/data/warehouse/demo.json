@@ -1,0 +1,115 @@
+{
+  "daily": [
+    {
+      "store": "Север",
+      "day": 1,
+      "revenue": 100
+    },
+    {
+      "store": "Север",
+      "day": 2,
+      "revenue": 100
+    },
+    {
+      "store": "Север",
+      "day": 4,
+      "revenue": 60
+    },
+    {
+      "store": "Север",
+      "day": 5,
+      "revenue": 140
+    },
+    {
+      "store": "Север",
+      "day": 6,
+      "revenue": 0
+    },
+    {
+      "store": "Юг",
+      "day": 1,
+      "revenue": 50
+    },
+    {
+      "store": "Юг",
+      "day": 2,
+      "revenue": 100
+    },
+    {
+      "store": "Юг",
+      "day": 3,
+      "revenue": 100
+    },
+    {
+      "store": "Юг",
+      "day": 5,
+      "revenue": 90
+    },
+    {
+      "store": "Юг",
+      "day": 6,
+      "revenue": 10
+    }
+  ],
+  "customers": [
+    {
+      "customer_id": "A",
+      "city": "Север"
+    },
+    {
+      "customer_id": "B",
+      "city": "Юг"
+    },
+    {
+      "customer_id": "C",
+      "city": "Север"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "s01",
+      "customer_id": "A",
+      "amount": 100
+    },
+    {
+      "event_id": "s02",
+      "customer_id": "B",
+      "amount": 200
+    },
+    {
+      "event_id": "s03",
+      "customer_id": "A",
+      "amount": -50
+    },
+    {
+      "event_id": "s04",
+      "customer_id": "Z",
+      "amount": 90
+    },
+    {
+      "event_id": "s02",
+      "customer_id": "B",
+      "amount": 200
+    },
+    {
+      "event_id": "s05",
+      "customer_id": "A",
+      "amount": 0
+    },
+    {
+      "event_id": "s06",
+      "customer_id": "C",
+      "amount": null
+    },
+    {
+      "event_id": "s07",
+      "customer_id": "B",
+      "amount": 70
+    },
+    {
+      "event_id": "s08",
+      "customer_id": "C",
+      "amount": 140
+    }
+  ]
+}
