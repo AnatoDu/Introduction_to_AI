@@ -1,15 +1,18 @@
 {
   "course": "Introduction_to_AI",
-  "version": "68ebe2023a43",
+  "version": "a5fce7d0e7ef",
   "files": {
-    "README.md": "8ecaa2ac6af51f8d8629b7d2933521205045a0d97fc068645ab95ab60d50d29c",
+    "README.md": "799e47969f128a6c881d6dbfbde552b6888b129c9e33adf52eca97400cfe7235",
     "__init__.py": "18caa9da8261d294aae3840e601747018851635982a3fd3eb76c995e2a34a6b1",
-    "checks.py": "2307ed7830a0e45fe082a64c1c519363c8e6cec6fdd563f9ebd87d82f992b777",
+    "checks.py": "6ba33eda9688ab4f3cfee23e885e2fb5f9960cf422647194e8631cfc5d9380c7",
     "data/TITANIC_SOURCE.md": "69a0250a61087c8ba7655f4983e9d0ab1cde410923e794befbb93a5b652ed02a",
     "data/aggregation/SOURCE.md": "2a3910c4145fed6f36b9ca3f56f43ef265a9fb3db5a2d0eefebf3bc29ccc6461",
     "data/aggregation/listens.csv": "16cb372cd4b996264830b799d99ea7932b156d710bac92bc943de2e2b02e0d87",
     "data/aggregation/tracks.csv": "49fbeabce1ad81bdd3b6621e84a26008b845893dc733e87d167b1714c9c4e20b",
     "data/ai_systems.csv": "237ae374997a37c712fc924f0690718ff96caf986d3e204edc9256e2836c0de5",
+    "data/annotation/SOURCE.md": "86ac9236495d1ddb5950494e0517643546da8e67f7b90d183f2114ca5ec6fdb3",
+    "data/annotation/example_annotations.csv": "54e615ac4124d08fa053f5c4c3a810e87ce40f3d952eb708cf850605ea856460",
+    "data/annotation/messages.csv": "33ecab0fa6c38711f60d4e4389ff6cd8b887454687ad0e68d4542095877543b6",
     "data/api/SOURCE.md": "c1953477adb52f7c202bc652e3d65fd2c750b543d81ffaa122b43ab75e8eb785",
     "data/api/vacancies-page-0.json": "caf8d1f8ec48dd89c7dd5e1002358d4f1fe5826c04d924d1ec8063ca08ca2c3c",
     "data/api/vacancies-page-1.json": "94f790191e5f3486105ac437885951064f4557acce4ed155526a3c7d2fcfaf44",
@@ -26,8 +29,14 @@
     "data/preprocessing/requests_raw.csv": "fa6c9f97e72719a588cc16ee633efe3cb10f0447bfd144708e02b72a0f4d5a21",
     "data/preprocessing/requests_stage1.csv": "06cdeecf14c4fbebfd3d36880eb68f66f7d96aa7de1d818b5a5c745517aef976",
     "data/titanic.csv": "7d118fef8b6ccf7f81111877bc388536f7b1e498a655e3d649d19aaa010e9f6f",
+    "data/trends/SOURCE.md": "f5e11fc762f9ee1c0e0403d50f834a41a6960d6b2378051d596fd7e8f4cc0db9",
+    "data/trends/notable_models.csv": "4ef710bef26ead04cada07eec070607b38128cc84338ce1402a927a0b29548d3",
+    "data/trends/snapshot.json": "8312623812852e743b9e0a898ab0bb9bdebd53adcd33e148067eb897652becbb",
+    "data/visualization/SOURCE.md": "1fdbdc2f496c6a11acaf792565e2893c18d49a96f7cc9cb49f50e1c8f8476630",
+    "data/visualization/penguins.csv": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
     "data/warehouse/SOURCE.md": "6891f4d81e0a1d2d3c1f099df7b6295245de344c843132e34934ed2b67492050",
     "data/warehouse/demo.json": "9dbb27fae57a60b87ac2a93e4e43f09f6b2709b43dcb02d6a4f7eb7eddf0510a",
-    "parsing.py": "a4f8e7408b956e38f0e61d481a22e5cbfeddfa76cf2dd6f9aacda7881a558a9a"
+    "parsing.py": "a4f8e7408b956e38f0e61d481a22e5cbfeddfa76cf2dd6f9aacda7881a558a9a",
+    "report.py": "4ab036775d9cd513731781c364e127df20e295e8711895c5d874f8f311ac6f07"
   }
 }

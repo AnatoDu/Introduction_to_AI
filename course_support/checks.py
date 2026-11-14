@@ -624,3 +624,121 @@ def _warehouse_mean(function):
         if list(result.columns)!=['city','known_mean'] or list(result.itertuples(index=False,name=None))!=[('Север',north),('Юг',135)]:
             return False,'Сложите суммы и количества до деления: вес клиента меняется вместе с числом событий'
     return True,'Оба набора сведены правильно; среднее клиента не подменяет среднее события'
+
+# Блок 08: проверяем расчёт, оформление и объяснение обсуждаются отдельно.
+@_task('08.1.1')
+def _visual_rates(rates):
+    import math
+    ok = len(rates) == 2 and all(math.isclose(float(a), b) for a,b in zip(rates,[.12,.25]))
+    return ok, 'Сравните доли 12/100 и 5/20; подписи и вывод проверьте сами.'
+
+@_task('08.1.2')
+def _visual_bins(edges):
+    import math
+    edges = list(edges)
+    ok = (len(edges) >= 3 and all(math.isfinite(float(x)) for x in edges)
+          and edges[0] <= 1 and edges[-1] >= 7
+          and all(b > a for a,b in zip(edges,edges[1:])))
+    return ok, 'Нужны общие возрастающие границы, покрывающие 1…7, и хотя бы два интервала. Сравните рисунки.'
+
+@_task('08.1.3')
+def _visual_scale(gain_pp, ratio):
+    import math
+    return (math.isclose(float(gain_pp),2) and math.isclose(float(ratio),100/98)), '2 процентных пункта; отношение 100/98. Ось и подпись проверьте отдельно.'
+
+@_task('08.2.1')
+def _eda_missing(lost):
+    return lost == 9, 'Для анализа массы пригодны 342 строки, полностью заполнены 333: разница 9.'
+
+@_task('08.2.2')
+def _eda_weighted(func):
+    import math
+    cases = [([10,20],[2,8],18),([5,100],[9,1],14.5),([7],[3],7)]
+    ok = all(math.isclose(float(func(a,b)),v) for a,b,v in cases)
+    ok = ok and func([],[]) is None and func([0,0],[0,0]) is None
+    return ok, 'Общее среднее учитывает размеры групп; при нулевом числе наблюдений — None.'
+
+@_task('08.2.3')
+def _eda_card(func):
+    import math
+    cases = [([1.,None,5.],2,3.),([None,None],0,None),([],0,None),([0.,10.],2,5.)]
+    for values,n,mean in cases:
+        answer = func(pd.DataFrame({'body_mass_g':pd.Series(values,dtype='float64')}))
+        if answer.get('n') != n:
+            return False, 'n должен считать только известные измерения, включая настоящий ноль.'
+        value = answer.get('mean_g')
+        if (mean is None and value is not None) or (mean is not None and (value is None or not math.isclose(float(value),mean))):
+            return False, 'Среднее по известным измерениям; пустая группа → None.'
+    return True, 'Пустая группа и пропуски обработаны. Теперь вручную проверьте переключение отчёта.'
+
+# Блок 09: смысл показателя, предположения и единицы расчёта.
+@_task('09.1.1')
+def _trends_center(mean_ratio, median_ratio):
+    import math
+    return math.isclose(float(mean_ratio),34) and math.isclose(float(median_ratio),1), 'Отношение средних 34, медиан 1. Разные показатели отвечают на разные вопросы.'
+
+@_task('09.1.2')
+def _trends_credit(full, fractional):
+    import math
+    ok=full=={'A':3,'B':2} and set(fractional)=={'A','B'}
+    ok=ok and math.isclose(float(fractional['A']),2.5) and math.isclose(float(fractional['B']),1.5)
+    return ok, '5 участий в 4 работах; дробный зачёт 2.5 и 1.5 сохраняет число работ.'
+
+@_task('09.1.3')
+def _trends_bounds(func):
+    import math
+    for args,want in [((30,20,50),(.3,.8)),((5,5,0),(.5,.5)),((0,0,4),(0,1))]:
+        got=func(*args)
+        if len(got)!=2 or not all(math.isclose(float(a),b) for a,b in zip(got,want)):
+            return False,'Нижняя граница yes/total, верхняя (yes+unknown)/total.'
+    return func(0,0,0)==(None,None), 'Пустая выборка не имеет доли; неизвестность задаёт границы, а не доверительный интервал.'
+
+@_task('09.2.1')
+def _budget_rework(a,b):
+    import math
+    return math.isclose(float(a),39000) and math.isclose(float(b),28000), 'Секунды первой работы плюс секунды переделки; качество процессов должно быть сопоставимо.'
+
+@_task('09.2.2')
+def _budget_break_even(func):
+    import math
+    ok=math.isclose(float(func(24000,80,20)),400) and math.isclose(float(func(100,5,3)),50)
+    ok=ok and func(100,2,2) is None and func(100,2,3) is None
+    return ok, 'При положительных фиксированных затратах пересечение есть только когда cloud_rate > local_rate.'
+
+@_task('09.2.3')
+def _budget_schedule(hours,cost):
+    import math
+    return math.isclose(float(hours),11) and math.isclose(float(cost),14500), 'Общие этапы не параллелятся: 3+24/4+2; труд 29 человеко-часов.'
+
+# Блок 10: численный ответ и структура; качество объяснения обсуждается отдельно.
+@_task('10.1.1')
+def _annotation_policy(rows):
+    ok = len(rows) == 3 and [r.get('label') for r in rows] == ['unclear','unclear','question']
+    ok = ok and all(isinstance(r.get('reason'), str) and len(r['reason'].strip()) >= 15 for r in rows)
+    return bool(ok), 'Метки по v1 и причины заполнены; смысл причин и новое правило обсудите отдельно.'
+
+@_task('10.1.2')
+def _annotation_pairs(n,agreement,missing):
+    import math
+    return n == 2 and math.isclose(float(agreement),.5) and set(missing)=={'b','d'}, 'Сравниваются a/c; b/d не имеют пары. Доля совпадений 1/2.'
+
+@_task('10.1.3')
+def _annotation_kappa(func):
+    import math
+    cases=[((.9,.82),4/9),((1,.5),1),((.2,.4),-1/3),((0,0),0)]
+    ok=all(math.isclose(float(func(*a)),v,abs_tol=1e-9) for a,v in cases)
+    return ok and func(1,1) is None, 'При expected=1 каппа неопределена; не превращайте None в 0 или 1.'
+
+@_task('10.2.1')
+def _ranking_claims(w,claims):
+    return w is None and set(claims)=={1,4}, 'Есть ничьи; текущая формула без поправки неприменима. Согласие не доказывает оптимальность.'
+
+@_task('10.2.2')
+def _sample_weights(balanced,population):
+    import math
+    return math.isclose(float(balanced),.5) and math.isclose(float(population),.26), 'В выборке 0.5, при известных долях потока 0.26; обсудите допущения и малый объём.'
+
+@_task('10.2.3')
+def _dataset_card_fixes(fixes):
+    ok=all(isinstance(fixes.get(key),str) and len(fixes[key].strip())>=25 for key in ['source','agreement','use'])
+    return ok, 'Поля заполнены. Проверка не подтверждает правдивость текста: сверьте с SOURCE.md и обсудите ограничения.'

@@ -1,0 +1,1205 @@
+Model,Organization,Publication date,Domain,Training compute (FLOP),Confidence,Model accessibility,Open model weights?,Link
+Gemini 4 Carbon,Google DeepMind,2026-11-10,"Language,Multimodal,Vision",,Unknown,API access,No,https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/
+MAI-Base-2,Microsoft,2026-10-15,"Language,Vision,Multimodal",2.4e+25,Confident,Unreleased,No,https://microsoft.ai/pdf/Frontier-Pre-training-at-Microsoft-AI.pdf?v=2
+Grok Voice 3.0,xAI,2026-10-14,"Language,Audio,Speech",,Unknown,API access,No,https://x.ai/news/grok-voice-3
+Gemini 4 Argon,Google DeepMind,2026-10-13,"Language,Multimodal,Vision",,Unknown,API access,No,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/
+Muse Wonder Full,Meta AI,2026-10-12,"Language,Vision,Video,Multimodal",,Unknown,API access,No,"https://research.meta.ai/blog/muse-wonder
+
+https://research.meta.ai/static/muse-wonder-model-card"
+Muse Wonder,Meta AI,2026-10-12,"Language,Vision,Video,Multimodal",,Unknown,API access,No,https://research.meta.ai/blog/muse-wonder
+Mistral Large 4,Mistral AI,2026-10-06,"Language,Multimodal,Vision",1.24e+25,Confident,Open weights (restricted use),Yes,"https://mistral.ai/news/mistral-large-4/
+
+https://mistral.ai/news/mistral-large-4-oss/ 
+
+https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B/blob/main/assets/technical_report.pdf "
+GPT-6.1 Sol,OpenAI,2026-09-29,"Multimodal,Language,Vision",,Unknown,API access,No,https://openai.com/index/introducing-gpt-6-1-sol/
+Claude Sonnet 5.5,Anthropic,2026-09-28,"Language,Multimodal,Vision",,Unknown,API access,No,https://www.anthropic.com/claude-sonnet-5-5
+GPT-6 Sol,OpenAI,2026-09-22,"Multimodal,Language,Vision",,Unknown,API access,No,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+GPT-6 Luna Decisions,OpenAI,2026-09-22,"Language,Vision,Multimodal",,Unknown,API access,No,https://openai.com/index/decisions-api/
+GPT-6 Luna,OpenAI,2026-09-22,"Multimodal,Language,Vision",,Unknown,API access,No,https://openai.com/index/introducing-gpt-6-sol-and-luna/
+Claude Opus 5.5,Anthropic,2026-09-22,Language,,Unknown,API access,No,https://www.anthropic.com/claude-opus-5-5
+Grok 4.7,xAI,2026-09-21,Language,,Likely,API access,No,https://x.ai/news/grok-4-7
+Step 5 Preview,StepFun,2026-09-18,"Language,Vision,Multimodal",,Likely,API access,No,https://platform.stepfun.ai/docs/en/guides/models/step-5-preview
+DeepSeek V4.1 Flash,DeepSeek,2026-09-09,"Language,Vision,Multimodal",4.32e+24,Likely,Open weights (unrestricted),Yes,"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf 
+
+https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+Mercury 2.5,Inception Labs,2026-09-08,Language,,Unknown,API access,No,https://www.inceptionlabs.ai/blog/introducing-mercury-2-5
+GPT-Image-2.5 Sunburst,OpenAI,2026-09-08,Image generation,,Unknown,API access,No,https://openai.com/index/introducing-chatgpt-images-2-5/
+GPT-Image-2.5 Flare,OpenAI,2026-09-08,Image generation,,Unknown,API access,No,https://openai.com/index/introducing-chatgpt-images-2-5/
+ChatGPT Images 2.5,OpenAI,2026-09-08,"Image generation,Vision",,Unknown,Hosted access (no API),No,https://openai.com/index/introducing-chatgpt-images-2-5/
+WeatherNext 3,"Google DeepMind,Google Research",2026-09-03,Earth science,2.0725198384e+23,Speculative,Hosted access (no API),No,"https://arxiv.org/abs/2609.03582 
+
+https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/ "
+OpenEvidence Darwin,OpenEvidence,2026-09-03,"Language,Medicine",,Unknown,API access,No,https://www.openevidence.com/blog/model-family
+GPT-6 Astra,OpenAI,2026-09-03,"Multimodal,Language,Vision",9.4e+26,Likely,API access,No,
+Muse Spark 1.3,Meta AI,2026-09-02,Language,,Unknown,API access,No,https://research.meta.ai/blog/introducing-muse-spark-1-3
+Gemini 3.8 Flash,Google DeepMind,2026-09-02,"Language,Multimodal,Image generation,Video,Audio",,Unknown,API access,No,https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash
+Claude Fable 5.1,Anthropic,2026-09-01,"Language,Multimodal,Vision",,Unknown,API access,No,https://www.anthropic.com/claude-fable-and-mythos-5-1
+Tencent Hy4 preview,Tencent,2026-08-28,Language,,Likely,Open weights (unrestricted),Yes,https://hy.tencent.com/hy4-preview
+GLM-5.3-Flash,Z.ai (Zhipu AI),2026-08-20,"Language,Vision,Multimodal",3.24e+24,Likely,Open weights (unrestricted),Yes,https://z.ai/blog/glm-5.3-flash
+GEN-1.5,Generalist,2026-08-19,"Robotics,Language,Multimodal",,Unknown,Unreleased,No,https://generalistai.com/blog/gen-1.5
+GLM-5.3,Z.ai (Zhipu AI),2026-08-14,Language,,Confident,Open weights (restricted use),Yes,https://z.ai/blog/glm-5.3
+GPT-5.6 Cyber,OpenAI,2026-08-11,"Cybersecurity,Language",,Unknown,API access,No,https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/
+Qwen3.8-2.4T-A95B,Alibaba,2026-08-08,Language,,Confident,Open weights (restricted use),Yes,https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B
+Motif-3,Motif Technologies,2026-08-07,Language,1.1e+24,Confident,Open weights (unrestricted),Yes,"https://huggingface.co/Motif-Technologies/Motif-3
+https://huggingface.co/Motif-Technologies/Motif-3/blob/main/motif_3_technical_report.pdf
+https://github.com/MotifTechnologies/motif3-training-example"
+SeedRealtime,ByteDance,2026-08-05,"Language,Multimodal,Video,Audio",,Unknown,Hosted access (no API),No,"https://seed.bytedance.com/en/blog/seedrealtime-audio-visual-full-duplex-llm-released-toward-omni-modal-natural-interaction 
+
+https://seed.bytedance.com/en/SeedRealtime"
+Muse Spark 1.2,Meta AI,2026-08-05,Language,,Unknown,API access,No,https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2
+K-EXAONE 2.0,LG AI Research,2026-07-31,Language,3.55e+24,Confident,Open weights (unrestricted),Yes,"https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B
+https://github.com/LG-AI-EXAONE/K-EXAONE-2.0
+https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B/blob/main/assets/K-EXAONE-2.0-Technical-Report.pdf"
+A.X K2,SK Telecom,2026-07-29,Language,1.8e+24,Confident,Open weights (unrestricted),Yes,"https://huggingface.co/skt/A.X-K2
+https://github.com/SKT-AI/A.X-K2/blob/main/A_X_K2_Tech_Report.pdf"
+Claude Opus 5,Anthropic,2026-07-24,"Language,Vision,Multimodal",,Unknown,API access,No,https://www.anthropic.com/news/claude-opus-5
+Qwen 3.8 Max,Alibaba,2026-07-19,"Language,Vision,Video",,Confident,API access,No,https://qwen.ai/blog?id=qwen3.8
+Kimi K3,Moonshot,2026-07-16,"Language,Multimodal,Vision",2.0001e+25,Speculative,Open weights (non-commercial),Yes,https://huggingface.co/moonshotai/Kimi-K3
+Inkling,Thinking Machines,2026-07-15,"Language,Multimodal,Audio,Video,Vision",1.1e+25,Likely,Open weights (unrestricted),Yes,https://thinkingmachines.ai/news/introducing-inkling/
+Tencent Hy3,Tencent,2026-07-06,Language,,Confident,Open weights (unrestricted),Yes,https://huggingface.co/tencent/Hy3
+LongCat-2.0,Meituan Inc,2026-06-29,Language,1.008e+25,Likely,Open weights (unrestricted),Yes,https://longcat.chat/blog/longcat-2.0/
+Solar Open2 250B,Upstage,2026-06-28,Language,1.05e+24,Likely,Open weights (unrestricted),Yes,https://huggingface.co/upstage/Solar-Open2-250B
+Claude Mythos 5,Anthropic,2026-06-09,"Language,Multimodal",,Unknown,Unreleased,No,https://www.anthropic.com/news/claude-fable-5-mythos-5
+Claude Fable 5,Anthropic,2026-06-09,"Language,Multimodal",,Unknown,API access,No,https://www.anthropic.com/news/claude-fable-5-mythos-5
+Nemotron 3 Ultra,Nvidia,2026-06-04,Language,6.6e+24,Likely,Open weights (unrestricted),Yes,"https://arxiv.org/abs/2512.20856
+https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf "
+Qwen3.7-Plus,Alibaba,2026-06-03,"Language,Vision,Multimodal",,Unknown,API access,No,"https://qwen.ai/blog?id=qwen3.7-plus
+
+https://www.qwencloud.com/models/qwen3.7-plus"
+MAI-Image-2.5-Flash,Microsoft,2026-06-02,Image generation,,Unknown,API access,No,https://microsoft.ai/news/introducing-mai-image-2-5/
+MAI-Image-2.5,Microsoft,2026-06-02,Image generation,,Unknown,API access,No,https://microsoft.ai/news/introducing-mai-image-2-5/
+MAI-Code-1-Flash,Microsoft,2026-06-02,Language,,Unknown,API access,No,https://microsoft.ai/news/introducingmai-code-1-flash/
+MiniMax-M3,MiniMax,2026-06-01,"Language,Multimodal,Vision,Video",,Confident,Open weights (restricted use),Yes,https://www.minimax.io/blog/minimax-m3
+Claude Opus 4.8,Anthropic,2026-05-28,Language,,Unknown,API access,No,https://www.anthropic.com/news/claude-opus-4-8
+Gemini 3.5 Flash,Google DeepMind,2026-05-19,"Language,Multimodal,Audio,Video,Vision",,Unknown,API access,No,https://deepmind.google/models/model-cards/gemini-3-5-flash/
+Composer 2.5,Cursor,2026-05-18,Language,3.87e+25,Likely,API access,No,https://cursor.com/blog/composer-2-5
+TML-Interaction-Small,Thinking Machines,2026-05-11,"Language,Multimodal,Audio,Video",,Confident,Unreleased,No,https://thinkingmachines.ai/blog/interaction-models/
+GPT-5.5 Cyber,OpenAI,2026-05-07,Cybersecurity,,Unknown,Unreleased,No,https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/
+GPT-5.5 Instant,OpenAI,2026-05-05,"Multimodal,Language,Vision",,Unknown,API access,No,https://openai.com/index/gpt-5-5-instant/
+DeepSeek-V4-Pro,DeepSeek,2026-04-24,Language,9.702e+24,Likely,Open weights (unrestricted),Yes,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf
+DeepSeek-V4-Flash,DeepSeek,2026-04-24,Language,2.496e+24,Likely,Open weights (unrestricted),Yes,https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf
+Tencent Hy3 preview,Tencent,2026-04-23,Language,,Confident,Open weights (restricted use),Yes,https://hy.tencent.com/hy3-preview
+MiMo-V2.5-Pro,Xiaomi Corp,2026-04-23,Language,6.804e+24,Likely,Open weights (unrestricted),Yes,https://mimo.xiaomi.com/mimo-v2-5-pro/
+GPT-5.5 Pro,OpenAI,2026-04-23,"Multimodal,Language,Vision",,Likely,API access,No,https://openai.com/index/introducing-gpt-5-5/
+GPT-5.5,OpenAI,2026-04-23,"Multimodal,Language,Vision",,Likely,API access,No,https://openai.com/index/introducing-gpt-5-5/
+GPT Image 2,OpenAI,2026-04-21,Image generation,,Unknown,API access,No,https://openai.com/index/introducing-chatgpt-images-2-0/
+Kimi K2.6,Moonshot,2026-04-20,Language,,Confident,Open weights (unrestricted),Yes,https://www.kimi.com/ai-models/kimi-k2-6
+Claude Opus 4.7,Anthropic,2026-04-16,Language,,Likely,API access,No,https://www.anthropic.com/news/claude-opus-4-7
+Gemini Flash 3.1 TTS,Google DeepMind,2026-04-15,Audio,,Unknown,API access,No,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/
+GPT-5.4-Cyber,OpenAI,2026-04-14,"Cybersecurity,Language",,Unknown,Limited access,,https://openai.com/index/scaling-trusted-access-for-cyber-defense/
+EXAONE 4.5,LG AI Research,2026-04-09,"Language,Multimodal",3.85e+24,Confident,Open weights (restricted use),Yes,"Eunbi Choi, Kibong Choi, Sehyun Chun, Seokhee Hong, Junwon Hwang, Hyojin Jeon, Ahra Jo, Hyunjik Jo, Yeonsik Jo, Joonkee Kim, Seonghwan Kim, Soyeon Kim, Sunkyoung Kim, Yireun Kim, Yongil Kim, Changhun Lee, Haeju Lee, Jinsik Lee, Kyungmin Lee, Sangha Park, Kwangrok Ryoo, Minju Seo, Sejong Yang, Heuiyeen Yeen, Hwan Chang, Stanley Jungkyu Choi, Yejin Choi, Kyubeen Han, Joonwon Jang, Kijeong Jeon, Geunyeong Jeong, Gerrard Jeongwon Jo, Jiyeon Jung, Daeseong Kim, Dohoon Kim, Dohyun Kim, Hyunseo Kim, Minu Kim, Myoungshin Kim, Youchul Kim, Byungoh Ko, Christopher Lee, Edward Hwayoung Lee, Honglak Lee, Jiyoung Lee, Sangeun Lee, Seungwon Lim, Woohyung Lim, Jueun Mun, Jaewoo Park, Jimin Park, Jinho Park, Yongmin Park, Wooseok Seo, Yongwoo Song, Sihyuk Yi, Kyungjae Yoo, Sangyeon Yoon"
+Muse Spark,Meta AI,2026-04-08,"Multimodal,Language,Vision",,Unknown,API access,No,https://ai.meta.com/blog/introducing-muse-spark-msl/
+GLM-5.1,Z.ai (Zhipu AI),2026-04-07,Language,,Confident,Open weights (unrestricted),Yes,https://z.ai/blog/glm-5.1
+Claude Mythos Preview,Anthropic,2026-04-07,"Language,Multimodal",,Unknown,Limited access,,"https://www-cdn.anthropic.com/7624816413e9b4d2e3ba620c5a5e091b98b190a5/Claude%20Mythos%20Preview%20System%20Card.pdf
+https://www.anthropic.com/glasswing"
+MolmoAct 2,"Allen Institute for AI,University of Washington,National University of Singapore,University of Pennsylvania,Johns Hopkins University,Amazon,Cortex AI",2026-04-05,"Vision,Language,Robotics",1.1e+22,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2605.02881
+Qwen 3.6 Plus,Alibaba,2026-04-01,"Language,Multimodal",,Unknown,API access,No,https://qwen.ai/blog?id=qwen3.6
+Qwen3.5-Omni-Plus,Alibaba,2026-03-29,"Language,Multimodal,Vision,Audio",,Likely,API access,No,https://arxiv.org/abs/2604.15804
+Qwen3.5-Omni-Flash,Alibaba,2026-03-29,"Language,Multimodal,Vision,Audio",,Likely,API access,No,https://arxiv.org/abs/2604.15804
+Composer 2,Cursor,2026-03-19,Language,2.32e+25,Confident,API access,No,https://arxiv.org/abs/2603.24477
+MiMo-V2-Pro,Xiaomi Corp,2026-03-18,Language,,Confident,API access,No,https://mimo.xiaomi.com/mimo-v2-pro
+Nemotron 3 Super,Nvidia,2026-03-11,Language,,Likely,Open weights (unrestricted),Yes,https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/
+GPT-5.4 Pro,OpenAI,2026-03-05,"Multimodal,Language,Vision",,Likely,API access,No,https://openai.com/index/introducing-gpt-5-4/
+GPT-5.4,OpenAI,2026-03-05,"Multimodal,Language,Vision",,Likely,API access,No,https://openai.com/index/introducing-gpt-5-4/
+Gemini 3.0 Flash-lite,Google DeepMind,2026-03-03,Language,,Likely,API access,No,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/
+SWE 1.6,Cognition,2026-03-01,Language,,Likely,Hosted access (no API),No,https://cognition.ai/blog/swe-1-6-preview
+Qwen3.5-122B-A10B,Alibaba,2026-02-24,Language,,Likely,Open weights (restricted use),Yes,https://github.com/QwenLM/Qwen3.5?tab=readme-ov-file 
+Grok 4.20,xAI,2026-02-17,Language,,Likely,API access,No,https://docs.x.ai/developers/models
+Qwen3.5 397B-A17B,Alibaba,2026-02-15,"Language,Vision",,Likely,Open weights (unrestricted),Yes,https://qwen.ai/blog?id=qwen3.5
+Doubao-Seed-2.0 Pro,ByteDance,2026-02-14,"Language,Vision,Multimodal,Video",,Unknown,API access,No,"https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf
+
+https://seed.bytedance.com/en/blog/seed2-0-%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83"
+Seedance 2.0,ByteDance,2026-02-12,"Image generation,Video,Audio",,Likely,Hosted access (no API),No,https://seed.bytedance.com/en/seedance2_0
+GPT-5.3-Codex-Spark,OpenAI,2026-02-12,Language,,Unknown,Hosted access (no API),No,https://openai.com/index/introducing-gpt-5-3-codex-spark/
+GLM-5,Z.ai (Zhipu AI),2026-02-12,Language,6.84e+24,Likely,Open weights (unrestricted),Yes,"https://arxiv.org/pdf/2602.15763 
+
+https://z.ai/blog/glm-5 "
+GPT-5.3 Codex,OpenAI,2026-02-05,Language,,Likely,API access,No,https://openai.com/index/introducing-gpt-5-3-codex/
+Qwen3-Coder-Next,Alibaba,2026-02-02,Language,,Likely,Open weights (unrestricted),Yes,https://qwen.ai/blog?id=qwen3-coder-next
+Kimi K2.5,Moonshot,2026-02-02,Language,5.8e+24,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2602.02276
+Qwen3-Max-Thinking,Alibaba,2026-01-25,Language,,Likely,API access,No,https://qwen.ai/blog?id=qwen3-max-thinking
+Solar Open 100B,Upstage,2025-12-31,Language,1.4e+24,Confident,Open weights (restricted use),Yes,https://huggingface.co/upstage/Solar-Open-100B
+K-EXAONE,LG AI Research,2025-12-31,Language,1.52e+24,Confident,Open weights (restricted use),Yes,https://huggingface.co/LGAI-EXAONE
+VAETKI,NC AI,2025-12-30,Language,,Confident,Open weights (unrestricted),Yes,https://huggingface.co/NC-AI-consortium-VAETKI/VAETKI
+A.X K1,SK Telecom,2025-12-30,Language,,Confident,Open weights (unrestricted),Yes,"https://arxiv.org/abs/2601.09200 
+
+https://huggingface.co/skt/A.X-K1 "
+HyperCLOVA X SEED 32B Think,NAVER,2025-12-29,"Multimodal,Language,Vision",,Confident,Open weights (unrestricted),Yes,https://huggingface.co/naver-hyperclovax/HyperCLOVAX-SEED-Think-32B
+MiniMax-M2.1,MiniMax,2025-12-23,Language,,Confident,Open weights (restricted use),Yes,https://huggingface.co/MiniMaxAI/MiniMax-M2.1
+GLM-4.7,Z.ai (Zhipu AI),2025-12-22,Language,4.42e+24,Likely,Open weights (unrestricted),Yes,https://z.ai/blog/glm-4.7
+GPT-5.2 Codex,OpenAI,2025-12-18,Language,,Likely,API access,No,https://openai.com/index/introducing-gpt-5-2-codex/
+GPT Image 1.5,OpenAI,2025-12-16,"Image generation,Language",,Unknown,API access,No,https://openai.com/index/new-chatgpt-images-is-here/
+Nemotron 3-Nano-30B-A3B,Nvidia,2025-12-15,Language,4.8e+23,Likely,Open weights (restricted use),Yes,https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Nano-Technical-Report.pdf
+GPT-5.2 Pro,OpenAI,2025-12-11,"Multimodal,Language,Vision",,Likely,API access,No,https://openai.com/index/introducing-gpt-5-2/
+GPT-5.2,OpenAI,2025-12-11,,,Unknown,API access,No,
+SIMA 2,Google DeepMind,2025-12-04,3D modeling,,Likely,Unreleased,No,https://arxiv.org/abs/2512.04797v1
+DeepSeekMath-V2,DeepSeek,2025-11-27,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2511.22570
+Claude Opus 4.5,Anthropic,2025-11-24,"Language,Multimodal,Vision",,Unknown,API access,No,https://www.anthropic.com/news/claude-opus-4-5
+Olmo 3,Allen Institute for AI,2025-11-20,Language,1.1e+24,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2512.13961
+Gemini 3 Pro Image (Nano Banana Pro),Google DeepMind,2025-11-20,Image generation,,Likely,API access,No,https://blog.google/innovation-and-ai/products/nano-banana-pro/
+Grok 4.1 Fast,xAI,2025-11-19,Language,,Unknown,API access,No,https://x.ai/news/grok-4-1-fast
+GPT-5.1-Codex-Max,OpenAI,2025-11-19,Language,,Unknown,API access,No,https://openai.com/index/gpt-5-1-codex-max/
+Gemini 3 Pro,Google DeepMind,2025-11-18,"Multimodal,Language,Vision",,Unknown,API access,No,https://blog.google/products/gemini/gemini-3/
+Gemini 3 Deep Think,Google DeepMind,2025-11-18,Language,,Unknown,Hosted access (no API),No,https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/
+π0.6 (pi-0.6),Physical Intelligence,2025-11-17,"Robotics,Vision",,Confident,Unreleased,No,https://www.pi.website/download/pistar06.pdf
+P1-235B-A22B,Shanghai AI Lab,2025-11-17,Language,,Likely,Open weights (unrestricted),Yes,"https://arxiv.org/abs/2511.13612, https://github.com/PRIME-RL/P1"
+Grok 4.1,xAI,2025-11-17,Language,,Unknown,API access,No,https://x.ai/news/grok-4-1
+GPT-5.1 Instant,OpenAI,2025-11-13,"Multimodal,Language,Vision",,Unknown,API access,No,https://openai.com/index/gpt-5-1/
+GPT-5.1,OpenAI,2025-11-13,"Multimodal,Language,Vision",,Unknown,API access,No,https://openai.com/index/gpt-5-1/
+GPT-5.1-Codex,OpenAI,2025-11-12,Language,,Unknown,API access,No,
+Meta's Generative Ads Model (GEM),Meta AI,2025-11-10,Recommendation,,Likely,Unreleased,No,https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/
+Kaiju Small,Character.ai,2025-11-07,Language,,Likely,Hosted access (no API),No,https://blog.character.ai/inside-kaiju-building-conversational-models-at-scale/ 
+Kaiju Medium,Character.ai,2025-11-07,Language,,Likely,Hosted access (no API),No,https://blog.character.ai/inside-kaiju-building-conversational-models-at-scale/ 
+Kaiju Large,Character.ai,2025-11-07,Language,,Likely,Hosted access (no API),No,https://blog.character.ai/inside-kaiju-building-conversational-models-at-scale/ 
+Kimi K2 Thinking,Moonshot,2025-11-06,Language,4.2e+24,Likely,Open weights (restricted use),Yes,https://moonshotai.github.io/Kimi-K2/thinking
+Tongyi DeepResearch,Alibaba,2025-10-28,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2510.24701
+MiniMax-M2,MiniMax,2025-10-27,Language,,Confident,Open weights (unrestricted),Yes,https://www.minimax.io/news/minimax-m2
+Veo 3.1,Google DeepMind,2025-10-15,"Video,Vision",,Unknown,API access,No,https://blog.google/technology/ai/veo-updates-flow/
+Claude Haiku 4.5,Anthropic,2025-10-15,Language,,Unknown,API access,No,https://www.anthropic.com/news/claude-haiku-4-5
+Ling-1T,Ant Group,2025-10-10,Language,6.000001e+24,Confident,Open weights (unrestricted),Yes,"https://huggingface.co/inclusionAI/Ling-1T
+https://arxiv.org/pdf/2510.22115"
+GPT-5 Pro,OpenAI,2025-10-07,"Multimodal,Language,Vision",,Unknown,API access,No,https://cdn.openai.com/gpt-5-system-card.pdf
+Sora 2.0,OpenAI,2025-09-30,Video,,Unknown,Hosted access (no API),No,https://openai.com/index/sora-2/
+GLM-4.6,"Z.ai (Zhipu AI),Tsinghua University",2025-09-30,Language,4.42e+24,Likely,Open weights (unrestricted),Yes,https://z.ai/blog/glm-4.6
+Claude Sonnet 4.5,Anthropic,2025-09-29,"Language,Vision,Multimodal",,Unknown,API access,No,https://www.anthropic.com/news/claude-sonnet-4-5
+Gemini Robotics-ER 1.5,Google DeepMind,2025-09-25,"Vision,Language,Speech",,Unknown,API access,No,"https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/
+
+https://storage.googleapis.com/deepmind-media/gemini-robotics/Gemini-Robotics-1-5-Tech-Report.pdf"
+Qwen3-VL-235B-A22B,Alibaba,2025-09-23,"Language,Vision,Multimodal,Video",5.038044e+24,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2511.21631
+Qwen3-Omni-30B-A3B,Alibaba,2025-09-22,"Multimodal,Language,Vision,Speech,Video",3.6e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2509.17765
+AgentFounder-30B,Alibaba,2025-09-16,Language,6.5367e+23,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2509.13310
+Qwen3-Max,Alibaba,2025-09-05,Language,1.512e+25,Speculative,API access,No,"https://modelstudio.console.alibabacloud.com/?tab=doc#/doc/?type=model&url=2840914_2&modelId=qwen3-max-preview
+
+https://qwen.ai/blog?id=87dc93fc8a590dc718c77e1f6e84c07b474f6c5a&from=home.latest-research-list"
+LongCat-Flash,Meituan Inc,2025-09-01,Language,3.726e+24,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2509.01322
+Gemini 2.5 Flash Image (Nano Banana),Google,2025-08-26,Image generation,,Unknown,API access,No,"https://gemini.google/overview/image-generation/
+
+https://aistudio.google.com/models/gemini-2-5-flash-image"
+GPT-5 nano,OpenAI,2025-08-07,"Multimodal,Language,Vision",,Unknown,API access,No,https://cdn.openai.com/gpt-5-system-card.pdf
+GPT-5 mini,OpenAI,2025-08-07,"Multimodal,Language,Vision",,Unknown,API access,No,https://cdn.openai.com/gpt-5-system-card.pdf
+GPT-5,OpenAI,2025-08-07,"Multimodal,Language,Vision",6.6e+25,Speculative,API access,No,"https://cdn.openai.com/gpt-5-system-card.pdf
+https://openai.com/index/introducing-gpt-5/ "
+gpt-oss-120b,OpenAI,2025-08-05,Language,4.94e+24,Confident,Open weights (unrestricted),Yes,https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf
+gpt-oss-20b,OpenAI,2025-08-05,Language,5.49e+23,Confident,Open weights (unrestricted),Yes,https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf
+Claude Opus 4.1,Anthropic,2025-08-05,"Language,Multimodal,Vision",,Unknown,API access,No,https://www.anthropic.com/news/claude-opus-4-1
+Qwen Image,Alibaba,2025-08-04,"Image generation,Vision",,Confident,Open weights (unrestricted),Yes,https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/Qwen_Image.pdf
+Hierarchical Reasoning Model (HPM),Sapient Intelligence,2025-08-04,"Language,Vision,Multimodal",,Confident,Unreleased,No,https://arxiv.org/abs/2506.21734
+MindLink-72B,Kunlun Inc.,2025-08-01,Language,,Confident,Open weights (unrestricted),Yes,https://github.com/SkyworkAI/MindLink/blob/main/mindlink.pdf
+Gemini 2.5 Deep Think,"Google,Google DeepMind",2025-08-01,"Language,Multimodal,Vision,Video,Audio,Mathematics",,Unknown,Hosted access (no API),No,"https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Deep-Think-Model-Card.pdf
+
+https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf"
+GLM-4.5,"Z.ai (Zhipu AI),Tsinghua University",2025-07-28,Language,4.42e+24,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2508.06471
+Qwen3-235B-A22B-Thinking (Jul 2025),Alibaba,2025-07-25,Language,4.752e+24,Likely,Open weights (unrestricted),Yes,https://qwenlm.github.io/blog/qwen3/
+Qwen3-235B-A22B (Jul 2025),Alibaba,2025-07-25,Language,4.752e+24,Likely,Open weights (unrestricted),Yes,https://qwenlm.github.io/blog/qwen3/
+Qwen3-Coder-480B-A35B,Alibaba,2025-07-22,Language,1.575e+24,Confident,Open weights (unrestricted),Yes,https://qwenlm.github.io/blog/qwen3-coder/
+EXAONE 4.0 (32B),LG AI Research,2025-07-15,Language,2.69000000000001e+24,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2507.11407
+Gemini Embedding,Google DeepMind,2025-07-14,Language,,Unknown,API access,No,https://arxiv.org/abs/2503.07891
+Kimi K2,Moonshot,2025-07-11,Language,2.976e+24,Confident,Open weights (restricted use),Yes,https://moonshotai.github.io/Kimi-K2/
+Grok 4 Heavy,xAI,2025-07-10,Language,,Unknown,Unreleased,No,https://x.ai/news/grok-4
+Grok 4,xAI,2025-07-09,"Language,Multimodal,Vision",5.0000000000001e+26,Speculative,API access,No,https://x.ai/news/grok-4
+EXAONE Path 2.0,LG AI Research,2025-07-09,"Vision,Medicine",,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2507.06639
+FGN,Google DeepMind,2025-06-12,Earth science,9.618950880000001e+21,Confident,Unreleased,No,https://arxiv.org/abs/2506.10772v1
+Seed-1.6-Thinking,ByteDance,2025-06-11,"Multimodal,Language,Vision",,Confident,API access,No,https://seed.bytedance.com/en/blog/introduction-to-techniques-used-in-seed1-6
+Qwen3 Embedding,Alibaba,2025-06-05,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2506.05176v1
+Gemini 2.5 Pro (Jun 2025),Google DeepMind,2025-06-05,"Language,Vision,Video,Multimodal,Speech",,Unknown,API access,No,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking
+DeepSeek-R1 (May 2025),DeepSeek,2025-05-28,Language,3.3e+24,Confident,Open weights (unrestricted),Yes,https://api-docs.deepseek.com/news/news250120
+Claude Sonnet 4,Anthropic,2025-05-22,"Language,Multimodal,Vision",,Unknown,API access,No,"https://www.anthropic.com/claude/sonnet
+
+https://www.anthropic.com/news/claude-4"
+Claude Opus 4,Anthropic,2025-05-22,"Language,Multimodal,Vision",,Unknown,API access,No,"https://www.anthropic.com/claude/opus
+
+https://www.anthropic.com/news/claude-4"
+Veo 3,Google DeepMind,2025-05-21,"Video,Vision",,Unknown,API access,No,https://deepmind.google/models/veo/
+Imagen 4,Google,2025-05-20,Image generation,,Unknown,API access,No,https://storage.googleapis.com/deepmind-media/Model-Cards/Imagen-4-Model-Card.pdf
+Seed1.5-VL,ByteDance,2025-05-11,"Vision,Language,Multimodal,Video",1.388556e+24,Confident,API access,No,https://arxiv.org/abs/2505.07062
+Gemini 2.5 Pro (May 2025),Google DeepMind,2025-05-06,"Language,Vision,Video,Multimodal,Speech",,Unknown,API access,No,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking
+Qwen3-235B-A22B,Alibaba,2025-04-29,Language,4.752e+24,Likely,Open weights (unrestricted),Yes,https://qwenlm.github.io/blog/qwen3/
+gpt-image-1,OpenAI,2025-04-23,"Image generation,Vision",,Unknown,API access,No,https://openai.com/index/image-generation-api/
+Pangu Ultra,Huawei,2025-04-10,Language,1.0692e+25,Confident,Hosted access (no API),No,https://arxiv.org/abs/2504.07866
+Llama 4 Scout,Meta AI,2025-04-05,"Multimodal,Language,Vision",4.08e+24,Likely,Open weights (restricted use),Yes,https://ai.meta.com/blog/llama-4-multimodal-intelligence/
+Llama 4 Maverick,Meta AI,2025-04-05,"Multimodal,Language,Vision",2.244000000001e+24,Likely,Open weights (restricted use),Yes,https://ai.meta.com/blog/llama-4-multimodal-intelligence/
+Llama 4 Behemoth (preview),Meta AI,2025-04-05,"Multimodal,Language,Vision",5.18400000000001e+25,Likely,Unreleased,No,https://ai.meta.com/blog/llama-4-multimodal-intelligence/
+GPT-4o (Mar 2025),OpenAI,2025-03-27,"Multimodal,Language,Audio,Speech,Vision",,Speculative,API access,No,https://help.openai.com/en/articles/6825453-chatgpt-release-notes
+Gemini 2.5 Pro (Mar 2025),Google DeepMind,2025-03-25,"Language,Vision,Video,Multimodal,Speech",,Unknown,API access,No,https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/#gemini-2-5-thinking
+DeepSeek-V3 (Mar 2025),DeepSeek,2025-03-24,Language,3.3e+24,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2412.19437
+Diffusion Renderer,"Nvidia,University of Toronto,Vector Institute,University of Illinois Urbana-Champaign (UIUC)",2025-03-22,Video,,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2501.18590
+o1-pro,OpenAI,2025-03-19,"Language,Mathematics,Multimodal",,Likely,API access,No,https://openai.com/index/introducing-chatgpt-pro/
+EXAONE Deep 32B,LG AI Research,2025-03-16,Language,1.26e+24,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2503.12524
+ERNIE-4.5-VL-424B-A47B (文心大模型4.5),Baidu,2025-03-16,"Multimodal,Language,Vision,Video",,Confident,Open weights (unrestricted),Yes,"https://www.datacamp.com/blog/ernie-4-5-x1
+
+https://yiyan.baidu.com/blog/publication/ERNIE_Technical_Report.pdf"
+Hunyuan-TurboS,Tencent,2025-03-11,Language,5.4e+24,Confident,API access,No,"https://web.archive.org/web/20250408105622/https://www.dapingtime.com/article/2171.html
+
+https://medium.com/data-science-in-your-pocket/tencent-hunyuan-turbo-s-the-fastest-reasoning-llm-d64a02bed5c8
+
+https://arxiv.org/abs/2505.15431"
+QwQ-32B,Alibaba,2025-03-06,Language,3.51e+24,Speculative,Open weights (unrestricted),Yes,https://qwenlm.github.io/blog/qwq-32b/
+Mistral OCR,Mistral AI,2025-03-06,"Multimodal,Vision,Language",,Unknown,API access,No,https://mistral.ai/news/mistral-ocr
+Mercury,Inception Labs,2025-02-27,Language,,Unknown,API access,No,"https://machine-learning-made-simple.medium.com/is-the-mercury-llm-the-first-of-a-new-generation-of-llms-b64de1d36029
+
+https://www.inceptionlabs.ai/news
+
+https://www.inceptionlabs.ai/introducing-mercury-our-general-chat-model
+"
+GPT-4.5,OpenAI,2025-02-27,"Language,Vision,Multimodal",3.8e+26,Likely,API access,No,https://openai.com/index/introducing-gpt-4-5/
+Claude 3.7 Sonnet,Anthropic,2025-02-24,"Language,Vision,Multimodal",3.35e+25,Likely,API access,No,https://www.anthropic.com/news/claude-3-7-sonnet
+Grok 3,xAI,2025-02-17,"Language,Vision,Multimodal",3.5e+26,Likely,API access,No,https://x.ai/blog/grok-3
+o3-mini,OpenAI,2025-01-31,Language,,Unknown,API access,No,https://openai.com/index/openai-o3-mini/
+GPT-4o (Jan 2025),OpenAI,2025-01-29,"Multimodal,Language,Audio,Speech,Vision",,Speculative,API access,No,https://help.openai.com/en/articles/9624314-model-release-notes
+Computer-Using Agent (CUA),OpenAI,2025-01-23,"Vision,Language,Multimodal",,Unknown,Hosted access (no API),No,https://openai.com/index/computer-using-agent/
+Kimi k1.5,Moonshot,2025-01-22,"Multimodal,Language,Vision",,Unknown,API access,No,https://arxiv.org/abs/2501.12599v1
+Doubao-1.5-pro,ByteDance,2025-01-22,Language,,Confident,Hosted access (no API),No,https://team.doubao.com/zh/special/doubao_1_5_pro
+Eagle 2,"Nvidia,Nanjing University,Tsinghua University,Hong Kong Polytechnic University,Johns Hopkins University,New York University (NYU)",2025-01-20,"Vision,Robotics,Language",4.7156e+22,Confident,Open weights (non-commercial),Yes,arxiv.org/abs/2501.14818
+DeepSeek-R1,DeepSeek,2025-01-20,Language,3.3e+24,Confident,Open weights (unrestricted),Yes,https://api-docs.deepseek.com/news/news250120
+INTELLECT-MATH,Prime Intellect,2025-01-17,Mathematics,,Confident,Open weights (unrestricted),Yes,"https://huggingface.co/PrimeIntellect/INTELLECT-MATH
+https://www.primeintellect.ai/blog/intellect-math"
+Stable Point Aware 3D (SPAR3D),"Stability AI,University of Illinois Urbana-Champaign (UIUC)",2025-01-08,3D modeling,,Unknown,Open weights (restricted use),Yes,https://arxiv.org/abs/2501.04689
+Eurus-2-7B-PRIME,"Tsinghua University,University of Illinois Urbana-Champaign (UIUC),Shanghai AI Lab,Peking University,Shanghai Jiao Tong University,CUHK Shenzhen Research Institute",2025-01-02,"Mathematics,Language",4.01915904e+20,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/2502.01456
+STORM-B/8,"University of Southern California,Georgia Institute of Technology,Stanford University,Nvidia",2024-12-31,3D modeling,,Confident,Open weights (non-commercial),Yes,"https://arxiv.org/abs/2501.00602
+https://github.com/NVlabs/GaussianSTORM
+https://jiawei-yang.github.io/STORM"
+DeepSeek-V3,DeepSeek,2024-12-24,Language,3.3e+24,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2412.19437
+o3,OpenAI,2024-12-20,"Language,Vision,Multimodal",,Unknown,API access,No,https://openai.com/index/introducing-o3-and-o4-mini/
+Veo 2,Google DeepMind,2024-12-16,"Video,Vision",,Unknown,API access,No,https://deepmind.google/technologies/veo/veo-2/
+Apollo 7B,"Meta AI,Stanford University",2024-12-13,"Multimodal,Video,Language",,Confident,Unreleased,No,https://arxiv.org/abs/2412.10360
+Gemini 2.0 Pro,Google DeepMind,2024-12-11,"Language,Multimodal,Vision,Video,Audio",,Unknown,Hosted access (no API),No,https://deepmind.google/technologies/gemini/pro/
+Sora Turbo,OpenAI,2024-12-09,"Video,Vision",,Unknown,Hosted access (no API),No,https://openai.com/index/sora-is-here/
+EXAONE 3.5 32B,LG AI Research,2024-12-09,Language,1.25e+24,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2412.04862
+Llama 3.3 70B,Meta AI,2024-12-06,Language,6.8649768e+24,Confident,Open weights (restricted use),Yes,https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/
+o1,OpenAI,2024-12-05,"Language,Mathematics,Multimodal",,Unknown,API access,No,https://openai.com/index/introducing-chatgpt-pro/
+NVILA 15B,"Nvidia,Massachusetts Institute of Technology (MIT),University of California (UC) Berkeley,University of California San Diego,University of Washington,Tsinghua University",2024-12-05,"Vision,Language,Multimodal,Video",,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2412.04468
+Infinity,ByteDance,2024-12-05,Image generation,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2412.04431v1
+Amazon Nova Pro,Amazon,2024-12-03,"Multimodal,Language,Video,Vision",6.000010000000001e+24,Speculative,API access,No,"https://aws.amazon.com/es/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/
+
+https://assets.amazon.science/96/7d/0d3e59514abf8fdcfafcdc574300/nova-tech-report-20250317-0810.pdf"
+Fugatto 1,Nvidia,2024-11-25,"Multimodal,Language,Audio",,Confident,Unreleased,No,https://research.nvidia.com/publication/2024-11_fugatto-1-foundational-generative-audio-transformer-opus-1
+GPT-4o (Nov 2024),OpenAI,2024-11-20,"Multimodal,Language,Audio,Speech,Vision",,Speculative,API access,No,https://help.openai.com/en/articles/9624314-model-release-notes
+Suno v4,Suno,2024-11-19,Audio,,Unknown,Hosted access (no API),No,https://suno.com/blog/v4
+Pixtral Large,Mistral AI,2024-11-18,"Multimodal,Language,Vision",,Confident,Open weights (non-commercial),Yes,https://mistral.ai/news/pixtral-large/
+k0-math,Moonshot,2024-11-16,"Mathematics,Language",,Unknown,Unreleased,No,https://web.archive.org/web/20250124103542/https://www.globaltimes.cn/page/202411/1323248.shtml
+Gemini-Exp-1114,Google DeepMind,2024-11-15,Language,,Unknown,Hosted access (no API),No,https://www.tomsguide.com/ai/google-gemini/google-drops-new-gemini-model-and-it-goes-straight-to-the-top-of-the-llm-leaderboard
+SeedEdit,ByteDance,2024-11-11,Vision,,Unknown,API access,No,"https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/SeedEdit.pdf
+https://team.doubao.com/en/special/seededit"
+Hunyuan-Large,Tencent,2024-11-06,Language,3.49237e+24,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2411.02265
+Doubao-pro,ByteDance,2024-10-28,Language,2.505e+25,Likely,API access,No,https://www.volcengine.com/docs/6360/1264663
+NVLM-X 72B,Nvidia,2024-10-22,"Vision,Language",3.0398181e+24,Likely,Unreleased,No,https://arxiv.org/abs/2409.11402
+NVLM-H 72B,Nvidia,2024-10-22,"Vision,Language",3.02e+24,Likely,Unreleased,No,https://arxiv.org/abs/2409.11402
+NVLM-D 72B,Nvidia,2024-10-22,"Vision,Language",3.02e+24,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2409.11402
+Claude 3.5 Sonnet (October 2024),Anthropic,2024-10-22,"Multimodal,Language,Vision",,Unknown,API access,No,https://www.anthropic.com/news/3-5-models-and-computer-use
+Yi-Lightning,01.AI,2024-10-16,Language,1.5e+24,Confident,API access,No,https://www.lingyiwanwu.com/en https://platform.lingyiwanwu.com/
+CHAI-1,Chai discovery,2024-10-15,Biology,7.7605724e+21,Confident,Open weights (non-commercial),Yes,"https://www.chaidiscovery.com/blog/introducing-chai-1
+https://www.biorxiv.org/content/10.1101/2024.10.10.615955v2"
+Llama-3.1-Nemotron-70B-Instruct,"Nvidia,Meta AI",2024-10-12,Language,7.929e+24,Confident,Open weights (restricted use),Yes,https://catalog.ngc.nvidia.com/orgs/nim/teams/nvidia/containers/llama-3.1-nemotron-70b-instruct
+RDT-1B,Tsinghua University,2024-10-10,Robotics,4.06e+22,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2410.07864
+Palmyra X 004,Writer,2024-10-09,Language,,,API access,No,https://writer.com/engineering/actions-with-palmyra-x-004/
+GR-2,ByteDance,2024-10-08,Robotics,,Confident,Unreleased,No,https://arxiv.org/abs/2410.06158v1
+Movie Gen Video,Meta AI,2024-10-04,"Video,Vision",1.65e+24,Confident,Unreleased,No,https://ai.meta.com/static-resource/movie-gen-research-paper
+PixelDance,ByteDance,2024-09-24,"Video,Vision",,Unknown,Hosted access (no API),No,https://pixeldance.io/ (LINK BROKEN)
+Llama 3.2 11B,Meta AI,2024-09-24,"Multimodal,Vision,Language",5.79e+23,Confident,Open weights (restricted use),Yes,https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/
+Telechat2-115B,China Telecom,2024-09-20,Language,6.9e+24,Confident,Open weights (restricted use),Yes,https://huggingface.co/Tele-AI/TeleChat2-115B
+Qwen2.5-72B,Alibaba,2024-09-19,Language,7.8e+24,Confident,Open weights (unrestricted),Yes,https://qwenlm.github.io/blog/qwen2.5/
+Qwen2.5 Instruct (72B),Alibaba,2024-09-19,Language,7.8516e+24,Confident,Open weights (restricted use),Yes,https://qwenlm.github.io/blog/qwen2.5/
+Oryx 34B,"Tsinghua University,Tencent,Nanyang Technological University",2024-09-19,"Multimodal,Vision,3D modeling,Video,Language",,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2409.12961v1
+Qwen2.5-32B,Alibaba,2024-09-17,Language,3.51e+24,Confident,Open weights (unrestricted),Yes,https://qwenlm.github.io/blog/qwen2.5/ 
+o1-preview,OpenAI,2024-09-12,"Language,Mathematics,Biology",,Unknown,API access,No,https://openai.com/index/introducing-openai-o1-preview/
+o1-mini,OpenAI,2024-09-12,Language,,Unknown,API access,No,https://openai.com/index/learning-to-reason-with-llms/
+DeepSeek-V2.5,DeepSeek,2024-09-06,Language,1.7892e+24,Confident,Open weights (restricted use),Yes,https://huggingface.co/deepseek-ai/DeepSeek-V2.5
+Hunyuan Turbo,Tencent,2024-09-05,Language,,Unknown,API access,No,https://zhidx.com/p/442250.html
+Harrison.rad.1,Harrison.ai,2024-09-05,"Vision,Medicine,Language,Multimodal",,Unknown,Unreleased,No,https://harrison.ai/news/harrison-ai-launches-world-leading-ai-model-to-transform-healthcare/
+AlphaProteo,Google DeepMind,2024-09-05,Biology,,Unknown,Unreleased,No,https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/AlphaProteo2024.pdf
+Hairuo,Inspur,2024-08-29,Language,,Unknown,Hosted access (no API),No,"https://encloud.inspur.com/hairuo/cp/index.html
+
+https://www.eguizhou.gov.cn/guiyang/2024-08/29/c_1016827.htm"
+GLM-4-Plus,Z.ai (Zhipu AI),2024-08-29,Language,,Speculative,API access,No,https://bigmodel.cn/dev/howuse/glm-4
+Jamba 1.5-Large,AI21 Labs,2024-08-22,Language,,Confident,Open weights (restricted use),Yes,"https://arxiv.org/abs/2408.12570
+https://www.ai21.com/blog/announcing-jamba-model-family
+https://huggingface.co/ai21labs/AI21-Jamba-1.5-Large"
+Grok-2,xAI,2024-08-13,"Language,Vision,Multimodal",2.96e+25,Confident,API access,No,https://x.ai/blog/grok-2
+Table Tennis Agent,Google DeepMind,2024-08-07,Robotics,,Likely,Unreleased,No,"https://deepmind.google/research/publications/107741/
+https://arxiv.org/abs/2408.03906"
+LLaVA-OV-72B,"ByteDance,Nanyang Technological University,Chinese University of Hong Kong (CUHK),Hong Kong University of Science and Technology (HKUST)",2024-08-06,"Multimodal,Vision,Language,Video",3.036551985824e+24,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2408.03326
+GPT-4o (Aug 2024),OpenAI,2024-08-06,"Multimodal,Language,Audio,Speech,Vision",,Speculative,API access,No,https://help.openai.com/en/articles/9624314-model-release-notes
+AFM-server,Apple,2024-07-29,Language,4.3e+24,Likely,Hosted access (no API),No,https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models
+AFM-on-device,Apple,2024-07-29,Language,4.5126e+23,Confident,Hosted access (no API),No,https://machinelearning.apple.com/research/apple-intelligence-foundation-language-models
+Mistral Large 2,Mistral AI,2024-07-24,Language,,Likely,Open weights (non-commercial),Yes,https://mistral.ai/news/mistral-large-2407/
+Llama 3.1-405B,Meta AI,2024-07-23,Language,3.8e+25,Confident,Open weights (restricted use),Yes,https://ai.meta.com/research/publications/the-llama-3-herd-of-models/
+GPT-4o mini,OpenAI,2024-07-18,"Language,Multimodal,Vision",,Speculative,API access,No,https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/
+Mathstral,Mistral AI,2024-07-16,"Mathematics,Language",,Confident,Open weights (unrestricted),Yes,"https://huggingface.co/mistralai/Mathstral-7B-v0.1
+https://mistral.ai/news/mathstral"
+DeepL LLM,DeepL,2024-07-16,Language,,Unknown,Hosted access (no API),No,https://www.deepl.com/en/blog/next-gen-language-model
+SenseChat 5.5,SenseTime,2024-07-06,"Multimodal,Language,Vision",,Confident,Hosted access (no API),No,https://www.sensetime.com/en/news-detail/51168278?categoryId=1072
+Ernie 4.0 Turbo,Baidu,2024-06-28,"Multimodal,Language,Vision",,Unknown,API access,No,https://www.reuters.com/technology/artificial-intelligence/baidu-launches-upgraded-ai-model-says-user-base-hits-300-mln-2024-06-28/
+ESM3 (98B),"EvolutionaryScale,University of California (UC) Berkeley",2024-06-25,Biology,1.07e+24,Confident,Unreleased,No,https://www.evolutionaryscale.ai/blog/esm3-release 
+Cambrian-1-34B,New York University (NYU),2024-06-24,"Multimodal,Vision,Language",,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2406.16860
+Claude 3.5 Sonnet,Anthropic,2024-06-20,"Multimodal,Language,Vision",2.700000000000001e+25,Speculative,API access,No,https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf
+DeepSeek-Coder-V2 236B,DeepSeek,2024-06-17,Language,1.2852e+24,Confident,Open weights (restricted use),Yes,https://github.com/deepseek-ai/DeepSeek-Coder-V2
+Nemotron-4 340B,Nvidia,2024-06-14,Language,1.8e+25,Confident,Open weights (unrestricted),Yes,https://blogs.nvidia.com/blog/nemotron-4-synthetic-data-generation-llm-training/ 
+OpenVLA,"Stanford University,University of California (UC) Berkeley,Toyota Research Institute,Google DeepMind,Massachusetts Institute of Technology (MIT),Physical Intelligence",2024-06-13,"Robotics,Vision,Language",1.1e+23,Confident,Open weights (unrestricted),Yes,"https://openvla.github.io/
+https://arxiv.org/abs/2406.09246"
+Qwen2-72B,Alibaba,2024-06-07,Language,3.02e+24,Confident,Open weights (unrestricted),Yes,"https://qwenlm.github.io/blog/qwen2/ 
+https://arxiv.org/abs/2407.10671 "
+ALLaM adapted 70B,Saudi Data and Artificial Intelligence Authority,2024-05-21,Language,1.062e+24,Confident,Unreleased,No,https://arxiv.org/abs/2407.15390
+Octo-Base,"University of California (UC) Berkeley,Stanford University,Carnegie Mellon University (CMU),DeepMind",2024-05-20,Robotics,5.85e+20,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2405.12213 
+GLM-4 (0520),Z.ai (Zhipu AI),2024-05-20,Language,,Likely,API access,No,https://arxiv.org/abs/2406.12793
+Yi-Large,01.AI,2024-05-13,Language,1.8e+24,Speculative,API access,No,
+GPT-4o,OpenAI,2024-05-13,"Multimodal,Language,Audio,Speech,Vision",,Speculative,API access,No,"https://openai.com/index/hello-gpt-4o/ 
+https://openai.com/index/gpt-4o-system-card/"
+AlphaFold 3,"Google DeepMind,Isomorphic Labs",2024-05-08,Biology,4.1405645e+22,Confident,Open weights (non-commercial),Yes,https://www.nature.com/articles/s41586-024-07487-w
+VILA1.5-13B,"Nvidia,Massachusetts Institute of Technology (MIT)",2024-05-03,"Multimodal,Language,Vision,Video",2.3003136e+21,Confident,Open weights (non-commercial),Yes,"https://huggingface.co/Efficient-Large-Model/VILA1.5-13b
+https://github.com/NVlabs/VILA/tree/bbc609baf326b1b49b93450b48edc516db3737fc/scripts/v1_5/release/13b
+https://developer.nvidia.com/blog/visual-language-models-on-nvidia-hardware-with-vila/
+"
+GenCast,Google DeepMind,2024-05-01,Earth science,8.169984e+20,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2312.15796
+Llama 3-70B,Meta AI,2024-04-18,Language,7.861e+24,Confident,Open weights (restricted use),Yes,https://ai.meta.com/blog/meta-llama-3/
+Reka Core,Reka AI,2024-04-15,"Multimodal,Language,Vision,Video,Speech",8.400010000000001e+24,Speculative,API access,No,https://arxiv.org/abs/2404.12387
+GPT-4 Turbo (Apr 2024),OpenAI,2024-04-09,"Multimodal,Vision,Language,Image generation",,Unknown,API access,No,https://x.com/OpenAI/status/1778574613813006610
+ReALM,Apple,2024-03-29,Language,,Confident,Unreleased,No,https://arxiv.org/abs/2403.20329
+DBRX,Databricks,2024-03-27,Language,2.6e+24,Confident,Open weights (restricted use),Yes,https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm
+MM1-30B,Apple,2024-03-14,"Multimodal,Language,Vision",4.86e+23,Likely,Unreleased,No,https://arxiv.org/abs/2403.09611
+ManiGaussian,"Tsinghua University,Nanyang Technological University,Carnegie Mellon University (CMU)",2024-03-13,"Robotics,Vision,Video",,Unknown,Open weights (unrestricted),Yes,"https://arxiv.org/abs/2403.08321
+https://guanxinglu.github.io/ManiGaussian/"
+Inflection-2.5,Inflection AI,2024-03-07,Language,8.000001e+24,Likely,Hosted access (no API),No,https://inflection.ai/inflection-2-5
+Claude 3 Sonnet,Anthropic,2024-03-04,"Multimodal,Language,Vision",,Unknown,API access,No,https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf
+Claude 3 Opus,Anthropic,2024-03-04,"Multimodal,Language,Vision",,Speculative,API access,No,https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf
+Aramco Metabrain AI,Saudi Aramco,2024-03-04,Language,1.05e+25,Likely,Unreleased,No,https://www.offshore-technology.com/news/saudi-aramco-unveils-industry-first-generative-ai-model/
+Mistral Large,Mistral AI,2024-02-26,Language,,Speculative,API access,No,https://mistral.ai/news/mistral-large/
+MegaScale (Production),"ByteDance,Peking University",2024-02-23,Language,3.9e+24,Speculative,Unreleased,No,https://arxiv.org/abs/2402.15627
+Stable Diffusion 3,Stability AI,2024-02-22,Image generation,5.0000000000000004e+22,Confident,API access,No,"https://arxiv.org/abs/2403.03206
+https://stability.ai/news/stable-diffusion-3"
+Sora,OpenAI,2024-02-15,"Video,Vision",,Unknown,Hosted access (no API),No,https://openai.com/index/video-generation-models-as-world-simulators/
+Gemini 1.5 Pro,Google DeepMind,2024-02-15,"Language,Multimodal",,Speculative,API access,No,https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf
+Aya,"Cohere Labs (formerly Cohere for AI),Brown University,Cohere,Carnegie Mellon University (CMU),Massachusetts Institute of Technology (MIT)",2024-02-12,Language,,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/2402.07827
+Qwen1.5-72B,Alibaba,2024-02-04,Language,1.3e+24,Confident,Open weights (restricted use),Yes,https://qwenlm.github.io/blog/qwen1.5/
+Qwen-VL-Max,Alibaba,2024-01-25,"Multimodal,Language,Vision",,Confident,API access,No,https://qwenlm.github.io/blog/qwen-vl/
+AlphaGeometry,"Google DeepMind,New York University (NYU)",2024-01-17,Mathematics,,Confident,Open weights (unrestricted),Yes,https://www.nature.com/articles/s41586-023-06747-5
+Palmyra X 003,Writer,2024-01-01,Language,,,API access,No,https://writer.com/llms/palmyra-x-003/
+Kimi Explorer,Moonshot,2024-01-01,Language,,Unknown,Hosted access (no API),No,https://www.53ai.com/news/LargeLanguageModel/2024101137012.html
+CoRe,Tsinghua University,2023-12-29,"Mathematics,Language",,Speculative,Unreleased,No,https://arxiv.org/abs/2210.16257
+GQA-8-XXL,Google Research,2023-12-23,Language,3.4912896e+22,Confident,Unreleased,No,https://arxiv.org/abs/2305.13245
+nekomata-14b,rinna,2023-12-21,Language,2.5562e+23,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2404.01657
+Gemini Nano-2,Google DeepMind,2023-12-19,"Multimodal,Language,Vision,Audio",,Confident,Unreleased,No,https://arxiv.org/abs/2312.11805
+Gemini Nano-1,Google DeepMind,2023-12-19,"Multimodal,Language,Vision,Audio",,Confident,API access,No,https://arxiv.org/abs/2312.11805
+FunSearch,Google DeepMind,2023-12-14,"Language,Search",3.87e+23,Speculative,Open weights (unrestricted),Yes,"https://www.nature.com/articles/s41586-023-06924-6
+https://deepmind.google/discover/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/"
+CogAgent,"Tsinghua University,Z.ai (Zhipu AI)",2023-12-14,"Vision,Language",6.707e+22,Likely,Open weights (restricted use),Yes,https://arxiv.org/abs/2312.08914
+VILA-13B,"Nvidia,Massachusetts Institute of Technology (MIT)",2023-12-12,"Multimodal,Language,Vision",2.3003136e+21,Confident,Open weights (non-commercial),Yes,"https://arxiv.org/abs/2312.07533
+https://huggingface.co/Efficient-Large-Model/VILA-13b"
+W.A.L.T,"Stanford University,Google Research,Georgia Institute of Technology",2023-12-11,Video,,Confident,Unreleased,No,https://arxiv.org/abs/2312.06662
+Mixtral 8x7B,Mistral AI,2023-12-11,Language,7.74e+23,Speculative,Open weights (unrestricted),Yes,"https://mistral.ai/news/mixtral-of-experts/, https://arxiv.org/abs/2401.04088"
+SeamlessM4T,"Facebook,INRIA,University of California (UC) Berkeley",2023-12-08,"Speech,Language",,Confident,Open weights (unrestricted),Yes,"https://arxiv.org/abs/2312.05187, https://huggingface.co/facebook/seamless-m4t-v2-large"
+Llama Guard,Meta AI,2023-12-07,Language,1.6e+23,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2312.06674
+Gemini 1.0 Ultra,Google DeepMind,2023-12-06,"Multimodal,Language,Vision",5.0000000001e+25,Speculative,API access,No,https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
+Gemini 1.0 Pro,Google DeepMind,2023-12-06,"Multimodal,Language,Vision",,Speculative,API access,No,https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf
+Mamba-24M (SC09),"Carnegie Mellon University (CMU),Princeton University",2023-12-01,Speech,,Confident,Unreleased,No,https://arxiv.org/abs/2312.00752
+Qwen-72B,Alibaba,2023-11-30,Language,1.3e+24,Confident,Open weights (restricted use),Yes,https://huggingface.co/Qwen/Qwen-72B
+PPLX-70B-Online,Perplexity,2023-11-29,Language,,Likely,API access,No,https://blog.perplexity.ai/blog/introducing-pplx-online-llms
+GNoME for crystal discovery,Google DeepMind,2023-11-29,Materials science,,Likely,Unreleased,No,https://www.nature.com/articles/s41586-023-06735-9
+Inflection-2,Inflection AI,2023-11-22,Language,1.001e+25,Confident,Hosted access (no API),No,https://inflection.ai/inflection-2
+Claude 2.1,Anthropic,2023-11-21,Language,,Unknown,API access,No,https://www.anthropic.com/index/claude-2-1
+AndesGPT,Oppo Mobile Telecommunications,2023-11-16,Language,,Unknown,Hosted access (no API),No,https://www.oppo.com/en/newsroom/press/2023-oppo-developers-conference-odc23/
+Nemotron-3-8B,Nvidia,2023-11-15,Language,1.8e+23,Confident,Open weights (restricted use),Yes,"https://developer.nvidia.com/blog/nvidia-ai-foundation-models-build-custom-enterprise-chatbots-and-co-pilots-with-production-ready-llms/
+
+https://catalog.ngc.nvidia.com/orgs/nvidia/teams/nemo/models/nemotron-3-8b-base-4k"
+Qwen-Audio-Chat,Alibaba,2023-11-14,"Language,Speech,Audio",,Likely,Open weights (restricted use),Yes,https://arxiv.org/abs/2311.07919
+GraphCast,Google DeepMind,2023-11-14,Earth science,2.1000000000000002e+22,Speculative,Open weights (non-commercial),Yes,"https://www.science.org/doi/epdf/10.1126/science.adi2336
+
+https://arxiv.org/abs/2212.12794"
+Volcano 13B,"Korea University,Korea Advanced Institute of Science and Technology (KAIST),LG",2023-11-13,"Language,Multimodal,Vision",4.56e+22,Likely,Open weights (non-commercial),Yes,https://arxiv.org/abs/2311.07362
+SPHINX (Llama 2 13B),"Shanghai AI Lab,Chinese University of Hong Kong (CUHK),ShanghaiTech University",2023-11-13,"Vision,Language,Multimodal",3.04e+22,Likely,Open weights (restricted use),Yes,https://arxiv.org/abs/2311.07575
+RoFormer,Zhuiyi Technology,2023-11-08,Language,2.162688e+18,Confident,Unreleased,No,https://arxiv.org/abs/2104.09864
+MultiBand Diffusion,"Meta AI,Hebrew University of Jerusalem,LORIA",2023-11-08,"Audio,Speech",2.6e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2308.02560
+OmniVec,TensorTour,2023-11-07,"Multimodal,Vision,Speech,Language,Video,3D modeling",,Unknown,Unreleased,No,https://arxiv.org/abs/2311.05709v1
+mPLUG-Owl2,Alibaba,2023-11-07,"Vision,Language,Multimodal",,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/2311.04257
+GPT-4 Turbo (Nov 2023),OpenAI,2023-11-06,"Multimodal,Vision,Language,Image generation",,Unknown,API access,No,https://openai.com/blog/new-models-and-developer-products-announced-at-devday
+CogVLM-17B,"Tsinghua University,Z.ai (Zhipu AI),Beihang University",2023-11-06,"Multimodal,Vision,Language",6.331e+22,Confident,Open weights (restricted use),Yes,"https://arxiv.org/abs/2311.03079
+https://huggingface.co/THUDM/cogvlm-chat-hf
+https://github.com/THUDM/CogVLM
+"
+LLaVA 1.5,"University of Wisconsin Madison,Microsoft Research",2023-11-05,"Multimodal,Language,Vision",7.807e+22,Confident,Open weights (restricted use),Yes,"https://arxiv.org/abs/2310.03744,
+"
+Grok-1,xAI,2023-11-04,Language,2.90000000001e+24,Likely,Open weights (unrestricted),Yes,"https://x.ai/model-card/, https://x.ai/blog/grok-os"
+RT-Trajectory,"Google DeepMind,University of California San Diego,Stanford University",2023-11-03,Robotics,,Unknown,Unreleased,No,https://arxiv.org/abs/2311.01977
+BLUUMI,"University of Turku,Hugging Face",2023-11-03,Language,,Likely,Open weights (restricted use),Yes,https://arxiv.org/abs/2311.05640
+Yi-34B,01.AI,2023-11-02,Language,6.1e+23,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2403.04652
+Cohere Embed,Cohere,2023-11-02,Language,,Unknown,API access,No,https://txt.cohere.com/introducing-embed-v3/
+Skywork-13B,Kunlun Inc.,2023-10-30,Language,2.5e+23,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2310.19341
+ChatGLM3-6B,Z.ai (Zhipu AI),2023-10-27,"Multimodal,Language,Vision",5.04e+22,Speculative,Open weights (restricted use),Yes,"https://www.zhipuai.cn/en/news/76
+
+https://huggingface.co/zai-org/chatglm3-6b"
+DiT-XL/2 + CADS,"ETH Zurich,Disney Research",2023-10-26,Image generation,,Likely,Unreleased,No,https://arxiv.org/abs/2310.17347v2
+CODEFUSION (Python),"Microsoft,Microsoft Research",2023-10-26,Language,7.92e+18,Confident,Unreleased,No,"https://arxiv.org/abs/2310.17680 (was withdrawn)
+
+https://www.microsoft.com/en-us/research/wp-content/uploads/2023/11/CodeFusion-Revised-CameraReady.pdf"
+DALL·E 3,OpenAI,2023-10-19,Image generation,,Unknown,API access,No,https://cdn.openai.com/papers/dall-e-3.pdf
+PaLI-3,"Google DeepMind,Google Research,Google Cloud",2023-10-17,"Multimodal,Language,Vision",,Confident,Unreleased,No,https://arxiv.org/abs/2310.09199
+ERNIE 4.0,Baidu,2023-10-17,"Multimodal,Language,Video,Image generation",,Unknown,API access,No,https://www.prnewswire.com/news-releases/baidu-launches-ernie-4-0-foundation-model-leading-a-new-wave-of-ai-native-applications-301958681.html
+RT-2-X,Google DeepMind,2023-10-13,Robotics,,Confident,Unreleased,No,https://arxiv.org/abs/2310.08864
+Ferret (13B),"Columbia University,Apple",2023-10-11,"Multimodal,Language,Vision",,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2310.07704
+RoseTTAFold All-Atom (RFAA),"University of Washington,Seoul National University,University of Sheffield",2023-10-09,Biology,2.14e+20,Confident,Open weights (unrestricted),Yes,https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1
+FinGPT-13B,"University of California Los Angeles (UCLA),Columbia University,New York University (NYU)",2023-10-07,Language,1.6e+23,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2310.04793; https://github.com/AI4Finance-Foundation/FinGPT
+CTM (CIFAR-10),"Stanford University,Sony",2023-10-01,Image generation,,Unknown,Open weights (unrestricted),Yes,https://arxiv.org/abs/2310.02279v1
+GPT-3.5 Turbo Instruct,OpenAI,2023-09-28,Language,,Likely,API access,No,https://platform.openai.com/docs/models/gpt-3.5-turbo
+Amazon Titan,Amazon,2023-09-28,"Language,Image generation",4.8e+24,Likely,API access,No,https://aws.amazon.com/bedrock/titan/
+Show-1,National University of Singapore,2023-09-27,Video,,Unknown,Open weights (non-commercial),Yes,https://arxiv.org/abs/2309.15818
+GPT-4V,OpenAI,2023-09-25,"Multimodal,Vision,Language",,Unknown,API access,No,https://cdn.openai.com/papers/GPTV_System_Card.pdf
+AlphaMissense,Google DeepMind,2023-09-22,Biology,,Likely,Unreleased,No,https://www.science.org/doi/10.1126/science.adg7492
+Robot Parkour,"Shanghai Qi Zhi institute,Stanford University,Carnegie Mellon University (CMU),Tsinghua University",2023-09-12,Robotics,,Confident,Unreleased,No,https://arxiv.org/abs/2309.05665
+Falcon-180B,Technology Innovation Institute,2023-09-06,Language,3.76e+24,Confident,Open weights (restricted use),Yes,https://falconllm.tii.ae/falcon-180b.html; https://arxiv.org/abs/2311.16867
+Swift,Intel Labs,2023-08-30,Robotics,5.337e+16,Likely,Unreleased,No,https://www.nature.com/articles/s41586-023-06419-4
+Jais,"Cerebras Systems,Mohamed bin Zayed University of Artificial Intelligence (MBZUAI),Inception G42",2023-08-29,Language,4.8946763e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2308.16149
+PeptideBERT,Carnegie Mellon University (CMU),2023-08-28,Biology,4.9e+16,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2309.03099
+Qwen-VL,Alibaba,2023-08-24,"Multimodal,Language,Vision",,Likely,Open weights (restricted use),Yes,https://arxiv.org/abs/2308.12966
+GGNN,"Westlake University,Tsinghua University,Toyota Technological Institute at Chicago",2023-08-05,Biology,7.56e+21,Confident,Unreleased,No,https://www.nature.com/articles/s42003-023-05133-1
+RT-2,Google DeepMind,2023-07-28,Robotics,,Confident,Unreleased,No,https://arxiv.org/abs/2307.15818
+AudioLM,Google Research,2023-07-26,Audio,3.9e+18,Speculative,Unreleased,No,https://arxiv.org/abs/2209.03143
+Llama 2-70B,Meta AI,2023-07-18,Language,8.1e+23,Confident,Open weights (restricted use),Yes,"https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+https://arxiv.org/abs/2307.09288"
+Llama 2-7B,Meta AI,2023-07-18,Language,8.4e+22,Confident,Open weights (restricted use),Yes,https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/
+GPT3-2.7B (FlashAttention-2),"Stanford University,Princeton University",2023-07-18,Language,,Confident,Unreleased,No,https://arxiv.org/pdf/2307.08691
+Claude 2,Anthropic,2023-07-11,Language,3.866e+24,Speculative,API access,No,"https://www.anthropic.com/index/claude-2, https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf"
+xTrimoPGLM -100B,"Tsinghua University,BioMap Research",2023-07-06,Biology,6.2e+23,Confident,Unreleased,No,https://www.biorxiv.org/content/10.1101/2023.07.05.547496v4
+InternLM,"Shanghai AI Lab,SenseTime",2023-07-06,Language,9.984e+23,Confident,Unreleased,No,https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf
+Pangu-Weather,Huawei,2023-07-05,Earth science,3.98e+22,Confident,Open weights (non-commercial),Yes,"https://www.nature.com/articles/s41586-023-06185-3, https://www.huaweicloud.com/intl/en-us/news/20230707180809498.html,
+https://www.huawei.com/en/news/2023/7/pangu-ai-model-nature-publish"
+Stable Diffusion XL (SDXL),Stability AI,2023-07-04,Image generation,,Speculative,Open weights (non-commercial),Yes,https://arxiv.org/abs/2307.01952
+HyenaDNA,"Stanford University,Harvard University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),University of Montreal / Université de Montréal",2023-06-27,Biology,1.811e+21,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2306.15794
+ERNIE 3.5,Baidu,2023-06-27,Language,,Unknown,Hosted access (no API),No,http://research.baidu.com/Blog/index-view?id=185
+GPT-4 (Jun 2023),OpenAI,2023-06-13,"Multimodal,Language,Vision",2.1e+25,Likely,API access,No,https://arxiv.org/abs/2303.08774
+GPT-3.5 Turbo,OpenAI,2023-06-13,Language,,Likely,API access,No,https://platform.openai.com/docs/models/gpt-3.5-turbo
+MusicGen,Meta AI,2023-06-08,Audio,,Likely,Open weights (non-commercial),Yes,https://arxiv.org/abs/2306.05284
+LTM-1,Magic,2023-06-06,Language,,Unknown,Unreleased,No,https://magic.dev/blog/ltm-1
+PaLI-X,Google Research,2023-05-29,"Multimodal,Language,Vision,Video",5.6e+23,Likely,Unreleased,No,https://arxiv.org/abs/2305.18565
+DPO on Pythia-2.8B,"Stanford University,CZ Biohub Network",2023-05-29,Language,,Confident,Unreleased,No,https://arxiv.org/abs/2305.18290
+Goat-7B,National University of Singapore,2023-05-23,Language,,Speculative,Open weights (non-commercial),Yes,https://arxiv.org/abs/2305.14201
+CodeT5+,Salesforce,2023-05-20,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2305.07922
+ONE-PEACE,"Alibaba,Huazhong University of Science and Technology",2023-05-18,"Multimodal,Vision,Speech,Language",1.8e+20,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/2305.11172v1
+CoEdiT-xxl,"University of Minnesota,Grammarly",2023-05-17,Language,,Likely,Open weights (non-commercial),Yes,"https://arxiv.org/abs/2305.09857, https://huggingface.co/grammarly/coedit-large"
+Med-PaLM 2,"Google Research,DeepMind",2023-05-16,"Medicine,Language",,Likely,Unreleased,No,https://arxiv.org/abs/2305.09617
+InstructBLIP,"Salesforce Research,Hong Kong University of Science and Technology (HKUST),Nanyang Technological University",2023-05-11,"Multimodal,Language,Vision",1.94e+20,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2305.06500
+PaLM 2,Google,2023-05-10,Language,7.34e+24,Likely,API access,No,https://arxiv.org/abs/2305.10403
+StarCoder,"Hugging Face,ServiceNow,Northeastern University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),Carnegie Mellon University (CMU),Johns Hopkins University,Leipzig University,ScaDS.AI,Queen Mary University of London,Roblox,Sea AI Lab,Technion - Israel Institute of Technology,Monash University,CSIRO,Data61,McGill University,Saama,University of British Columbia (UBC),Massachusetts Institute of Technology (MIT),Technical University of Munich,IBM,University of Vermont,UnfoldML,SAP,University of Notre Dame,Columbia University,New York University (NYU),University of Allahabad,Discover Dollar,Toloka,Telefonica,Stanford University,Weizmann Institute of Science,Alan Turing Institute,Wellesley College,EleutherAI,Forschungszentrum Julich",2023-05-09,Language,8.46e+22,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2305.06161
+ImageBind,Meta AI,2023-05-09,"Multimodal,Vision,Audio,Language,Image generation,Speech",,Likely,Open weights (non-commercial),Yes,"https://arxiv.org/abs/2305.05665, https://github.com/facebookresearch/ImageBind"
+Agile Soccer Robot,Google DeepMind,2023-04-26,Robotics,,Unknown,Unreleased,No,https://arxiv.org/abs/2304.13653
+LLaVA,"University of Wisconsin Madison,Microsoft Research,Columbia University",2023-04-17,"Multimodal,Vision,Language",7.8049e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2304.08485
+DINOv2,"Facebook AI Research,INRIA",2023-04-14,Vision,7.41851136e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2304.07193
+Incoder-6.7B,"Facebook AI Research,University of Washington,University of California (UC) Berkeley,Carnegie Mellon University (CMU),Toyota Technological Institute at Chicago",2023-04-09,Language,3.00001e+21,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2204.05999
+Segment Anything Model,Meta AI,2023-04-05,Vision,7.8e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2304.02643
+BloombergGPT,"Bloomberg,Johns Hopkins University",2023-03-30,Language,2.36e+23,Confident,Unreleased,No,https://arxiv.org/abs/2303.17564
+VideoMAE V2,"Nanjing University,Shenzhen Institute of Advanced Technology,Shanghai AI Lab",2023-03-29,Video,9.7e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2303.16727v2
+SigLIP 400M,Google DeepMind,2023-03-27,Vision,4.9467301e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2303.15343
+Firefly,Adobe,2023-03-21,Image generation,,Unknown,Hosted access (no API),No,https://news.adobe.com/news/news-details/2023/Adobe-Unveils-Firefly-a-Family-of-new-Creative-Generative-AI/default.aspx
+PanGu-Σ,Huawei Noah's Ark Lab,2023-03-20,Language,4.67e+23,Confident,Unreleased,No,https://arxiv.org/abs/2303.10845
+Gen-2,Runway,2023-03-20,Video,,Unknown,API access,No,https://research.runwayml.com/gen2
+LEP-AD,"King Abdullah University of Science and Technology (KAUST),Karolinska Institute",2023-03-15,Biology,,Confident,Unreleased,No,https://www.biorxiv.org/content/10.1101/2023.03.14.532563v1.full.pdf
+GPT-4 (Mar 2023),OpenAI,2023-03-15,"Multimodal,Language,Vision",2.1e+25,Likely,API access,No,https://arxiv.org/abs/2303.08774
+Falcon-40B,Technology Innovation Institute,2023-03-15,Language,2.4e+23,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2311.16867; https://www.tii.ae/news/abu-dhabi-based-technology-innovation-institute-introduces-falcon-llm-foundational-large
+Claude,Anthropic,2023-03-14,Language,,Unknown,API access,No,https://www.anthropic.com/index/introducing-claude
+PaLM-E,"Google,TU Berlin",2023-03-06,"Robotics,Vision,Language",,Likely,Unreleased,No,https://arxiv.org/abs/2303.03378
+AudioGen,"Meta AI,Hebrew University of Jerusalem",2023-03-05,Audio,9.5e+21,Likely,Open weights (non-commercial),Yes,https://arxiv.org/abs/2209.15352
+DiT-XL/2,"New York University (NYU),University of California (UC) Berkeley",2023-03-02,Image generation,6e+20,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2212.09748
+LLaMA-65B,Meta AI,2023-02-24,Language,5.5e+23,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2302.13971
+BASIC-L + Lion,"Google,University of California Los Angeles (UCLA)",2023-02-13,Vision,,Confident,Unreleased,No,https://arxiv.org/abs/2302.06675v4
+ViT-22B,Google,2023-02-10,Vision,1.93248e+23,Confident,Unreleased,No,https://arxiv.org/abs/2302.05442v1
+ProteinDT,"University of California (UC) Berkeley,California Institute of Technology,University of Toronto,University of Wisconsin Madison,Texas A&M,Nvidia,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",2023-02-09,"Biology,Language",,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2302.04611
+Gen-1,Runway,2023-02-06,Video,,Unknown,API access,No,https://arxiv.org/abs/2302.03011
+BLIP-2 (Q-Former),Salesforce Research,2023-01-30,"Vision,Language",1.20000000001e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2301.12597
+DDPM-IP (CelebA),Utrecht University,2023-01-27,Image generation,3.5e+20,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2301.11706v3
+MusicLM,Google,2023-01-26,Audio,,Confident,Unreleased,No,https://arxiv.org/abs/2301.11325
+Ankh_large,"Technical University of Munich,Columbia University",2023-01-16,Biology,6.5e+21,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2301.06568
+Nucleotide Transformer,"Nvidia,Technical University of Munich,InstaDeep",2023-01-15,Biology,8.08e+21,Likely,Open weights (non-commercial),Yes,https://www.biorxiv.org/content/10.1101/2023.01.11.523679v1.full.pdf
+DreamerV3,"DeepMind,University of Toronto",2023-01-10,Games,2.2032e+20,Likely,Unreleased,No,https://arxiv.org/abs/2301.04104v1
+VALL-E,Microsoft,2023-01-05,"Audio,Speech",1.01e+19,Speculative,Unreleased,No,https://arxiv.org/abs/2301.02111
+Hybrid H3-2.7B,"Stanford University,University at Buffalo",2022-12-28,Language,6.48e+21,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2212.14052
+CaLM,University of Oxford,2022-12-19,Biology,2.9e+19,Likely,Unreleased,No,https://www.biorxiv.org/content/10.1101/2022.12.15.519894v1.full.pdf
+RT-1,Google,2022-12-13,Robotics,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2212.06817
+TranceptEve,"University of Oxford,Harvard Medical School",2022-12-10,Biology,,Unknown,Unreleased,No,https://www.biorxiv.org/content/10.1101/2022.12.07.519495v1
+Vega v2,"Wuhan University,JD Explore Academy,Shanghai AI Lab,Nanyang Technological University,Washington University in St Louis,Chongqing University of Posts and Telecommunications,University of Sydney",2022-12-04,Language,7.76e+22,Confident,Unreleased,No,https://arxiv.org/abs/2212.01853
+DeepNash,DeepMind,2022-12-01,Games,,Unknown,Unreleased,No,https://www.science.org/stoken/author-tokens/ST-887/full
+DiT-XL/2 + Discriminator Guidance,"Korea Advanced Institute of Science and Technology (KAIST),NAVER",2022-11-28,Image generation,,Unknown,Unreleased,No,https://arxiv.org/abs/2211.17091v4
+Discriminator Guidance,"Korea Advanced Institute of Science and Technology (KAIST),NAVER",2022-11-28,Image generation,2.1570000001e+20,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2211.17091v4
+ALM 1.0,Beijing Academy of Artificial Intelligence / BAAI,2022-11-28,Language,,Speculative,Hosted access (no API),No,https://github.com/FlagAI-Open/FlagAI/blob/master/examples/ALM/README.md
+CICERO,Meta AI,2022-11-22,Games,,Unknown,Open weights (non-commercial),Yes,https://www.science.org/doi/10.1126/science.ade9097
+AR-LDM,"Alibaba,University of Waterloo,Vector Institute",2022-11-20,Image generation,5.1e+20,Confident,Unreleased,No,https://arxiv.org/abs/2211.10950
+Fusion in Encoder,Samsung,2022-11-18,Language,1.3e+20,Likely,Unreleased,No,https://arxiv.org/abs/2211.10147
+Galactica,Meta AI,2022-11-16,"Language,Biology",3.24e+23,Likely,Open weights (non-commercial),Yes,https://arxiv.org/abs/2211.09085
+EVA-01,"Beijing Academy of Artificial Intelligence / BAAI,Huazhong University of Science and Technology,Zhejiang University (ZJU),Beijing Institute of Technology",2022-11-14,Vision,1.501e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2211.07636
+AltCLIP_M9,Beijing Academy of Artificial Intelligence / BAAI,2022-11-12,"Multimodal,Language,Vision",,Unknown,Open weights (unrestricted),Yes,https://arxiv.org/abs/2211.06679
+InternImage,"Shanghai AI Lab,Tsinghua University,Nanjing University,SenseTime,Chinese University of Hong Kong (CUHK)",2022-11-10,Vision,2.408e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2211.05778
+mT0-13B,"Hugging Face,BigScience",2022-11-03,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2211.01786
+Mogrifier RLSTM (WT2),DeepMind,2022-11-03,Language,1.4e+17,Confident,Unreleased,No,https://arxiv.org/abs/2211.01848
+eDiff-I,Nvidia,2022-11-02,Image generation,5.46e+19,Likely,Unreleased,No,https://arxiv.org/abs/2211.01324
+EnCodec,Meta AI,2022-10-24,Audio,,Unknown,Open weights (non-commercial),Yes,"https://arxiv.org/abs/2210.13438, "
+U-PaLM (540B),Google,2022-10-20,Language,2.53e+24,Confident,Unreleased,No,https://arxiv.org/abs/2210.11399
+LMSI-Palm,"Google,University of Illinois Urbana-Champaign (UIUC)",2022-10-20,Language,,Confident,Unreleased,No,https://arxiv.org/abs/2210.11610
+Flan-PaLM 540B,Google,2022-10-20,Language,2.540000000001e+24,Confident,Unreleased,No,https://arxiv.org/abs/2210.11416
+GenSLM,"University of Chicago,Nvidia,Harvard University,Cerebras Systems,Technical University of Munich,California Institute of Technology",2022-10-11,Biology,1.42e+21,Confident,Open weights (unrestricted),Yes,https://www.biorxiv.org/content/biorxiv/early/2022/10/11/2022.10.10.511571.full.pdf
+Diplodocus,"Meta AI,Massachusetts Institute of Technology (MIT)",2022-10-11,Games,,Unknown,Open weights (non-commercial),Yes,https://arxiv.org/abs/2210.05492
+Phenaki,"University College London (UCL),University of Michigan,Google Brain",2022-10-05,Video,,,Unreleased,No,https://arxiv.org/abs/2210.02399
+AlphaTensor,DeepMind,2022-10-05,"Other,Games,Mathematics",7.1414784e+20,Confident,Unreleased,No,https://www.nature.com/articles/s41586-022-05172-4
+DiffDock,Massachusetts Institute of Technology (MIT),2022-10-04,Biology,7.2e+19,Likely,Open weights (unrestricted),Yes,"https://arxiv.org/abs/2210.01776, https://docs.nvidia.com/bionemo-framework/latest/models/diffdock.html"
+Make-A-Video,Meta AI,2022-09-29,Video,,Unknown,Hosted access (no API),No,https://arxiv.org/abs/2209.14792
+Whisper,OpenAI,2022-09-21,Speech,4.2072663e+21,Likely,Open weights (unrestricted),Yes,"https://cdn.openai.com/papers/whisper.pdf
+
+https://arxiv.org/abs/2212.04356"
+SauTech,"Saudi Data and Artificial Intelligence Authority,Saudi Company for Artificial Intelligence",2022-09-14,"Speech,Audio",,Unknown,Hosted access (no API),No,"https://globalaisummit.org/en/News/Pages/NewsDetails.aspx?NewsId=73
+https://saudigazette.com.sa/article/624984/SAUDI-ARABIA/SDAIA-SCAI-unveil-SauTech-speech-to-text-software"
+PaLI,Google,2022-09-14,"Language,Vision,Multimodal",1.69e+23,Likely,Unreleased,No,https://arxiv.org/abs/2209.06794v4
+BEIT-3,Microsoft,2022-08-22,"Multimodal,Vision,Language",7e+19,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2208.10442
+BlenderBot 3,"McGill University,Meta AI,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",2022-08-10,Language,4.3e+23,Likely,Open weights (non-commercial),Yes,"https://arxiv.org/abs/2208.03188, https://github.com/facebookresearch/ParlAI/blob/main/parlai/zoo/bb3/model_card.md
+
+training code: https://parl.ai/projects/bb3/ "
+GLM-130B,Tsinghua University,2022-08-04,Language,3.5490054945e+23,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2210.02414
+AlexaTM 20B,Amazon,2022-08-02,Language,2.04374016e+23,Confident,API access,No,https://arxiv.org/abs/2208.01448
+OmegaPLM,"Massachusetts Institute of Technology (MIT),Westlake University",2022-07-22,Biology,1.03514112e+22,Confident,Unreleased,No,https://www.biorxiv.org/content/10.1101/2022.07.21.500999v1
+ESM2-15B,"Meta AI,New York University (NYU),Stanford University,Massachusetts Institute of Technology (MIT)",2022-07-21,Biology,7.35000000001e+22,Confident,Open weights (unrestricted),Yes,"https://www.science.org/doi/abs/10.1126/science.ade2574
+https://www.biorxiv.org/content/10.1101/2022.07.20.500902v2"
+BLOOM-176B,"Hugging Face,BigScience",2022-07-11,Language,3.65664e+23,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/2211.05100
+NLLB,Meta AI,2022-07-06,Language,1.751113728e+22,Confident,Open weights (unrestricted),Yes,https://research.facebook.com/publications/no-language-left-behind/
+CodeT5-large,Salesforce,2022-07-05,Language,2.72e+21,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2207.01780
+Minerva (540B),Google,2022-06-29,Language,2.7415e+24,Confident,Unreleased,No,https://arxiv.org/abs/2206.14858
+ProGen2-xlarge,"Salesforce Research,Columbia University,Johns Hopkins University",2022-06-27,Biology,1.35e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2206.13517
+Parti,Google Research,2022-06-22,Image generation,5.09607936e+23,Confident,Unreleased,No,https://arxiv.org/abs/2206.10789v1
+CoCa,Google Research,2022-06-14,Vision,7.3e+22,Confident,Unreleased,No,https://arxiv.org/abs/2205.01917v2
+MetaLM,Microsoft Research,2022-06-13,"Multimodal,Language,Vision",,Speculative,Unreleased,No,https://arxiv.org/abs/2206.06336v1
+DITTO,"Tsinghua University,Apple,Westlake University,Chinese University of Hong Kong (CUHK)",2022-06-06,Language,3.31776e+18,Confident,Unreleased,No,https://arxiv.org/abs/2206.02369
+Diffusion-GAN,"UT Austin,Microsoft",2022-06-05,Image generation,,Unknown,Open weights (unrestricted),Yes,https://arxiv.org/abs/2206.02262v4
+CogVideo,"Tsinghua University,Beijing Academy of Artificial Intelligence / BAAI",2022-05-29,Video,,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/2205.15868
+Tranception,"University of Oxford,Harvard Medical School,Cohere",2022-05-27,Biology,7.24e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2205.13760
+GPT-2 Medium (FlashAttention),"Stanford University,University at Buffalo",2022-05-27,Language,8.9280922e+20,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2205.14135
+Imagen,Google Brain,2022-05-23,Image generation,1.46e+22,Likely,API access,No,https://arxiv.org/abs/2205.11487
+SimCSE,"Princeton University,Tsinghua University",2022-05-18,Language,,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2104.08821
+Gato,DeepMind,2022-05-12,"Multimodal,Robotics,Games,Language",4.02e+21,Confident,Unreleased,No,https://arxiv.org/abs/2205.06175
+UL2,"Google Research,Google Brain",2022-05-10,Language,1.2e+23,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2205.05131v1
+DeBERTaV3large + KEAR,Microsoft,2022-05-04,Language,,Confident,Unreleased,No,https://arxiv.org/abs/2112.03254v3
+OPT-175B,Meta AI,2022-05-02,Language,4.3e+23,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2205.01068
+Flamingo,DeepMind,2022-04-29,"Multimodal,Vision,Language,Video",2.18972000000001e+23,Confident,Unreleased,No,https://arxiv.org/abs/2204.14198
+XMC-GAN,Google Research,2022-04-14,Image generation,,Unknown,Unreleased,No,https://arxiv.org/abs/2101.04702
+Sparse all-MLP,Meta AI,2022-04-14,Language,5.32224e+20,Confident,Unreleased,No,https://arxiv.org/abs/2203.06850
+Stable Diffusion (LDM-KL-8-G),"Runway,Ludwig Maximilian University of Munich,Heidelberg University",2022-04-13,Image generation,5.0000000000000004e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2112.10752
+BERT-RBP,Waseda University,2022-04-07,Biology,1.4e+20,Confident,Open weights (non-commercial),Yes,https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac023/6564689
+DALL·E 2,OpenAI,2022-04-06,Image generation,3.3695784e+23,Speculative,API access,No,https://cdn.openai.com/papers/dall-e-2.pdf
+PaLM (540B),Google Research,2022-04-04,Language,2.5272e+24,Confident,Unreleased,No,https://arxiv.org/abs/2204.02311
+Chinchilla,DeepMind,2022-03-29,Language,5.76e+23,Confident,Unreleased,No,https://arxiv.org/abs/2203.15556
+Make-A-Scene,Meta AI,2022-03-24,Image generation,6.4172851e+21,Likely,Unreleased,No,https://arxiv.org/abs/2203.13131
+"Segatron-XL large, M=384 + HCP","Microsoft Research,University of Waterloo",2022-03-21,Language,2.65e+19,Confident,Unreleased,No,https://arxiv.org/abs/2203.10692
+GPT-3.5 (davinci-002),OpenAI,2022-03-15,Language,2.578e+24,Speculative,API access,No,https://platform.openai.com/docs/models/gpt-3-5
+ViT-G (model soup),"University of Washington,Columbia University,Google,Meta AI,Tel Aviv University",2022-03-10,Vision,3.4e+21,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2203.05482v3
+MegaSyn,Collaborations Pharmaceuticals,2022-03-07,Medicine,,Unknown,Hosted access (no API),No,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9544280/
+Statement Curriculum Learning,OpenAI,2022-03-02,"Language,Mathematics",1.7901648e+22,Likely,API access,No,https://arxiv.org/abs/2202.01344
+DeepNet,Microsoft Research,2022-03-01,Language,,Confident,Unreleased,No,https://arxiv.org/abs/2203.00555
+PolyCoder,Carnegie Mellon University (CMU),2022-02-26,Language,1.1e+21,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2202.13169
+FourCastNet,"Nvidia,NERSC, Lawrence Berkeley National Laboratory,University of Michigan,Rice University,California Institute of Technology,Purdue University",2022-02-22,Earth science,3.4504704e+20,Confident,Unreleased,No,https://arxiv.org/abs/2202.11214
+ST-MoE,"Google,Google Brain,Google Research",2022-02-17,Language,2.9e+23,Likely,Unreleased,No,https://arxiv.org/abs/2202.08906v2
+Midjourney V1,Midjourney,2022-02-15,Image generation,,Unknown,Hosted access (no API),No,
+ProteinBERT,"Hebrew University of Jerusalem,Ben-Gurion University of the Negev,Deep Trading",2022-02-10,Biology,6.5e+19,Confident,Open weights (unrestricted),Yes,https://academic.oup.com/bioinformatics/article/38/8/2102/6502274
+LaMDA,Google,2022-02-10,Language,3.55e+23,Confident,Unreleased,No,https://arxiv.org/abs/2201.08239
+GPT-NeoX-20B,EleutherAI,2022-02-09,Language,9.31627008e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2204.06745
+MaskGIT (ImageNet),Google Research,2022-02-08,Image generation,,Confident,,,https://arxiv.org/abs/2202.04200
+RETRO-7B,DeepMind,2022-02-07,Language,1.68e+22,Confident,Unreleased,No,https://arxiv.org/abs/2112.04426
+AlphaCode,DeepMind,2022-02-02,Language,2.38010000000001e+23,Confident,Unreleased,No,https://arxiv.org/abs/2203.07814
+InstructGPT 175B,OpenAI,2022-01-27,Language,3.19181e+23,Confident,API access,No,https://arxiv.org/pdf/2203.02155
+InstructGPT 6B,OpenAI,2022-01-27,Language,,Confident,API access,No,https://arxiv.org/abs/2203.02155
+InstructGPT 1.3B,OpenAI,2022-01-27,Language,,Confident,API access,No,https://arxiv.org/abs/2203.02155
+OntoProtein,Zhejiang University (ZJU),2022-01-23,"Biology,Language",,Likely,Open weights (unrestricted),Yes,https://openreview.net/pdf?id=yfe1VMYAXa4
+AbLang (heavy sequences),University of Oxford,2022-01-22,Biology,,Confident,Open weights (unrestricted),Yes,https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac046/6609807
+data2vec (vision),Meta AI,2022-01-20,Vision,,,Open weights (unrestricted),Yes,https://ai.facebook.com/research/data2vec-a-general-framework-for-self-supervised-learning-in-speech-vision-and-language/
+data2vec (speech),Meta AI,2022-01-20,Speech,,,Open weights (unrestricted),Yes,https://ai.facebook.com/research/data2vec-a-general-framework-for-self-supervised-learning-in-speech-vision-and-language/
+data2vec (language),Meta AI,2022-01-20,Language,,Likely,Open weights (unrestricted),Yes,https://ai.facebook.com/research/data2vec-a-general-framework-for-self-supervised-learning-in-speech-vision-and-language/
+Detic,"Meta AI,University of Texas at Austin",2022-01-07,Vision,2.34399744e+19,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/2201.02605
+ERNIE-ViLG,Baidu,2021-12-31,"Multimodal,Image generation,Vision,Language",,,Unreleased,No,https://arxiv.org/abs/2112.15283
+ERNIE 3.0 Titan,"Baidu,Peng Cheng Laboratory",2021-12-23,Language,1.0421e+24,Confident,Hosted access (no API),No,https://arxiv.org/abs/2112.12731
+XGLM-7.5B,"Meta AI,Facebook AI Research",2021-12-20,Language,2.25e+22,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2112.10668
+LDM-1.45B,"Heidelberg University,Runway",2021-12-20,Image generation,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2112.10752
+Contriever,"Meta AI,University College London (UCL),PSL University,Université Grenoble Alpes",2021-12-16,Language,1.57e+20,Likely,Open weights (non-commercial),Yes,https://arxiv.org/abs/2112.09118
+LongT5,Google Research,2021-12-15,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2112.07916
+GLaM,Google,2021-12-13,Language,3.6363112434e+23,Confident,Unreleased,No,https://arxiv.org/abs/2112.06905
+Gopher (280B),DeepMind,2021-12-08,Language,6.31e+23,Confident,Unreleased,No,https://arxiv.org/abs/2112.11446
+Student of Games,DeepMind,2021-12-06,Games,3.6679273004682866e+22,Speculative,Unreleased,No,https://arxiv.org/abs/2112.03178
+T-NLRv5 XXL,Microsoft,2021-12-03,Language,,Confident,Unreleased,No,"https://www.marketscreener.com/quote/stock/MICROSOFT-CORPORATION-4835/news/Microsoft-Turing-NLRv5-achieves-new-performance-milestones-37207301/
+https://www.microsoft.com/en-us/research/blog/efficiently-and-effectively-scaling-up-language-model-pretraining-for-best-language-representation-model-on-glue-and-superglue/"
+NÜWA,"Microsoft Research,Peking University",2021-11-24,"Multimodal,Vision,Image generation,Video,Language",7.24598784e+21,Confident,Unreleased,No,https://arxiv.org/abs/2111.12417
+Florence,Microsoft,2021-11-22,Vision,4.831e+22,Confident,Unreleased,No,https://arxiv.org/abs/2111.11432v1
+BASIC-L,Google,2021-11-19,Vision,4.12e+22,Likely,Unreleased,No,https://arxiv.org/abs/2111.10050
+Swin Transformer V2 (SwinV2-G),Microsoft Research Asia,2021-11-18,"Vision,Video",1.1e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2111.09883v2
+AliceMind-MMU,Alibaba,2021-11-17,,,Likely,Unreleased,No,https://arxiv.org/abs/2111.08896
+ViT-G/14 (LiT),Google Research,2021-11-15,Vision,,Confident,Unreleased,No,https://arxiv.org/abs/2111.07991v3
+Masked Autoencoders ViT-H,Facebook AI Research,2021-11-11,Vision,4.6e+20,Speculative,Open weights (non-commercial),Yes,https://arxiv.org/abs/2111.06377
+Projected GAN,Heidelberg University,2021-11-01,Image generation,1.05e+19,Confident,Open weights (unrestricted),Yes,https://proceedings.neurips.cc/paper/2021/hash/9219adc5c42107c4911e249155320648-Abstract.html
+CodeT5-base,"Salesforce,Nanyang Technological University",2021-11-01,Language,1.56e+21,Likely,Open weights (unrestricted),Yes,https://aclanthology.org/2021.emnlp-main.685/
+S4,Stanford University,2021-10-31,Language,7.8328627e+19,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2111.00396
+EfficientZero,"Tsinghua University,University of California (UC) Berkeley,Shanghai Qi Zhi institute",2021-10-30,Games,,Unknown,Unreleased,No,https://arxiv.org/abs/2111.00210
+Eve,"Harvard Medical School,University of Oxford",2021-10-27,Biology,,Likely,Unreleased,No,https://www.nature.com/articles/s41586-021-04043-8#change-history
+base LM+GNN+kNN,"Shannon.AI,Nanjing University,Nanyang Technological University,Zhejiang University (ZJU)",2021-10-17,Language,5.2587456e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2110.08743
+Yuan 1.0,Inspur,2021-10-12,Language,3.5380000000001e+23,Confident,API access,No,https://arxiv.org/abs/2110.04725
+Megatron-Turing NLG 530B,"Microsoft,Nvidia",2021-10-11,Language,8.586e+23,Confident,Unreleased,No,https://arxiv.org/abs/2201.11990
+AlphaFold-Multimer,"Google DeepMind,DeepMind",2021-10-04,Biology,4.35e+21,Confident,Open weights (unrestricted),Yes,https://www.biorxiv.org/content/10.1101/2021.10.04.463034v1
+Turing ULRv5,Microsoft,2021-09-28,Language,2.8983951e+22,Confident,Hosted access (no API),No,https://www.microsoft.com/en-us/research/blog/microsoft-turing-universal-language-representation-model-t-ulrv5-tops-xtreme-leaderboard-and-trains-100x-faster/
+TrOCR,"Beihang University,Microsoft Research Asia",2021-09-21,Vision,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2109.10282
+PLATO-XL,Baidu,2021-09-20,Language,9.9e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2109.09519
+HyperCLOVA 204B,NAVER,2021-09-10,Language,2.0000000001e+23,Speculative,Hosted access (no API),No,https://aibusiness.com/nlp/south-korea-s-naver-unveils-hyperscale-ai-platform-language-model-with-more-parameters-than-gpt-3
+PermuteFormer,Peking University,2021-09-06,Language,2.775e+18,Speculative,Unreleased,No,https://arxiv.org/abs/2109.02377
+MEB,Microsoft,2021-09-04,"Search,Language",,Confident,Hosted access (no API),No,https://www.microsoft.com/en-us/research/blog/make-every-feature-binary-a-135b-parameter-sparse-neural-network-for-massively-improved-search-relevance/
+FLAN 137B,Google Research,2021-09-03,Language,2.047e+24,Confident,Unreleased,No,https://arxiv.org/abs/2109.01652
+XLMR-XXL,Facebook AI Research,2021-08-17,Language,3.366e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2105.00572
+DNABERT,Northeastern University,2021-08-15,Biology,1.07e+20,Confident,Open weights (unrestricted),Yes,https://academic.oup.com/bioinformatics/article/37/15/2112/6128680
+Zidong Taichu,"Chinese Academy of Sciences,Wuhan AI Computing Center",2021-08-11,"Multimodal,Speech,Vision,Language",8.016e+20,Confident,Open weights (unrestricted),Yes,https://gitee.com/zidongtaichu/multi-modal-models
+Jurassic-1-Jumbo,AI21 Labs,2021-08-11,Language,3.7e+23,Confident,API access,No,https://uploads-ssl.webflow.com/60fd4503684b466578c0d307/61138924626a6981ee09caf6_jurassic_tech_paper.pdf
+W2v-BERT,"Google Brain,Massachusetts Institute of Technology (MIT)",2021-08-07,Speech,,Confident,Unreleased,No,https://arxiv.org/abs/2108.06209v2
+YOLOX-X,Megvii Inc,2021-08-06,Vision,6.34275e+20,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2107.08430
+6-Act Tether,"Facebook AI Research,Georgia Institute of Technology",2021-08-03,Robotics,,Confident,Open weights (unrestricted),Yes,"https://openaccess.thecvf.com/content/ICCV2021/html/Ye_Auxiliary_Tasks_and_Exploration_Enable_ObjectGoal_Navigation_ICCV_2021_paper.html
+https://arxiv.org/abs/2104.04112"
+SEER,"Facebook AI Research,INRIA",2021-07-29,Vision,1.8e+22,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2103.01988
+HuBERT,Facebook AI Research,2021-07-27,Speech,5.54e+21,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/2106.07447
+GOAT,DeepMind,2021-07-27,Games,2.412e+22,Speculative,Unreleased,No,"https://deepmind.com/blog/article/generally-capable-agents-emerge-from-open-ended-play
+
+https://arxiv.org/abs/2107.12808"
+Codex,OpenAI,2021-07-07,Language,7.344e+22,Likely,API access,No,"https://openai.com/blog/openai-codex/
+https://arxiv.org/abs/2107.03374"
+ERNIE 3.0,Baidu,2021-07-05,Language,2.25e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2107.02137
+Adaptive Input Transformer + RD,"Microsoft Research Asia,Soochow University",2021-06-28,Language,8.58e+19,Likely,Unreleased,No,https://arxiv.org/abs/2106.14448
+Fold2Seq,"IBM,Texas A&M",2021-06-24,Biology,1.4e+17,Speculative,Unreleased,No,https://arxiv.org/abs/2106.13058
+EfficientNetV2-XL,"Google,Google Brain",2021-06-23,Vision,9.56e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2104.00298
+StyleGAN3-T,"Nvidia,Aalto University",2021-06-21,Image generation,1.70208e+21,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2106.12423
+StyleGAN3-R,"Nvidia,Aalto University",2021-06-21,Image generation,2.42784e+21,Confident,Open weights (non-commercial),Yes,https://arxiv.org/pdf/2106.12423
+Denoising Diffusion Probabilistic Models (LSUN Bedroom),University of California (UC) Berkeley,2021-06-11,Vision,7.840125000000001e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2006.11239
+ALIGN,Google Research,2021-06-11,"Multimodal,Vision,Language",2.598670000001e+22,Confident,Unreleased,No,https://arxiv.org/abs/2102.05918
+DeBERTa,Microsoft,2021-06-10,Language,2.588e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2006.03654
+EMDR,"Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),McGill University,DeepMind",2021-06-09,Language,1.91e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2106.05346v2
+CoAtNet,"Google,Google Research,Google Brain",2021-06-09,Vision,4.27e+22,Confident,Unreleased,No,https://arxiv.org/abs/2106.04803v2
+ViT-G/14,"Google Brain,Google Research",2021-06-08,Vision,5.85e+22,Confident,Unreleased,No,https://arxiv.org/abs/2106.04560
+ByT5-XXL,"Google,Google Research",2021-05-28,Language,8.1e+22,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2105.13626
+Transformer local-attention (NesT-B),"Google Cloud,Google Research",2021-05-26,Vision,2.40576e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2105.12723v4
+CogView,"Tsinghua University,Alibaba DAMO Academy",2021-05-26,Image generation,2.68e+22,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2105.13290
+MedBERT,"Peng Cheng Laboratory,University of Texas at Houston",2021-05-20,Medicine,9.47e+18,Likely,Unreleased,No,https://www.nature.com/articles/s41746-021-00455-y
+ADM,OpenAI,2021-05-11,Image generation,6.2e+21,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/2105.05233
+ProtT5-XL-U50,"Technical University of Munich,Med AI Technology,Nvidia,Oak Ridge National Laboratory,Google,Seoul National University",2021-05-04,Biology,1.8704498688e+22,Confident,Open weights (non-commercial),Yes,https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3.full.pdf
+ProtBERT-BFD,"Technical University of Munich,Nvidia,Seoul National University,Google,Oak Ridge National Laboratory,Med AI Technology",2021-05-04,Biology,3.9e+22,Confident,Open weights (unrestricted),Yes,"https://www.biorxiv.org/content/10.1101/2020.07.12.199554v3 or 
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9477085"
+PLUG,Alibaba,2021-04-19,Language,3.5997696e+22,Confident,Hosted access (no API),No,https://mp.weixin.qq.com/s/DAQomIkDa52Sef-ruyH5qg
+Unicorn,Allen Institute for AI,2021-03-24,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2103.13009
+M6-T,Alibaba,2021-03-05,"Multimodal,Language,Vision",5.5e+21,Likely,Unreleased,No,https://arxiv.org/abs/2105.15082
+Generative BST,Facebook AI Research,2021-03-05,Language,1.449e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2004.13637
+Meta Pseudo Labels,"Google Brain,Google AI",2021-03-01,Vision,4.79e+22,Likely,Unreleased,No,https://arxiv.org/abs/2003.10580
+SRU++ Large,ASAPP,2021-02-24,Language,2.1173704e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2102.12459
+Rational DQN Average,TU Darmstadt,2021-02-18,Games,,,Unreleased,No,https://arxiv.org/abs/2102.09407v3
+MSA Transformer,"Facebook AI Research,University of California (UC) Berkeley,New York University (NYU)",2021-02-13,Biology,5.49e+21,Likely,Open weights (unrestricted),Yes,https://proceedings.mlr.press/v139/rao21a/rao21a.pdf
+top-down frozen classifier,"University of Edinburgh,Toshiba Cambridge Research Laboratory",2021-02-09,Speech,,Unknown,Unreleased,No,https://arxiv.org/abs/2102.04697
+DLWP,"University of Washington,Microsoft Research",2021-02-09,Earth science,5.6845152e+18,Confident,Unreleased,No,https://arxiv.org/abs/2102.05107
+DeiT-B,"Meta AI,Sorbonne University",2021-01-15,Vision,7.884e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2012.12877
+Switch,Google,2021-01-11,Language,8.22e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2101.03961
+BigSSL,"Google,Apple",2021-01-10,Speech,,,Unreleased,No,https://arxiv.org/abs/2109.13226
+DALL-E,OpenAI,2021-01-05,Image generation,4.7e+22,Likely,API access,No,"https://openai.com/blog/dall-e/
+
+https://arxiv.org/abs/2102.12092"
+CLIP (ViT L/14@336px),OpenAI,2021-01-05,"Multimodal,Vision,Language,Video",1.05e+22,Confident,Open weights (unrestricted),Yes,"https://arxiv.org/abs/2103.00020
+https://huggingface.co/openai/clip-vit-large-patch14-336"
+CLIP (ResNet-50),OpenAI,2021-01-05,"Multimodal,Vision,Language,Video",,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2103.00020
+ERNIE-Doc (247M),Baidu,2020-12-31,Language,3.0302798e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2012.15688
+CT-MoS (WT2),"Google,National Tsing Hua University",2020-12-25,Language,5.4e+17,Confident,Unreleased,No,https://arxiv.org/abs/2012.13575
+DensePhrases,"Korea University,Princeton University",2020-12-23,Language,2.09952e+18,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/2012.12624v3
+VQGAN + CLIP,Heidelberg University,2020-12-17,Image generation,,Unknown,Open weights (unrestricted),Yes,https://arxiv.org/abs/2012.09841
+ESM1b,"Facebook AI Research,New York University (NYU)",2020-12-15,Biology,5.1e+21,Confident,Open weights (unrestricted),Yes,https://www.pnas.org/doi/abs/10.1073/pnas.2016239118
+CPM-Large,"Tsinghua University,Beijing Academy of Artificial Intelligence / BAAI",2020-12-01,Language,2.6052e+20,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2012.00413
+AlphaFold 2,DeepMind,2020-11-30,Biology,2.99e+21,Likely,Open weights (unrestricted),Yes,https://www.nature.com/articles/s41586-021-03819-2
+KEPLER,"Tsinghua University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),HEC,CIFAR AI Research,Princeton University,University of Montreal / Université de Montréal",2020-11-23,Language,1.66e+21,Confident,Unreleased,No,https://arxiv.org/abs/1911.06136
+wave2vec 2.0 LARGE,Facebook,2020-10-22,Speech,3.87072e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2006.11477
+ViT-Huge/14,"Google Brain,Google Research",2020-10-22,Vision,4.262e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2010.11929
+ViT-Base/32,Google Brain,2020-10-22,Vision,,,Open weights (unrestricted),Yes,https://arxiv.org/abs/2010.11929
+German ELECTRA Large,"deepset,Bayerische Staatsbibliothek Muenchen",2020-10-21,Language,1.42829568e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2010.10906
+mT5-XXL,"Google,Google Research",2020-10-20,Language,8.2e+22,Confident,Open weights (unrestricted),Yes,https://aclanthology.org/2021.naacl-main.41/
+Conformer + Wav2vec 2.0 + Noisy Student,"Google,Google Research,Google Brain",2020-10-20,Speech,7.6e+21,Confident,Unreleased,No,https://arxiv.org/abs/2010.10504v2
+LUKE,"University of Washington,National Institute of Informatics",2020-10-02,Language,1.8144e+22,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2010.01057v1
+ProBERTa,"University of Illinois Urbana-Champaign (UIUC),Reed College",2020-09-01,Biology,9.72e+18,Confident,Open weights (non-commercial),Yes,https://dl.acm.org/doi/10.1145/3388440.3412467
+ERNIE-GEN (large),Baidu,2020-08-06,Language,2e+20,Speculative,Open weights (non-commercial),Yes,https://arxiv.org/abs/2001.11314
+DeLighT,"University of Washington,Allen Institute for AI,Facebook AI Research",2020-08-03,Language,3.8016e+18,Likely,Unreleased,No,https://arxiv.org/abs/2008.00623
+EfficientDet,Google Brain,2020-07-27,Vision,,,Open weights (unrestricted),Yes,https://arxiv.org/abs/1911.09070
+Hopfield Networks (2020),"Johannes Kepler University Linz,Institute of Advanced Research in Artificial Intelligence,University of Oslo",2020-07-16,"Biology,Vision,Language,Medicine",,Unknown,Open weights (unrestricted),Yes,https://arxiv.org/abs/2008.02217
+SemExp,"Carnegie Mellon University (CMU),Facebook AI Research",2020-07-02,Robotics,,Unknown,Open weights (unrestricted),Yes,"https://proceedings.neurips.cc/paper/2020/file/2c75cf2681788adaca63aa95ae028b22-Paper.pdf
+https://arxiv.org/abs/2007.00643"
+GShard (dense),Google,2020-06-30,Language,4.765e+22,Confident,Unreleased,No,https://arxiv.org/abs/2006.16668
+GPT-3 175B (davinci),OpenAI,2020-05-28,Language,3.14e+23,Confident,API access,No,https://arxiv.org/abs/2005.14165
+DETR,Facebook,2020-05-26,Vision,4e+20,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2005.12872
+Retrieval-Augmented Generator,"Facebook,New York University (NYU),University College London (UCL)",2020-05-22,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2005.11401v4
+Conformer,Google,2020-05-16,Speech,,Confident,Unreleased,No,https://arxiv.org/abs/2005.08100v1
+ContextNet,Google,2020-05-07,Speech,,Likely,Unreleased,No,https://arxiv.org/abs/2005.03191v3
+NAS+ESS (23M),"Northeastern University (China),NiuTrans Research,Kingsoft",2020-05-06,Language,,Confident,Unreleased,No,https://arxiv.org/pdf/2005.02593
+UnifiedQA,"Allen Institute for AI,University of Washington",2020-05-02,Language,1.65e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2005.00700v3
+Once for All,"MIT-IBM Watson AI Lab,Massachusetts Institute of Technology (MIT),IBM",2020-04-29,Vision,6.237e+20,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1908.09791
+Go-explore,"Uber AI,OpenAI",2020-04-27,Games,,Unknown,Unreleased,No,https://arxiv.org/abs/2004.12919
+CURL,University of California (UC) Berkeley,2020-04-08,Games,,,Open weights (unrestricted),Yes,https://arxiv.org/abs/2004.04136v4
+Agent57,DeepMind,2020-03-30,Games,,Unknown,Unreleased,No,https://arxiv.org/abs/2003.13350
+MetNet,Google,2020-03-24,Earth science,9.510912e+18,Speculative,Unreleased,No,https://arxiv.org/abs/2003.12140
+ELECTRA,"Stanford University,Google,Google Brain",2020-03-23,Language,3.1e+21,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/2003.10555v1
+Tensor-Transformer(1core)+PN (WT103),University of California (UC) Berkeley,2020-03-17,Language,1.58e+18,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2003.07845
+Routing Transformer (WT-103),Google Research,2020-03-12,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2003.05997
+TransformerXL + spectrum control,"University of California Los Angeles (UCLA),JD.com",2020-03-11,Language,2.6289761e+19,Speculative,Unreleased,No,https://openreview.net/forum?id=ByxY8CNtvr
+TCAN (WT2),"Nanjing University,Ant Group",2020-02-28,Language,,Confident,Unreleased,No,https://arxiv.org/abs/2002.12530
+Feedback Transformer,"LORIA,University of Lorraine,Facebook AI Research",2020-02-21,Language,7.690547e+18,Speculative,Unreleased,No,https://arxiv.org/abs/2002.09402
+FFN SwiGLU,Google,2020-02-14,Language,3.3687317e+19,Confident,Unreleased,No,https://arxiv.org/abs/2002.05202
+Turing-NLG,Microsoft,2020-02-13,Language,1.57e+22,Likely,Unreleased,No,https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/
+SimCLR,Google Brain,2020-02-13,Vision,,,Open weights (unrestricted),Yes,https://arxiv.org/abs/2002.05709
+ALBERT-xxlarge,"Toyota Technological Institute at Chicago,Google",2020-02-09,Language,2.39e+21,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/1909.11942
+TaLK Convolution,Carleton University,2020-02-08,Language,2.6990346e+19,Likely,Unreleased,No,https://arxiv.org/abs/2002.03184
+Perceiver IO (optical flow),DeepMind,2020-02-08,"Multimodal,Language,Vision",,Confident,Unreleased,No,https://arxiv.org/abs/2107.14795
+Theseus 6/768,"University of California San Diego,Beihang University,Microsoft",2020-02-07,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/2002.02925
+Meena,Google Brain,2020-01-28,Language,1.12e+23,Confident,Unreleased,No,https://arxiv.org/abs/2001.09977
+ContextNet + Noisy Student,Google,2020-01-19,Speech,8.16e+21,Confident,Unreleased,No,https://arxiv.org/abs/2005.09629v2
+AlphaFold,DeepMind,2020-01-15,Biology,1e+20,Speculative,Unreleased,No,https://www.nature.com/articles/s41586-019-1923-7
+Big Transfer (BiT-L),Google Brain,2019-12-24,Vision,,,Unreleased,No,https://arxiv.org/abs/1912.11370
+DD-PPO,"Georgia Institute of Technology,Facebook AI Research,Oregon State University,Simon Fraser University",2019-12-19,Robotics,7.8e+20,Likely,Unreleased,No,"https://openreview.net/forum?id=H1gX8C4YPr
+https://arxiv.org/abs/1911.00357"
+OpenAI Five Rerun,OpenAI,2019-12-13,Games,1.3e+22,Confident,Unreleased,No,https://cdn.openai.com/dota-2.pdf
+OpenAI Five,OpenAI,2019-12-13,Games,6.7e+22,Confident,Unreleased,No,https://arxiv.org/abs/1912.06680
+MMLSTM (WT-2),"Beijing University of Posts and Telecommunications,University of West London",2019-12-05,Language,1.938e+17,Likely,Unreleased,No,http://repository.uwl.ac.uk/id/eprint/6490/1/Loo_etal_IEEE_TNNLS_2019_Major-minor_long_short-term_memory_for_word-level_language_model.pdf
+MMLSTM (PTB),"Beijing University of Posts and Telecommunications,University of West London",2019-12-05,Language,5.8298782e+16,Likely,Unreleased,No,http://repository.uwl.ac.uk/id/eprint/6490/1/Loo_etal_IEEE_TNNLS_2019_Major-minor_long_short-term_memory_for_word-level_language_model.pdf
+StarGAN v2,"NAVER,Yonsei University,Swiss Federal Institute of Technology",2019-12-04,"Vision,Image generation",,Unknown,Open weights (non-commercial),Yes,https://arxiv.org/abs/1912.01865
+StyleGAN2,"Nvidia,Aalto University",2019-12-03,Image generation,,Confident,Open weights (restricted use),Yes,https://arxiv.org/pdf/1912.04958
+Transformer-XL DeFINE (141M),"University of Washington,Allen Institute for AI",2019-11-27,Language,1.74276e+18,Speculative,Unreleased,No,https://arxiv.org/abs/1911.12385
+Photo-Geometric Autoencoder,University of Oxford,2019-11-25,"3D modeling,Vision",,Unknown,Open weights (unrestricted),Yes,https://arxiv.org/abs/1911.11130
+Transformer - LibriVox + Decoding/Rescoring,Facebook,2019-11-19,Speech,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1911.08460v3
+MuZero,DeepMind,2019-11-19,Games,4.8e+19,Speculative,Unreleased,No,https://arxiv.org/abs/1911.08265v2
+MoCo,Facebook AI,2019-11-13,"Vision,Image generation",,,Open weights (non-commercial),Yes,https://arxiv.org/abs/1911.05722
+Noisy Student (L2),"Carnegie Mellon University (CMU),Google",2019-11-11,Vision,2.612e+22,Confident,Unreleased,No,https://arxiv.org/abs/1911.04252v4
+Sandwich Transformer,"Allen Institute for AI,Facebook AI Research",2019-11-10,Language,2.3504093e+19,Speculative,Unreleased,No,https://arxiv.org/abs/1911.03864
+CamemBERT,"Facebook,INRIA,Sorbonne University",2019-11-10,Language,8.3e+20,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1911.03894
+XLM-RoBERTa,Facebook AI,2019-11-05,Language,2.076e+22,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/1911.02116
+Base LM + kNN LM + Continuous Cache,"Stanford University,Facebook AI Research",2019-11-01,Language,3.05292e+19,Likely,Unreleased,No,https://arxiv.org/abs/1911.00172
+AlphaStar,DeepMind,2019-10-30,Games,1.0773400001e+23,Confident,Unreleased,No,https://www.deepmind.com/blog/alphastar-grandmaster-level-in-starcraft-ii-using-multi-agent-reinforcement-learning
+BART-large,Facebook AI,2019-10-29,Language,,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/1910.13461
+T5-11B,Google,2019-10-23,Language,3.3e+22,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1910.10683
+T5-3B,Google,2019-10-23,Language,9.0000000001e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1910.10683
+M4-50B,Google,2019-10-11,Language,,Confident,Unreleased,No,https://blog.research.google/2019/10/exploring-massively-multilingual.html
+DistilBERT,Hugging Face,2019-10-02,Language,1.24416e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1910.01108
+AlphaX-1,"Facebook AI Research,Brown University",2019-10-02,Vision,8.89344e+17,Confident,Unreleased,No,https://arxiv.org/abs/1903.11059
+ALBERT,"Toyota Technological Institute at Chicago,Google Research",2019-09-26,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1909.11942
+Adaptive Inputs + LayerDrop,"Facebook AI Research,LORIA",2019-09-25,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1909.11556
+Megatron-LM (8.3B),Nvidia,2019-09-17,Language,9.1e+21,Likely,Unreleased,No,https://arxiv.org/abs/1909.08053
+Megatron-LM (1.2B),Nvidia,2019-09-17,Language,1.1304e+21,Confident,Unreleased,No,https://arxiv.org/abs/1909.08053
+Megatron-BERT,Nvidia,2019-09-17,Language,2.2e+22,Confident,Unreleased,No,https://arxiv.org/abs/1909.08053
+UDSMProt,Fraunhofer Heinrich Hertz Institute,2019-09-04,Biology,6.37e+17,Likely,Open weights (unrestricted),Yes,https://www.biorxiv.org/content/10.1101/704874v2.full.pdf
+"Mogrifier (d2, MoS2, MC) + dynamic eval","DeepMind,University of Oxford",2019-09-04,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1909.01792
+trRosetta,"Nankai University,University of Washington,Tianjin University,Harvard University",2019-08-22,Biology,3.8047968e+19,Confident,Open weights (unrestricted),Yes,https://www.pnas.org/doi/10.1073/pnas.1914677117
+EN^2AS with performance reward,"Beijing Institute of Technology,University of Technology Sydney,Monash University",2019-07-22,Language,,,Unreleased,No,https://arxiv.org/abs/1907.09109
+Pluribus,Facebook AI Research,2019-07-11,Games,6.6e+16,Likely,Unreleased,No,https://www.science.org/cms/asset/910714a7-ee2a-486e-9970-42fb893b08d9/pap.pdf
+BigBiGAN,Google,2019-07-04,"Vision,Image generation",,,Open weights (unrestricted),Yes,https://arxiv.org/abs/1907.02544
+RoBERTa Large,"Facebook,University of Washington",2019-07-01,Language,8.5067e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1907.11692
+Walking Minotaur robot,"University of California (UC) Berkeley,Google Brain",2019-06-19,Robotics,,Unknown,Unreleased,No,https://arxiv.org/abs/1812.11103
+LaNet-L (CIFAR-10),"Brown University,Facebook",2019-06-17,Vision,,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/1906.06832
+PG-SWGAN,ETH Zurich,2019-06-15,Image generation,,Unknown,Unreleased,No,https://openaccess.thecvf.com/content_CVPR_2019/html/Wu_Sliced_Wasserstein_Generative_Models_CVPR_2019_paper.html
+FixRes ResNeXt-101 WSL,Facebook AI,2019-06-14,Vision,,,Open weights (non-commercial),Yes,https://arxiv.org/abs/1906.06423
+Char-CNN-BiLSTM,Capital One,2019-06-13,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1906.05678
+AWD-LSTM + MoS + Partial Shuffled,University of Texas at Austin,2019-06-10,Language,3.15e+17,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/1906.03805
+Transformer-XL Large + Phrase Induction,"Massachusetts Institute of Technology (MIT),University of Illinois Urbana-Champaign (UIUC)",2019-06-04,Language,3.7848651e+20,Speculative,Unreleased,No,https://arxiv.org/abs/1906.01702
+XLNet,"Carnegie Mellon University (CMU),Google Brain",2019-06-01,Language,6.19e+21,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1906.08237
+XLM,Facebook,2019-06-01,Language,,,Open weights (non-commercial),Yes,https://arxiv.org/abs/1901.07291
+DLRM-2020,Facebook AI,2019-05-31,Recommendation,4e+18,Confident,Unreleased,No,https://arxiv.org/abs/1906.00091
+EfficientNet-L2,Google,2019-05-28,Vision,,,Open weights (unrestricted),Yes,https://arxiv.org/abs/1905.11946
+CPC v2,"DeepMind,University of California (UC) Berkeley",2019-05-22,Vision,,,Unreleased,No,https://arxiv.org/abs/1905.09272
+AWD-LSTM-DRILL + dynamic evaluation† (WT2),IDIAP,2019-05-14,Language,4.08e+17,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/1905.05513
+ResNeXt-101 Billion-scale,Facebook AI,2019-05-02,Vision,,,Open weights (non-commercial),Yes,https://arxiv.org/abs/1905.00546
+RaptorX-Contact,Toyota Technological Institute at Chicago,2019-05-02,Biology,,Unknown,Unreleased,No,https://www.biorxiv.org/content/biorxiv/early/2019/05/02/624460.full.pdf
+Neuro-Symbolic Concept Learner,"Massachusetts Institute of Technology (MIT),Tsinghua University,MIT-IBM Watson AI Lab,DeepMind",2019-04-26,"Vision,Language",,Unknown,Unreleased,No,https://arxiv.org/abs/1904.12584
+MuseNet,OpenAI,2019-04-25,Audio,2.208301056e+20,Likely,Unreleased,No,https://openai.com/index/musenet/
+BERT-Large-CAS (PTB+WT2+WT103),Amazon,2019-04-20,Language,1.5405e+20,Likely,Unreleased,No,https://arxiv.org/abs/1904.09408
+Transformer-XL + RMS dynamic eval,University of Edinburgh,2019-04-17,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1904.08378
+WeNet (Penn Treebank),Amazon,2019-04-08,Language,7.30000001e+17,Likely,Unreleased,No,https://arxiv.org/abs/1904.03819
+True-Regularization+Finetune+Dynamic-Eval,"Mobvoi,Williams College",2019-04-08,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1904.04163
+Cross-lingual alignment,"Tel Aviv University,Massachusetts Institute of Technology (MIT)",2019-04-04,Language,2.56e+18,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/1902.09492
+SciBERT,Allen Institute for AI,2019-03-26,Language,8.926848e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1903.10676
+NMT Transformer 437M,"Google,Bar-Ilan University",2019-02-28,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1903.00089
+KataGo,Jane Street,2019-02-27,Games,2.32e+19,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/1902.10565
+GPT-2 (1.5B),OpenAI,2019-02-14,Language,1.920000000001e+21,Speculative,Open weights (unrestricted),Yes,https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
+SDE,"Carnegie Mellon University (CMU),Google Brain,Monash University",2019-02-09,Language,,Unknown,Unreleased,No,https://arxiv.org/abs/1902.03499
+Hanabi 4 player,"DeepMind,University of Oxford,Carnegie Mellon University (CMU),Google Brain",2019-02-01,Games,4.3e+18,Confident,Unreleased,No,https://arxiv.org/abs/1902.00506
+MT-DNN,Microsoft,2019-01-31,Language,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1901.11504
+Transformer-XL (257M),"Carnegie Mellon University (CMU),Google Brain",2019-01-09,Language,3.7832771e+20,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/1901.02860
+Transformer ELMo,"Allen Institute for AI,University of Washington",2019-01-01,Language,,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Dissecting-Contextual-Word-Embeddings%3A-Architecture-Peters-Neumann/ac11062f1f368d97f4c826c317bf50dcc13fdb59
+StyleGAN,Nvidia,2018-12-12,Image generation,3.93e+16,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/1812.04948
+SPN (ImageNet 128),"Google Brain,DeepMind",2018-12-04,Image generation,,Confident,Unreleased,No,https://arxiv.org/abs/1812.01608
+GPipe (Transformer),Google,2018-11-16,Language,,Likely,,,https://arxiv.org/abs/1811.06965
+Multi-cell LSTM,University of Hyderabad,2018-11-15,Language,2006640000000000.0,Likely,Unreleased,No,https://arxiv.org/abs/1811.06477
+Fine-tuned-AWD-LSTM-DOC (fin),Samsung R&D Institute Russia,2018-11-12,Language,5.188e+16,Confident,Unreleased,No,https://arxiv.org/abs/1811.04623
+Mesh-TensorFlow Transformer 4.9B (language),Google Brain,2018-11-05,Language,1.617408e+20,Confident,Unreleased,No,https://arxiv.org/abs/1811.02084
+Mesh-TensorFlow Transformer 2.9B (translation),Google Brain,2018-11-05,Language,6.84288e+19,Likely,Unreleased,No,https://arxiv.org/abs/1811.02084
+MemoReader,"Samsung,Korea University",2018-10-31,Language,,Confident,Unreleased,No,https://aclanthology.org/D18-1237/
+TrellisNet,"Carnegie Mellon University (CMU),Bosch Center for Artificial Intelligence,Intel Labs",2018-10-15,Language,2.78e+18,Confident,Unreleased,No,https://arxiv.org/abs/1810.06682
+MetaMimic,Google,2018-10-11,Robotics,,,,,https://arxiv.org/abs/1810.05017
+BERT-Large,Google,2018-10-11,Language,2.85e+20,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1810.04805
+Transformer (Adaptive Input Embeddings) WT103,Facebook AI Research,2018-09-28,Language,4.47e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1809.10853
+LSTM+NeuralCache,"KU Leuven,ESAT - PSI,Apple",2018-09-24,Language,982800000000000.0,Likely,Unreleased,No,https://arxiv.org/abs/1809.08826
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2018)","Peking University,Microsoft Research Asia",2018-09-18,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1809.06858
+Transformer + Simple Recurrent Unit,"ASAPP,Cornell University,Google,Princeton University",2018-09-17,Language,1.1e+19,Confident,Unreleased,No,https://arxiv.org/abs/1709.02755v5
+NetSurfP-2.0,"Technical University of Denmark,University of Copenhagen,Universidad Nacional de San Martín,AIMST University",2018-09-10,Biology,,Unknown,Hosted access (no API),No,https://www.biorxiv.org/content/10.1101/311209v3.full
+(ensemble): AWD-LSTM-DOC (fin) × 5 (WT2),"NTT Communication Science Laboratories,Tohoku University",2018-08-30,Language,6.66e+17,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1808.10143
+Big Transformer for Back-Translation,"Facebook AI Research,Google Brain",2018-08-28,Language,4.7808e+20,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/1808.09381
+AWD-LSTM-MoS+PDR + dynamic evaluation (WT2),IBM,2018-08-14,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1808.05908
+Big-Little Net (speech),IBM,2018-07-10,Speech,4.290048e+17,Speculative,Open weights (unrestricted),Yes,https://arxiv.org/abs/1807.03848
+Big-Little Net,IBM,2018-07-10,Vision,2.46048e+17,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/1807.03848
+FTW (For The Win),DeepMind,2018-07-03,Games,3.49e+19,Speculative,Unreleased,No,https://arxiv.org/abs/1807.01281
+MobileNetV2,Google,2018-06-18,Vision,,,,,https://ieeexplore.ieee.org/document/8578572
+Relational Memory Core,"DeepMind,University College London (UCL)",2018-06-05,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1806.01822
+GPT-1,OpenAI,2018-06-01,Language,1.7578125e+19,Likely,Open weights (unrestricted),Yes,https://openai.com/blog/language-unsupervised/
+aLSTM(depth-2)+RecurrentPolicy (WT2),"University of Manchester,Alan Turing Institute",2018-05-22,Language,7.296e+16,Confident,Unreleased,No,https://arxiv.org/abs/1805.08574
+Dropout-LSTM+Noise(Bernoulli) (WT2),"Columbia University,New York University (NYU),Princeton University",2018-05-03,Language,1.27e+17,Likely,Unreleased,No,https://arxiv.org/abs/1805.01500
+ResNeXt-101 32x48d,Facebook,2018-05-02,Vision,8.74395e+21,Confident,Open weights (non-commercial),Yes,https://arxiv.org/abs/1805.00932
+YOLOv3,University of Washington,2018-04-08,Vision,1.3416380824e+19,Likely,Unreleased,No,https://arxiv.org/abs/1804.02767
+4 layer QRNN (h=2500),Salesforce Research,2018-03-22,Language,5.9158815e+17,Likely,Unreleased,No,https://arxiv.org/abs/1803.08240
+Chinese - English translation,Microsoft,2018-03-01,Language,,Unknown,,,https://www.microsoft.com/en-us/research/publication/achieving-human-parity-on-automatic-chinese-to-english-news-translation/
+TCN (P-MNIST),"Carnegie Mellon University (CMU),Intel Labs",2018-02-15,Vision,,Confident,,,https://openreview.net/forum?id=rk8wKk-R-
+DeepLabV3+,Google,2018-02-07,Vision,,Unknown,,,https://arxiv.org/abs/1802.02611v3
+IMPALA,DeepMind,2018-02-05,Games,1.68e+20,Confident,Unreleased,No,https://arxiv.org/abs/1802.01561
+QRNN,Salesforce Research,2018-02-01,Language,6.8866472e+17,Likely,Unreleased,No,https://mlsys.org/Conferences/doc/2018/50.pdf
+ELMo,"University of Washington,Allen Institute for AI",2018-02-01,Language,3300100000000010.0,Speculative,,,https://arxiv.org/abs/1802.05365
+T-DMCA,Google Brain,2018-01-30,Language,,Likely,Unreleased,No,https://arxiv.org/abs/1801.10198
+AlphaZero,DeepMind,2017-12-05,Games,1.0600000001e+20,Likely,Unreleased,No,https://arxiv.org/abs/1712.01815
+DL scaling speech,Baidu,2017-12-01,Speech,,Likely,Unreleased,No,https://www.semanticscholar.org/paper/Deep-Learning-Scaling-is-Predictable%2C-Empirically-Hestness-Narang/a1c922be467d1c0c64b963e65dae41778b81b2a0
+DL scaling LM,Baidu,2017-12-01,Language,,Speculative,Unreleased,No,https://www.semanticscholar.org/paper/Deep-Learning-Scaling-is-Predictable%2C-Empirically-Hestness-Narang/a1c922be467d1c0c64b963e65dae41778b81b2a0
+DL scaling Image,Baidu,2017-12-01,Vision,,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Deep-Learning-Scaling-is-Predictable%2C-Empirically-Hestness-Narang/a1c922be467d1c0c64b963e65dae41778b81b2a0
+TriNet,"Visual Computing Institute,RWTH Aachen University",2017-11-21,Video,,Unknown,,,https://arxiv.org/abs/1703.07737
+"AWD-LSTM-MoS + dynamic evaluation (WT2, 2017)",Carnegie Mellon University (CMU),2017-11-10,Language,3.36e+18,Likely,Unreleased,No,https://arxiv.org/abs/1711.03953
+VQ-VAE,DeepMind,2017-11-02,Vision,,Unknown,Unreleased,No,https://arxiv.org/abs/1711.00937
+Fraternal dropout + AWD-LSTM 3-layer (WT2),"Jagiellonian University,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms),University of Montreal / Université de Montréal",2017-10-31,Language,3.06e+17,Likely,Unreleased,No,https://arxiv.org/abs/1711.00066
+DCN+,Salesforce Research,2017-10-31,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1711.00106v2
+S-Norm,"University of Washington,Allen Institute for AI",2017-10-29,Language,,Confident,,,https://arxiv.org/abs/1710.10723v2
+PhraseCond,"Carnegie Mellon University (CMU),University of Pittsburgh",2017-10-28,Language,,Confident,,,https://arxiv.org/abs/1710.10504v2
+ProgressiveGAN,Nvidia,2017-10-27,Vision,,Unknown,,,https://arxiv.org/abs/1710.10196
+AlphaGo Master,DeepMind,2017-10-19,Games,3.4100000001e+20,Likely,Unreleased,No,https://www.nature.com/articles/nature24270
+AlphaGo Zero,DeepMind,2017-10-18,Games,6.49439910290227e+20,Confident,Unreleased,No,https://www.nature.com/articles/nature24270
+Rainbow DQN,DeepMind,2017-10-06,Games,,Unknown,Unreleased,No,https://arxiv.org/abs/1710.02298
+AWD-LSTM+WT+Cache+IOG (WT2),NTT Communication Science Laboratories,2017-09-26,Language,3180000000000000.0,Confident,Unreleased,No,https://arxiv.org/abs/1709.08907
+LSTM + dynamic eval,University of Edinburgh,2017-09-21,Language,,Likely,Unreleased,No,https://arxiv.org/abs/1709.07432
+ISS,"Duke University,Microsoft",2017-09-15,Language,3400000000000000.0,Confident,Unreleased,No,https://arxiv.org/abs/1709.05027
+PyramidNet,Korea Advanced Institute of Science and Technology (KAIST),2017-09-06,Vision,2340000000000000.0,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/1610.02915v4
+SENet (ImageNet),"Chinese Academy of Sciences,University of Oxford",2017-09-05,Vision,,,,,https://arxiv.org/abs/1709.01507
+GL-LWGC-AWD-MoS-LSTM + dynamic evaluation (WT2),Ben-Gurion University of the Negev,2017-08-29,Language,4.56e+17,Confident,Unreleased,No,https://arxiv.org/abs/1708.08863
+Libratus,Carnegie Mellon University (CMU),2017-08-19,Games,5.51e+20,Likely,Unreleased,No,https://www.ijcai.org/proceedings/2017/0772.pdf
+NeuMF (Pinterest),"Shandong University,Texas A&M,National University of Singapore,Columbia University",2017-08-16,Recommendation,,Unknown,,,https://arxiv.org/abs/1708.05031
+EI-REHN-1000D,Korea Advanced Institute of Science and Technology (KAIST),2017-08-14,Language,1.06e+16,Confident,Unreleased,No,https://arxiv.org/abs/1708.04116
+OpenAI TI7 DOTA 1v1,OpenAI,2017-08-11,Games,6.046095222592002e+20,Confident,,,https://openai.com/research/dota-2
+RetinaNet-R101,Facebook AI Research,2017-08-07,Vision,2.065392e+18,Confident,,,https://arxiv.org/abs/1708.02002
+RetinaNet-R50,Facebook AI Research,2017-08-07,Vision,,,,,https://arxiv.org/abs/1708.02002
+AWD-LSTM - 3-layer LSTM (tied) + continuous cache pointer (WT2),Salesforce Research,2017-08-07,Language,2.97e+17,Confident,Unreleased,No,https://arxiv.org/abs/1708.02182
+GSM,"Peking University,Microsoft Research",2017-07-30,Language,,Likely,,,https://aclanthology.org/P17-1018/
+ConvS2S (ensemble of 8 models),Meta AI,2017-07-25,Language,5.64e+19,Likely,,,https://arxiv.org/abs/1705.03122
+PSPNet,Chinese University of Hong Kong (CUHK),2017-07-21,Vision,,Unknown,,,https://ieeexplore.ieee.org/document/8100143
+NASNet-A,Google Brain,2017-07-21,Vision,,,,,https://arxiv.org/abs/1707.07012
+AWD-LSTM,"DeepMind,University of Oxford",2017-07-18,Language,,Confident,Unreleased,No,https://arxiv.org/abs/1707.05589
+JFT,"Google Research,Carnegie Mellon University (CMU)",2017-07-10,Vision,8.43e+20,Confident,,,https://arxiv.org/abs/1707.02968
+DeepLoc,"Technical University of Denmark,University of Copenhagen",2017-07-07,Biology,5.781024e+17,Likely,Hosted access (no API),No,https://academic.oup.com/bioinformatics/article/33/21/3387/3931857
+ShuffleNet v1,Megvii Inc,2017-07-03,Vision,,,,,https://arxiv.org/abs/1707.01083
+NoisyNet-Dueling,DeepMind,2017-06-30,Games,,Unknown,Unreleased,No,https://arxiv.org/abs/1706.10295v3
+DeepLabV3,Google,2017-06-17,Vision,,Unknown,,,https://arxiv.org/abs/1706.05587
+HRA,"Maluuba,Microsoft",2017-06-13,Games,,Unknown,,,https://arxiv.org/abs/1706.04208
+Transformer,"Google Research,Google Brain",2017-06-12,Language,7.4245248e+18,Confident,Unreleased,No,https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf
+EDSR,Seoul National University,2017-06-10,"Vision,Image generation",,Unknown,,,https://arxiv.org/abs/1707.02921
+Reading Twice for NLU,DeepMind,2017-06-08,Language,,Unknown,,,https://arxiv.org/abs/1706.02596v3
+PointNet++,Stanford University,2017-06-07,3D modeling,,Unknown,,,https://arxiv.org/abs/1706.02413
+Inflated 3D ConvNet,"DeepMind,University of Oxford",2017-06-01,3D modeling,,Unknown,,,https://arxiv.org/abs/1705.07750
+SRGAN,Twitter,2017-05-25,"Vision,Image generation",,Unknown,Unreleased,No,https://openaccess.thecvf.com/content_cvpr_2017/html/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.html
+Mnemonic Reader,"Fudan University,Microsoft Research",2017-05-08,Language,,Confident,,,https://arxiv.org/abs/1705.02798v6
+DeepLab (2017),"Johns Hopkins University,Google,University College London (UCL)",2017-04-27,Vision,,Unknown,,,https://ieeexplore.ieee.org/abstract/document/7913730
+MobileNet,Google,2017-04-17,Vision,,,,,https://arxiv.org/abs/1704.04861
+WGAN-GP,"Courant Institute of Mathematical Sciences,Mila - Quebec AI (originally Montreal Institute for Learning Algorithms)",2017-03-31,Image generation,,Unknown,Unreleased,No,https://arxiv.org/abs/1704.00028
+Mask R-CNN,Facebook AI Research,2017-03-30,Vision,,Unknown,,,https://arxiv.org/abs/1703.06870
+Prototypical networks,"University of Toronto,Twitter",2017-03-15,Vision,,Unknown,,,https://arxiv.org/abs/1703.05175
+DnCNN,"Harbin Institute of Technology,Hong Kong Polytechnic University,ULSee Inc.,Xi’an Jiaotong University",2017-02-01,"Vision,Image generation",,Unknown,,,https://ieeexplore.ieee.org/abstract/document/7839189
+MoE-Multi,"Jagiellonian University,Google Brain",2017-01-23,Language,9.393905664e+19,Confident,Unreleased,No,https://arxiv.org/abs/1701.06538
+OR-WideResNet,"Duke University,University of Chinese Academy of Sciences",2017-01-07,Vision,,Confident,,,https://arxiv.org/abs/1701.01833v2
+DeepStack,"University of Alberta,Charles University,Czech Technical University",2017-01-06,Games,1.446336e+19,Speculative,,,https://arxiv.org/abs/1701.01724
+YOLOv2,"University of Washington,Allen Institute for AI",2016-12-25,Vision,,,Open weights (non-commercial),Yes,https://arxiv.org/abs/1612.08242
+EnhanceNet,Max Planck Institute for Intelligent Systems,2016-12-23,Vision,1.3079231999999998e+17,Confident,Open weights (unrestricted),Yes,https://www.semanticscholar.org/paper/EnhanceNet%3A-Single-Image-Super-Resolution-Through-Sajjadi-Scholkopf/fddc32f3880688238847077fd927ab3025db7a6a
+3DMM-CNN,University of Southern California,2016-12-15,Vision,,Confident,Open weights (restricted use),Yes,https://arxiv.org/abs/1612.04904
+HR-ResNet101,Carnegie Mellon University (CMU),2016-12-13,Vision,7.077e+18,Confident,Open weights (unrestricted),Yes,https://www.semanticscholar.org/paper/Finding-Tiny-Faces-Hu-Ramanan/71f51e1b6691343ed031c1ed42efc96a7f1a0619
+GAN-Advancer,OpenAI,2016-12-05,Vision,,Unknown,Unreleased,No,https://dl.acm.org/doi/10.5555/3157096.3157346
+PointNet,Stanford University,2016-12-02,3D modeling,,Unknown,,,https://arxiv.org/abs/1612.00593
+Elastic weight consolidation,DeepMind,2016-12-02,"Vision,Games",,Unknown,,,https://arxiv.org/abs/1612.00796
+Image-to-image cGAN,University of California (UC) Berkeley,2016-11-21,"Vision,Image generation",,Unknown,,,https://arxiv.org/abs/1611.07004
+PolyNet,Chinese University of Hong Kong (CUHK),2016-11-17,Vision,6.4e+19,Likely,,,https://arxiv.org/abs/1611.05725
+ResNeXt-101 (64×4d),"University of California San Diego,Facebook",2016-11-16,Vision,1.2e+19,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1611.05431
+ResNeXt-50,"University of California San Diego,Facebook",2016-11-16,Vision,,Likely,Open weights (unrestricted),Yes,https://arxiv.org/abs/1611.05431
+DAC-CSR,"Jiangnan University,University of Surrey",2016-11-16,Vision,,Confident,Unreleased,No,https://arxiv.org/abs/1611.05396
+DTN (Domain Transfer Network),Facebook AI Research,2016-11-07,"Vision,Image generation",,Unknown,Unreleased,No,https://arxiv.org/abs/1611.02200
+DLDL (PASCAL),University of Oxford,2016-11-06,Vision,,Likely,Open weights (unrestricted),Yes,https://www.semanticscholar.org/paper/Deep-Label-Distribution-Learning-With-Label-Gao-Xing/02567fd428a675ca91a0c6786f47f3e35881bcbd
+NASv3 (CIFAR-10),Google Brain,2016-11-05,Vision,2.2e+21,Likely,,,https://arxiv.org/abs/1611.01578
+NAS with base 8 and shared embeddings,Google Brain,2016-11-05,Language,1.05e+16,Confident,Unreleased,No,https://arxiv.org/abs/1611.01578
+BIDAF,"University of Washington,Allen Institute for AI",2016-11-05,Language,3.4686144e+18,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1611.01603v6
+VD-LSTM+REAL Large,"Salesforce Research,Stanford University",2016-11-04,Language,2.13e+16,Confident,Unreleased,No,https://arxiv.org/abs/1611.01462
+SPIDER2,"Griffith University,University of Iowa,Dezhou University",2016-10-28,Biology,1.822e+16,Likely,Open weights (non-commercial),Yes,https://link.springer.com/protocol/10.1007/978-1-4939-6406-2_6
+GAWWN,"University of Michigan,Max Planck Institute for Informatics",2016-10-08,Vision,,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Learning-What-and-Where-to-Draw-Reed-Akata/cad4ac0d2389a89cf1955dd4788278c1e8ac1af9
+Xception,Google,2016-10-07,Vision,4.36e+20,Confident,,,https://arxiv.org/abs/1610.02357
+Pointer Sentinel-LSTM (medium),"MetaMind Inc,Salesforce",2016-09-26,Language,7490000000000000.0,Confident,Unreleased,No,https://arxiv.org/abs/1609.07843
+GNMT,Google,2016-09-26,Language,6.620000000001e+21,Likely,Hosted access (no API),No,https://arxiv.org/abs/1609.08144
+Wide Residual Network,Université Paris-Est,2016-09-19,Vision,,Unknown,,,https://arxiv.org/abs/1605.07146
+ResNet-1001,Microsoft,2016-09-17,Vision,,,,,https://link.springer.com/chapter/10.1007/978-3-319-46493-0_38
+ResNet-200,Microsoft Research Asia,2016-09-17,Vision,2.9741645e+19,Speculative,Unreleased,No,https://link.springer.com/chapter/10.1007/978-3-319-46493-0_38
+Youtube recommendation model,Google,2016-09-15,Recommendation,,Unknown,,,https://research.google/pubs/pub45530/
+WaveNet,Google DeepMind,2016-09-12,Speech,,Unknown,,,https://arxiv.org/abs/1609.03499
+MS-ensemble-speech-recognition,Microsoft,2016-09-12,Speech,,Likely,Unreleased,No,https://www.semanticscholar.org/paper/The-microsoft-2016-conversational-speech-system-Xiong-Droppo/ac94ef90be9b0c3bf744d6744e47b38855f9a4c7
+LF-MMI,"Johns Hopkins University,Cornell University",2016-09-08,Speech,,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Purely-Sequence-Trained-Neural-Networks-for-ASR-on-Povey-Peddinti/6ce6a9a30cd69bd2842a4b581cf48c6815bdfdd8
+DenseNet-264,"Tsinghua University,Facebook AI Research,Cornell University",2016-08-25,Vision,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1608.06993
+SimpleNet,"Sensifai,Islamic Azad University,Technicolor R&I,Institute for Research in Fundamental Sciences (IPM)",2016-08-22,Vision,,Confident,,,https://arxiv.org/abs/1608.06037
+Character-enriched word2vec,Facebook AI Research,2016-07-15,Language,,Unknown,,,https://arxiv.org/abs/1607.04606
+CCL,"SenseTime,Chinese University of Hong Kong (CUHK),Chinese Academy of Sciences",2016-06-27,Vision,,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Unconstrained-Face-Alignment-via-Cascaded-Learning-Zhu-Li/4396563ee3ec167932071e7936111f6a8899e905
+R-FCN,"Tsinghua University,Microsoft Research",2016-06-21,Vision,7.1935776e+17,Confident,,,https://arxiv.org/abs/1605.06409
+Segmental RNN,"University of Edinburgh,Carnegie Mellon University (CMU),University of Washington",2016-06-20,Speech,,Unknown,Unreleased,No,https://arxiv.org/abs/1603.00223
+CMS-RCNN,IEEE,2016-06-17,Vision,,Likely,Unreleased,No,https://www.semanticscholar.org/paper/CMS-RCNN%3A-Contextual-Multi-Scale-Region-based-CNN-Zhu-Zheng/e8b2a98f87b7b2593b4a046464c1ec63bfd13b51
+PixelCNN,Google DeepMind,2016-06-16,Vision,,Unknown,,,https://arxiv.org/abs/1606.05328
+LRR-4X,UC Irvine,2016-05-08,Vision,,Likely,Open weights (unrestricted),Yes,https://www.semanticscholar.org/paper/Laplacian-Pyramid-Reconstruction-and-Refinement-for-Ghiasi-Fowlkes/2796c448023b78fd77f3a4b57966f257c5e654c2
+Gated HORNN (3rd order),York University,2016-04-30,Language,,,Unreleased,No,https://arxiv.org/abs/1605.00064
+Dueling DQN,Google DeepMind,2016-04-05,Games,,Confident,Unreleased,No,https://arxiv.org/abs/1511.06581
+Template Adaptation,University of Oxford,2016-03-12,Vision,,Likely,Unreleased,No,https://www.semanticscholar.org/paper/Template-Adaptation-for-Face-Verification-and-Crosswhite-Byrne/42515cd370f5edf4ac6c8d4bc3f6e0d848f6b73a
+Named Entity Recognition model,Carnegie Mellon University (CMU),2016-03-04,Language,9.69408e+16,Confident,,,https://arxiv.org/abs/1603.01354
+Double DQN,Google DeepMind,2016-03-02,Games,,Confident,Unreleased,No,https://ojs.aaai.org/index.php/AAAI/article/view/10295
+SqueezeNet,"DeepScale,University of California (UC) Berkeley,Stanford University",2016-02-24,Vision,,,,,https://arxiv.org/abs/1602.07360
+Inceptionv4,Google,2016-02-23,Vision,,,,,https://arxiv.org/abs/1602.07261
+Inception-ResNet-V2,Google,2016-02-23,Vision,,,,,https://arxiv.org/abs/1602.07261
+A3C FF hs,"Google,University of Montreal / Université de Montréal",2016-02-04,Games,,Unknown,,,http://arxiv.org/abs/1602.01783v2
+AlphaGo Lee,DeepMind,2016-01-27,Games,1.9e+21,Speculative,Unreleased,No,https://www.nature.com/articles/nature16961
+"Variational (untied weights, MC) LSTM (Large)",University of Cambridge,2015-12-16,Language,5886144000000000.0,Confident,Unreleased,No,https://arxiv.org/abs/1512.05287
+Advantage Learning,Google DeepMind,2015-12-15,Games,,Unknown,,,http://arxiv.org/abs/1512.04860v1
+ResNet-152 (ImageNet),Microsoft,2015-12-10,Vision,1.041408e+19,Confident,,,https://arxiv.org/abs/1512.03385
+ResNet-110 (CIFAR-10),Microsoft,2015-12-10,Vision,,,,,https://arxiv.org/abs/1512.03385
+ResNet-101 (ImageNet),Microsoft,2015-12-10,Vision,7.004e+18,Confident,Open weights (unrestricted),Yes,https://arxiv.org/abs/1512.03385
+SSD,,2015-12-08,Vision,,Confident,Open weights (unrestricted),Yes,https://arxiv.org/pdf/1512.02325
+Inception v3,"Google,University College London (UCL)",2015-12-02,Vision,1e+20,Likely,,,https://arxiv.org/abs/1512.00567
+Netflix Recommender System,Netflix,2015-12-01,Recommendation,,Unknown,,,https://dl.acm.org/doi/pdf/10.1145/2843948
+Multi-scale Dilated CNN,"Princeton University,Intel Labs",2015-11-23,Vision,,Unknown,,,https://arxiv.org/abs/1511.07122
+3DDFA,"Chinese Academy of Sciences,Michigan State University",2015-11-23,Vision,,Confident,Unreleased,No,https://arxiv.org/abs/1511.07212
+SAF R-CNN,"Beijing Institute of Technology,Sun Yat-sen University,Panasonic R&D,National University of Singapore",2015-10-28,Vision,1.2311081250000001e+19,Likely,Unreleased,No,https://arxiv.org/abs/1510.08160
+AlphaGo Fan,DeepMind,2015-10-01,Games,3.8e+20,Likely,Unreleased,No,https://www.nature.com/articles/nature16961
+Deep Deterministic Policy Gradients,Google DeepMind,2015-09-09,Robotics,,Unknown,,,https://arxiv.org/abs/1509.02971
+BPE,University of Edinburgh,2015-08-31,Language,,,,,https://arxiv.org/abs/1508.07909
+DCNN,"University of Maryland,Rutgers University",2015-08-07,Vision,4.8098691e+17,Confident,Unreleased,No,https://arxiv.org/abs/1508.01722
+Deep CNN + COTS,IEEE,2015-07-26,Vision,,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Face-Search-at-Scale%3A-80-Million-Gallery-Wang-Otto/be38934db99182c0e3100be58cd0299151b30625
+CompACT-Deep,University of California San Diego,2015-07-19,Vision,,Unknown,Unreleased,No,https://www.semanticscholar.org/paper/Learning-Complexity-Aware-Cascades-for-Deep-Cai-Saberian/c3bd3b9782dc504ee4f2b8a12bd9c562a5c0d7ad
+BatchNorm,Google,2015-06-15,Vision,,Confident,,,https://arxiv.org/abs/1502.03167
+YOLO,"University of Washington,Allen Institute for AI,Facebook AI Research",2015-06-08,Vision,,,,,https://arxiv.org/abs/1506.02640
+CFSS,"SenseTime,Chinese University of Hong Kong (CUHK),Shenzhen Institute of Advanced Technology",2015-06-07,Vision,,Likely,Open weights (unrestricted),Yes,https://www.semanticscholar.org/paper/Face-alignment-by-coarse-to-fine-shape-searching-Zhu-Li/dc661f478c5a245a919c4b3faae8ea4f598b6e64
+Faster R-CNN,Microsoft Research,2015-06-04,Vision,,Unknown,Open weights (unrestricted),Yes,https://arxiv.org/abs/1506.01497
+U-Net,University of Freiburg,2015-05-18,Vision,5.0832252e+16,Confident,Open weights (unrestricted),Yes,https://www.semanticscholar.org/paper/U-Net%3A-Convolutional-Networks-for-Biomedical-Image-Ronneberger-Fischer/6364fdaa0a0eccd823a779fcdd489173f938e91a
+Fast R-CNN,Microsoft Research,2015-04-30,Vision,,Unknown,,,https://arxiv.org/abs/1504.08083
+TC-DNN-BLSTM-DNN,Carnegie Mellon University (CMU),2015-04-06,Speech,1.9410191999999997e+17,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Deep-Recurrent-Neural-Networks-for-Acoustic-Chan-Lane/ae18f67c10a5d4da91f128ec7a6cf7c784122cd5
+genCNN + dyn eval,"Chinese Academy of Sciences,Huawei Noah's Ark Lab,Dublin City University",2015-03-17,Language,3.4153451e+16,Speculative,Unreleased,No,https://aclanthology.org/P15-1151/
+DQN-2015,Google,2015-02-25,Games,,,,,https://www.nature.com/articles/nature14236
+TRPO,University of California (UC) Berkeley,2015-02-19,Games,,Confident,Unreleased,No,https://arxiv.org/pdf/1502.05477
+"MSRA (C, PReLU)",Microsoft Research,2015-02-06,Vision,2.397403008e+19,Confident,,,https://arxiv.org/abs/1502.01852
+VGG-Face,University of Oxford,2015-01-01,Vision,,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Deep-Face-Recognition-Parkhi-Vedaldi/162ea969d1929ed180cc6de9f0bf116993ff6e06
+ADAM (CIFAR-10),"University of Amsterdam,OpenAI,University of Toronto",2014-12-22,Vision,624979800000000.0,Confident,Unreleased,No,https://arxiv.org/abs/1412.6980
+Fractional Max-Pooling,University of Warwick,2014-12-18,Vision,1e+17,Likely,,,https://arxiv.org/abs/1412.6071v4
+SNM-skip,Google,2014-12-03,Language,2.97600000001e+20,Speculative,,,https://arxiv.org/abs/1412.1454
+TA-CNN,Chinese University of Hong Kong (CUHK),2014-11-29,Vision,1.0854e+16,Likely,Unreleased,No,https://arxiv.org/abs/1412.0069
+Cascaded LNet-ANet,Chinese University of Hong Kong (CUHK),2014-11-28,Vision,,Unknown,,,https://arxiv.org/abs/1411.7766
+Fully Convolutional Networks,University of California (UC) Berkeley,2014-11-14,Vision,,Unknown,,,https://arxiv.org/abs/1411.4038
+SC-NLM,University of Toronto,2014-11-10,"Multimodal,Vision,Language",,Confident,,,https://www.semanticscholar.org/paper/Unifying-Visual-Semantic-Embeddings-with-Multimodal-Kiros-Salakhutdinov/2e36ea91a3c8fbff92be2989325531b4002e2afc
+LRCN,"UT Austin,University of Massachusetts Lowell,University of California (UC) Berkeley",2014-11-07,Video,,,,,https://arxiv.org/abs/1411.4389
+Spatially-Sparse CNN,University of Warwick,2014-09-23,Vision,,Unknown,,,https://arxiv.org/abs/1409.6070v1
+Deeply-supervised nets,Microsoft Research,2014-09-18,Vision,,,,,https://arxiv.org/abs/1409.5185
+GoogLeNet / InceptionV1,"Google,University of Michigan,University of North Carolina",2014-09-17,Vision,1.51e+18,Confident,,,https://arxiv.org/abs/1409.4842
+SPN-4+KN5,"Singapore University of Technology & Design,DSO National Laboratories",2014-09-14,Language,4.4e+16,Likely,Unreleased,No,https://www.comp.nus.edu.sg/~skok/papers/is14.pdf
+Seq2Seq LSTM,Google,2014-09-10,Language,5.6e+19,Confident,,,https://arxiv.org/abs/1409.3215
+VGG19,University of Oxford,2014-09-04,Vision,1.1e+19,Likely,,,https://arxiv.org/abs/1409.1556
+VGG16,University of Oxford,2014-09-04,Vision,1.2291e+19,Confident,,,https://arxiv.org/abs/1409.1556
+RNNsearch-50*,"Jacobs University Bremen,University of Montreal / Université de Montréal",2014-09-01,Language,1.5552e+18,Confident,,,https://arxiv.org/abs/1409.0473
+NPD,IEEE,2014-08-06,Vision,,Confident,Open weights (unrestricted),Yes,https://www.semanticscholar.org/paper/A-Fast-and-Accurate-Unconstrained-Face-Detector-Liao-Jain/fb67880d99ca29125866087dad2934ccc221378a
+ACF-WIDER,Chinese Academy of Sciences,2014-07-15,Vision,76380000000000.0,Confident,Unreleased,No,https://arxiv.org/abs/1407.4023
+SmooCT,University College London (UCL),2014-07-01,Games,6.9e+16,Likely,,,https://www.semanticscholar.org/paper/Self-play-Monte-Carlo-tree-search-in-computer-poker-Heinrich-Silver/7b687599b4425aa959036071030e1212a3b359c7
+Multiresolution CNN,"Google,Stanford University",2014-06-23,Video,,,,,https://ieeexplore.ieee.org/document/6909619
+DeepFace,"Tel Aviv University,Facebook",2014-06-23,Vision,,Unknown,,,https://ieeexplore.ieee.org/document/6909616
+RNN-WER,"DeepMind,University of Toronto",2014-06-22,Speech,,Likely,,,https://proceedings.mlr.press/v32/graves14.html
+Fragment embedding,Stanford University,2014-06-21,Vision,,Likely,,,https://www.semanticscholar.org/paper/Deep-Fragment-Embeddings-for-Bidirectional-Image-Karpathy-Joulin/7f1b111f0bb703b0bd97aba505728a9b0d9b2a54
+SPPNet,"Microsoft,Xi’an Jiaotong University,University of Science and Technology of China (USTC)",2014-06-18,Vision,3.411072e+18,Confident,,,https://arxiv.org/abs/1406.4729
+GANs,University of Montreal / Université de Montréal,2014-06-10,Image generation,5.184e+17,Speculative,,,https://arxiv.org/abs/1406.2661
+Two-stream ConvNets for action recognition,University of Oxford,2014-06-09,Video,,Unknown,,,https://arxiv.org/abs/1406.2199
+GRUs,"University of Montreal / Université de Montréal,Jacobs University,University of Maine",2014-06-03,Language,,Unknown,,,https://arxiv.org/abs/1406.1078
+Dropout: SVHN,University of Toronto,2014-06-01,Vision,,Confident,Unreleased,No,https://jmlr.org/papers/v15/srivastava14a.html
+AdaRNN,Beihang University,2014-06-01,Language,,Confident,,,https://www.semanticscholar.org/paper/Adaptive-Recursive-Neural-Network-for-Twitter-Dong-Wei/06e122f475a21d92dba137609c40f35690217475
+Paragraph Vector,Google,2014-05-14,Language,,Confident,,,https://www.semanticscholar.org/paper/Distributed-Representations-of-Sentences-and-Le-Mikolov/f3de86aeb442216a8391befcacb49e58b478f512
+HyperNEAT,University of Texas at Austin,2014-03-05,Games,,,,,"https://ieeexplore.ieee.org/abstract/document/6756960
+
+https://www.cs.utexas.edu/~mhauskn/papers/atari.pdf"
+GloVe (32B),Stanford University,2014-01-01,Language,,,,,https://nlp.stanford.edu/projects/glove/
+GloVe (6B),Stanford University,2014-01-01,Language,,,,,https://nlp.stanford.edu/projects/glove/
+OverFeat,New York University (NYU),2013-12-21,Vision,,Confident,,,https://arxiv.org/abs/1312.6229
+Image generation,University of Amsterdam,2013-12-20,Vision,475200000000000.0,Confident,,,https://arxiv.org/abs/1312.6114
+DQN,DeepMind,2013-12-19,Games,2846883840000000.0,Confident,,,https://arxiv.org/abs/1312.5602
+Network in Network,National University of Singapore,2013-12-16,Vision,,Unknown,,,https://arxiv.org/abs/1312.4400
+RNN for 1B words,Google,2013-12-11,Language,,Speculative,,,https://arxiv.org/abs/1312.3005
+TransE,"Universite de Technologie de Compiègne – CNRS,Google",2013-12-05,Language,1.340928e+18,Speculative,,,https://papers.nips.cc/paper/2013/hash/1cecc7a77928ca8133fa24680a88d2f9-Abstract.html
+DeViSE,Google,2013-12-05,Vision,,Confident,,,https://www.semanticscholar.org/paper/DeViSE%3A-A-Deep-Visual-Semantic-Embedding-Model-Frome-Corrado/4aa4069693bee00d1b0759ca3df35e59284e9845
+Visualizing CNNs,New York University (NYU),2013-11-12,Vision,5.32e+17,Confident,,,https://arxiv.org/abs/1311.2901
+R-CNN (T-net),University of California (UC) Berkeley,2013-11-11,Vision,,,,,https://arxiv.org/abs/1311.2524
+Word2Vec (small),Google,2013-10-16,Language,,,,,https://arxiv.org/abs/1310.4546
+Word2Vec (large),Google,2013-10-16,Language,3.888e+16,Likely,,,https://arxiv.org/abs/1310.4546
+RNTN,Stanford University,2013-10-01,Language,1.422e+16,Likely,Unreleased,No,https://www.semanticscholar.org/paper/Recursive-Deep-Models-for-Semantic-Compositionality-Socher-Perelygin/687bac2d3320083eb4530bf18bb8f8f721477600
+RCTM,University of Oxford,2013-10-01,Language,9331200000000000.0,Likely,,,https://www.semanticscholar.org/paper/Recurrent-Continuous-Translation-Models-Kalchbrenner-Blunsom/944a1cfd79dbfb6fef460360a0765ba790f4027a
+Hierarchical Scene Labeling (Stanford Background),New York University (NYU),2013-08-01,Vision,2.3774688e+17,Confident,Unreleased,No,https://ieeexplore.ieee.org/document/6338939
+ReLU-Speech,"Google,University of Toronto,New York University (NYU)",2013-05-26,Speech,1.2773376e+17,Likely,,,https://www.semanticscholar.org/paper/On-rectified-linear-units-for-speech-processing-Zeiler-Ranzato/64da1980714cfc130632c5b92b9d98c2f6763de6
+Multilingual DNN,Google,2013-05-26,Speech,,Confident,,,https://www.semanticscholar.org/paper/Multilingual-acoustic-models-using-distributed-deep-Heigold-Vanhoucke/a41b826d23957d6ad4e9e794d20a583a9b567c5d
+Selective Search,"University of Trento,University of Amsterdam",2013-04-02,Vision,,Unknown,,,https://link.springer.com/article/10.1007/s11263-013-0620-5
+PreTrans-3L-250H,University of Toronto,2013-03-22,Speech,,,,,https://arxiv.org/abs/1303.5778
+DistBelief NNLM,Google,2013-01-16,Language,2.612736e+18,Likely,,,https://arxiv.org/abs/1301.3781
+DNN EM segmentation,"IDSIA,SUPSI",2012-12-03,Vision,4.78e+17,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Deep-Neural-Networks-Segment-Neuronal-Membranes-in-Ciresan-Giusti/09193e19b59fc8f05bee9d6efbfb1607ca5b6501
+DistBelief Vision,Google,2012-12-03,Vision,,Likely,,,https://www.semanticscholar.org/paper/Large-Scale-Distributed-Deep-Networks-Dean-Corrado/3127190433230b3dc1abd0680bb58dced4bcd90e
+DistBelief Speech,Google,2012-12-03,Speech,3.114e+17,Speculative,,,https://www.semanticscholar.org/paper/Large-Scale-Distributed-Deep-Networks-Dean-Corrado/3127190433230b3dc1abd0680bb58dced4bcd90e
+Bayesian automated hyperparameter tuning,"University of Toronto,University of Sherbrooke,Harvard University",2012-12-02,Other,,Unknown,,,https://arxiv.org/abs/1206.2944
+RNN+LDA+KN5+cache,"Microsoft,Brno University of Technology",2012-12-01,Language,,,Unreleased,No,https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/rnn_ctxt.pdf
+AlexNet,University of Toronto,2012-09-30,Vision,4.7e+17,Confident,,,https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
+LSTM LM,RWTH Aachen University,2012-09-09,Language,1.66e+16,Speculative,,,https://www.semanticscholar.org/paper/LSTM-Neural-Networks-for-Language-Modeling-Sundermeyer-Schl%C3%BCter/f9a1b3850dfd837793743565a8af95973d395a4e
+Context-dependent RNN,"Microsoft Research,Brno University of Technology",2012-07-27,Language,,Unknown,,,https://www.microsoft.com/en-us/research/wp-content/uploads/2012/07/rnn_ctxt_TR.sav_.pdf
+Unsupervised High-level Feature Learner,Google,2012-07-12,Vision,6e+17,Likely,,,https://arxiv.org/abs/1112.6209
+Dropout (TIMIT),University of Toronto,2012-06-03,Speech,,,Unreleased,No,https://arxiv.org/abs/1207.0580
+Dropout (MNIST),University of Toronto,2012-06-03,Vision,6039370800000000.0,Confident,Unreleased,No,https://arxiv.org/abs/1207.0580
+Dropout (ImageNet),University of Toronto,2012-06-03,Vision,2.731968e+17,Confident,Unreleased,No,https://arxiv.org/abs/1207.0580
+Dropout (CIFAR),University of Toronto,2012-06-03,Vision,4268700000000000.0,Confident,Unreleased,No,https://arxiv.org/abs/1207.0580
+NLP from scratch,"NEC Laboratories,Princeton University",2011-11-08,Language,,,,,https://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf
+CNN committee (traffic sign),IDSIA,2011-10-03,Vision,991981425600000.0,Likely,Unreleased,No,https://www.semanticscholar.org/paper/A-committee-of-neural-networks-for-traffic-sign-Ciresan-Meier/dd7f8b53e6802787179a961e766760cbbe2d5011
+Adaptive Subgrad,"Technion - Israel Institute of Technology,Google,University of California (UC) Berkeley",2011-10-03,Language,,Unknown,,,https://dl.acm.org/doi/10.5555/1953048.2021068
+CNN Committee (NIST),IDSIA,2011-09-18,Vision,2.6e+16,Likely,Unreleased,No,https://www.semanticscholar.org/paper/Convolutional-Neural-Network-Committees-for-Ciresan-Meier/260a7615bbffec052d67dffde5bcf9b4687b50ee
+CNN Committee (MNIST),IDSIA,2011-09-18,Vision,5.2e+16,Likely,Unreleased,No,https://www.semanticscholar.org/paper/Convolutional-Neural-Network-Committees-for-Ciresan-Meier/260a7615bbffec052d67dffde5bcf9b4687b50ee
+High Performance CNN (NORB),"IDSIA,SUPSI",2011-07-16,Vision,2.57985e+16,Likely,Unreleased,No,https://people.idsia.ch/~juergen/ijcai2011.pdf
+Recursive Neural Network,Stanford University,2011-06-28,"Vision,Language",,Confident,,,https://www.semanticscholar.org/paper/Parsing-Natural-Scenes-and-Natural-Language-with-Socher-Lin/9c0ddf74f87d154db88d79c640578c1610451eec
+Vector Space Model,Stanford University,2011-06-19,Language,,Confident,,,"https://www.semanticscholar.org/paper/Learning-Word-Vectors-for-Sentiment-Analysis-Maas-Daly/1c61f9ef06fe74505775a833ff849185757199e7
+
+https://ai.stanford.edu/~ang/papers/acl11-WordVectorsSentimentAnalysis.pdf"
+Cross-Lingual POS Tagger,"Carnegie Mellon University (CMU),Google Research",2011-06-19,Language,,Unknown,,,https://aclanthology.org/P11-1061/
+Deep Autoencoders,University of Toronto,2011-04-29,Vision,3.672864e+16,Confident,,,https://www.semanticscholar.org/paper/Using-very-deep-autoencoders-for-content-based-Krizhevsky-Hinton/88080d28536f36588740737f3b7a1f6c1a409654
+Deep rectifier networks,University of Montreal / Université de Montréal,2011-04-13,Vision,,Unknown,,,https://proceedings.mlr.press/v15/glorot11a.html
+YouTube Video Recommendation System,Google,2010-09-26,Recommendation,,,,,https://dl.acm.org/doi/10.1145/1864708.1864770
+RNN LM,Johns Hopkins University,2010-09-26,Language,5.396e+16,Speculative,,,https://www.semanticscholar.org/paper/Recurrent-neural-network-based-language-model-Mikolov-Karafi%C3%A1t/9819b600a828a57e1cde047bbe710d3446b30da5
+Pooling CNN (NORB),University of Bonn,2010-09-15,Vision,1456277227200000.0,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Evaluation-of-Pooling-Operations-in-Convolutional-Scherer-M%C3%BCller/5d21006fa32ff69f6b0a646f26ce0db84f2f4d33
+Pooling CNN (Caltech 101),University of Bonn,2010-09-15,Vision,1221124128768000.0,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Evaluation-of-Pooling-Operations-in-Convolutional-Scherer-M%C3%BCller/5d21006fa32ff69f6b0a646f26ce0db84f2f4d33
+ReLU (NORB),University of Toronto,2010-06-15,Vision,,,,,https://dl.acm.org/doi/10.5555/3104322.3104425
+ReLU (LFW),University of Toronto,2010-06-15,Vision,,Unknown,,,https://dl.acm.org/doi/10.5555/3104322.3104425
+iCCCP,Massachusetts Institute of Technology (MIT),2010-06-13,Vision,1080000000000000.0,Confident,Unreleased,No,https://ieeexplore.ieee.org/document/5540096
+Feedforward NN,University of Montreal / Université de Montréal,2010-05-13,Vision,350000000000000.0,Confident,,,https://proceedings.mlr.press/v9/glorot10a.html
+Stacked Denoising Autoencoders,"University of Montreal / Université de Montréal,University of Toronto",2010-01-03,Other,,Unknown,,,https://www.jmlr.org/papers/v11/vincent10a.html
+Super-vector coding,"University of Illinois Urbana-Champaign (UIUC),NEC Laboratories,Rutgers University",2010-01-01,Vision,,Speculative,,,http://tongzhang-ml.org/papers/eccv10_supervect.pdf
+LCNP NORB,,2009-11-22,Vision,2452090060800000.0,Confident,,,https://ieeexplore.ieee.org/document/5357786
+LCNP MNIST,,2009-11-22,Vision,4181852160000000.0,Confident,,,https://ieeexplore.ieee.org/document/5357786
+LCNP LabelMe,University of Bonn,2009-11-22,Vision,3295150080000000.0,Confident,,,https://ieeexplore.ieee.org/document/5357786
+BellKor 2007,AT&T,2009-09-21,Recommendation,,,,,https://www.semanticscholar.org/paper/The-BellKor-solution-to-the-Netflix-Prize-Bell-Koren/f4ebb542c752a0dc423f94fd121e2edb8f6275ba
+Two Stage Feature Extraction (MNIST),New York University (NYU),2009-09-01,Vision,20754000000000.0,Confident,Unreleased,No,https://www.semanticscholar.org/paper/What-is-the-best-multi-stage-architecture-for-Jarrett-Kavukcuoglu/1f88427d7aa8225e47f946ac41a0667d7b69ac52
+MatrixFac for Recommenders,"Yahoo Research,AT&T",2009-08-07,Recommendation,,,,,https://ieeexplore.ieee.org/document/5197422
+Pragmatic Theory solution (Netflix 2009),Pragmatic Theory Inc.,2009-08-01,Recommendation,,Unknown,,,https://www.asc.ohio-state.edu/statistics/statgen/joul_aut2009/PragmaticTheory.pdf
+BigChaos OptiBlend,AT&T,2009-08-01,Recommendation,,,,,https://www.asc.ohio-state.edu/statistics/statgen/joul_aut2009/BigChaos.pdf
+BellKor 2009,AT&T,2009-08-01,Recommendation,,,,,https://www2.seas.gwu.edu/~simhaweb/champalg/cf/papers/KorenBellKor2009.pdf
+BellKor 2008,AT&T,2009-08-01,Recommendation,,,,,https://cseweb.ucsd.edu/classes/fa17/cse291-b/reading/ProgressPrize2008_BellKor.pdf
+GPU DBNs,Stanford University,2009-06-15,Other,1000000000000000.0,Confident,,,https://dl.acm.org/doi/abs/10.1145/1553374.1553486?utm_campaign=The+Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-95Z7-X4Dl-RJK6gYKvjyDIrYaGhBeqWoc0ldqyPEKni0Ip6UE7452hr-ygY52z00LBpYgM
+RBM Image Classifier,University of Toronto,2009-04-08,Vision,,Likely,,,https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf
+BP-DBN,University of Toronto,2009-01-01,Speech,,Confident,Unreleased,No,https://www.cs.utoronto.ca/~gdahl/papers/dbnPhoneRec.pdf
+GNN,University of Siena,2008-12-09,Other,1614600000.0,Confident,Open weights (unrestricted),Yes,https://ieeexplore.ieee.org/document/4700287
+HLBL,University of Toronto,2008-12-08,Language,,Confident,,,https://www.semanticscholar.org/paper/A-Scalable-Hierarchical-Distributed-Language-Model-Mnih-Hinton/a9fc84f8abe740cdc7ee82e69444d1d00dbe0ceb
+BigChaos 2008,AT&T,2008-11-25,Recommendation,,,,,https://www.asc.ohio-state.edu/statistics/statgen/joul_aut2009/BigChaos.pdf
+Sparse digit recognition SVM,University of Lubeck,2008-11-19,Vision,,Unknown,,,https://pubmed.ncbi.nlm.nih.gov/19000969/
+Denoising Autoencoders,University of Montreal / Université de Montréal,2008-07-05,Other,,Unknown,,,https://dl.acm.org/doi/10.1145/1390156.1390294
+Deep Multitask NLP Network,NEC Laboratories,2008-07-05,Language,,Speculative,,,https://dl.acm.org/doi/10.1145/1390156.1390177
+BLSTM for handwriting (2),"University of Bern,IDSIA,Technical University of Munich",2007-12-03,Vision,,,,,https://proceedings.neurips.cc/paper/2007/hash/4b0250793549726d5c1ea3906726ebfe-Abstract.html
+Enhanced Neighborhood-Based Filtering,AT&T,2007-10-28,Recommendation,,Unknown,,,https://ieeexplore.ieee.org/abstract/document/4470228
+BLSTM for handwriting (1),"University of Bern,IDSIA,Technical University of Munich",2007-09-23,Vision,,Unknown,,,https://people.idsia.ch//~juergen/icdar_2007.pdf
+SB-LM,Google,2007-06-22,Language,1.4494464e+18,Likely,,,https://www.semanticscholar.org/paper/Large-Language-Models-in-Machine-Translation-Brants-Popat/ba786c46373892554b98df42df7af6f5da343c9d
+KN-LM,Google,2007-06-22,Language,7.7303808e+17,Likely,,,https://www.semanticscholar.org/paper/Large-Language-Models-in-Machine-Translation-Brants-Popat/ba786c46373892554b98df42df7af6f5da343c9d
+λ-WASP,UT Austin,2007-06-01,Language,,,,,https://www.aclweb.org/anthology/P07-1121/
+Greedy layer-wise DNN training,University of Montreal / Université de Montréal,2006-12-04,Other,,Unknown,,,https://dl.acm.org/doi/10.5555/2976456.2976476
+Local Binary Patterns for facial recognition,"University of Oulu,IEEE",2006-12-01,Vision,,Unknown,,,http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.456.1094&rep=rep1&type=pdf
+Dimensionality Reduction,University of Toronto,2006-07-18,Vision,,,,,https://www.cs.toronto.edu/~hinton/science.pdf
+Deep Belief Nets,"University of Toronto,National University of Singapore",2006-07-18,Vision,,,,,https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf
+SVM-CNN,New York University (NYU),2006-06-17,Vision,745200000000000.0,Confident,Unreleased,No,https://www.semanticscholar.org/paper/Large-scale-Learning-with-SVM-and-Convolutional-for-Huang-LeCun/cf03fdf52dd6e4249cbbdbd0bffbbbe5ca389feb
+Spatial Pyramid Matching,"INRIA,University of Illinois Urbana-Champaign (UIUC),Ecole Normale Supèrieure",2006-06-17,Vision,,Unknown,,,https://inc.ucsd.edu/mplab/users/marni/Igert/Lazebnik_06.pdf
+Crazy Stone,INRIA,2006-05-29,Games,,Unknown,Unreleased,No,https://inria.hal.science/inria-00116992v1
+FAST,University of Cambridge,2006-05-07,Video,,Unknown,,,https://link.springer.com/chapter/10.1007/11744023_34
+TFE SVM,"Centre de Recherche en Automatique de Nancy (CRAN),CENPARMI",2006-02-02,Vision,,Unknown,,,https://hal.archives-ouvertes.fr/hal-00018426/en
+RankNet,"Microsoft Research,Microsoft",2005-08-07,Search,3482081588304.0,Confident,Unreleased,No,https://dl.acm.org/doi/abs/10.1145/1102351.1102363
+Histograms of Oriented Gradients,INRIA,2005-06-25,Vision,,,,,https://ieeexplore.ieee.org/document/1467360
+Hierarchical LM,,2005-01-06,Language,115848000000000.0,Confident,,,https://www.semanticscholar.org/paper/Hierarchical-Probabilistic-Neural-Network-Language-Morin-Bengio/c19fbefdeead6a4154a22a9c8551a18b1530033a
+LMICA,,2004-12-01,Vision,2782080000000000.0,Confident,,,https://www.semanticscholar.org/paper/Linear-Multilayer-Independent-Component-Analysis-Matsuda-Yamaguchi/7061b01572fbff2e223ce3abb59f397895b1ebf1
+Invariant CNN,New York University (NYU),2004-06-27,Vision,974230000000.0,Confident,,,https://www.semanticscholar.org/paper/Learning-methods-for-generic-object-recognition-to-LeCun-Huang/f354310098e09c1e1dc88758fca36767fd9d084d
+NPLM (Brown),University of Montreal / Université de Montréal,2003-03-15,Language,132076260000000.0,Confident,,,https://dl.acm.org/doi/10.5555/944919.944966
+NPLM (AP News),University of Montreal / Université de Montréal,2003-03-15,Language,1666869200000000.0,Confident,,,https://dl.acm.org/doi/10.5555/944919.944966
+LDA,Stanford University,2003-02-02,Language,,Unknown,,,https://jmlr.org/papers/volume3/blei03a/blei03a.pdf
+Statistical Shape Constellations,California Institute of Technology,2003-01-01,Vision,,Unknown,,,https://link.springer.com/content/pdf/10.1007/3-540-45054-8_2.pdf
+Thumbs Up?,"Cornell University,IBM",2002-05-28,Language,,,,,https://arxiv.org/abs/cs/0205070
+Decision tree (classification),"Mitsubishi Electric Research Labs,Compaq CRL",2001-12-08,Vision,63000000000000.0,Likely,,,https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf
+Gradient Boosting Machine,Stanford University,2001-10-01,Mathematics,,Unknown,,,https://projecteuclid.org/journals/annals-of-statistics/volume-29/issue-5/Greedy-function-approximation-A-gradient-boostingmachine/10.1214/aos/1013203451.full
+Immediate trihead,Brown University,2001-07-06,Language,,Unknown,,,https://dl.acm.org/doi/10.3115/1073012.1073029
+PoE MNIST,University College London (UCL),2000-11-28,Vision,51810000000000.0,Confident,,,https://proceedings.neurips.cc/paper_files/paper/2000/file/1f1baa5b8edac74eb4eaa329f14a0361-Paper.pdf
+Neural LM,University of Montreal / Université de Montréal,2000-11-28,Language,6339000000000000.0,Confident,,,https://papers.nips.cc/paper_files/paper/2000/file/728f206c2a01bf572b5940d7d9a8fa4c-Paper.pdf
+IBM Model 4,"University of Southern California,IBM,University of Pennsylvania",1999-07-02,Language,,,,,http://www-i6.informatik.rwth-aachen.de/publications/download/266/al-onaizan--1999.pdf
+RECONTRA-uncategorized,,1999-06-02,Language,3864000000000.0,Likely,,,https://www.semanticscholar.org/paper/Text-to-Text-Machine-Translation-Using-the-RECONTRA-Casta%C3%B1o-Casacuberta/47ee046b416d9258952cb8f4b0e2b6e65f334fad
+RECONTRA-categorized,,1999-06-02,Language,8013600000000.0,Likely,,,https://www.semanticscholar.org/paper/Text-to-Text-Machine-Translation-Using-the-RECONTRA-Casta%C3%B1o-Casacuberta/47ee046b416d9258952cb8f4b0e2b6e65f334fad
+LSTM with forget gates,IDSIA,1999-01-02,Language,,,,,https://ieeexplore.ieee.org/document/818041
+LeNet-5,AT&T,1998-11-01,Vision,2810937600000.0,Confident,,,http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf
+LSTM,Technical University of Munich,1997-11-15,Language,31512000000000.0,Confident,,,https://direct.mit.edu/neco/article-abstract/9/8/1735/6109/Long-Short-Term-Memory?redirectedFrom=fulltext
+Bidirectional RNN,Advanced Telecommunications Research Institute,1997-11-01,Speech,,,,,https://ieeexplore.ieee.org/document/650093
+Deep Blue,IBM,1997-05-01,Games,,Speculative,Unreleased,No,https://www.sciencedirect.com/science/article/pii/S0004370201001291
+SOM-CNN,,1997-01-31,Vision,31431600000.0,Confident,,,https://www.semanticscholar.org/paper/Face-recognition%3A-a-convolutional-neural-network-Lawrence-Giles/86890c82b589e24007c56e1f40c5f928a0e04183
+AdaBoost.M2 Digit Recognition,AT&T,1996-07-03,Vision,,Confident,,,https://cseweb.ucsd.edu/~yfreund/papers/boostingexperiments.pdf
+System 11,Carnegie Mellon University (CMU),1996-06-18,Vision,25859616000.0,Confident,,,https://ieeexplore.ieee.org/document/655647
+MUSIC perceptron,,1996-06-03,Vision,881733600000.0,Confident,,,https://ieeexplore.ieee.org/document/549237
+LISSOM,University of Texas at Austin,1995-11-27,Vision,195544800000.0,Likely,,,https://www.semanticscholar.org/paper/Laterally-Interconnected-Self-Organizing-Maps-in-Choe-Sirosh/785f5facc76538ceba6f6b9e2d7b641d322e9854
+Support Vector Machines,"AT&T,Bell Laboratories",1995-09-01,Vision,,,,,https://link.springer.com/article/10.1007/BF00994018
+Predictive Coding NN,Technical University of Munich,1994-12-02,Language,18621900000000.0,Confident,,,https://proceedings.neurips.cc/paper/1994/file/5705e1164a8394aace6018e27d20d237-Paper.pdf
+NeuroChess,,1994-12-02,Games,858730812676.0,Speculative,,,https://www.semanticscholar.org/paper/Learning-to-Play-the-Game-of-Chess-Thrun/4bc7a6dcb9e0e6c7a26800532e2a00f5572eea47
+Mixture of linear models,,1994-12-02,Vision,453600000000.0,Likely,,,https://www.semanticscholar.org/paper/Recognizing-Handwritten-Digits-Using-Mixtures-of-Hinton-Revow/9dea20c1e5bbb1f543ff08113ffde5380c679f1f
+JPMAX,,1994-12-02,Vision,80828280.0,Speculative,,,https://proceedings.neurips.cc/paper_files/paper/1994/hash/4b0250793549726d5c1ea3906726ebfe-Abstract.html
+GroupLens,Massachusetts Institute of Technology (MIT),1994-10-22,Recommendation,,,,,https://dl.acm.org/doi/10.1145/192844.192905
+Ceramic-MLP,Sapienza Università di Roma,1994-01-07,Materials science,4531200000.0,Likely,,,https://www.sciencedirect.com/science/article/abs/pii/S0921883108605506
+ANN Eye Tracker,,1993-11-29,Vision,17534400000.0,Confident,,,https://www.semanticscholar.org/paper/Non-Intrusive-Gaze-Tracking-Using-Artificial-Neural-Baluja-Pomerleau/574c0cf98825bf09b0ab7bbfe9ba89cd6090745e
+Siamese-TDNN,Bell Laboratories,1993-08-01,Vision,12869570138112.0,Likely,,,https://www.semanticscholar.org/paper/Signature-Verification-Using-A-%22Siamese%22-Time-Delay-Bromley-Bentz/997dc5d9a058753f034422afe7bd0cc0b8ad808b
+IBM-5,IBM,1993-06-15,Language,,,,,https://dl.acm.org/doi/10.5555/972470.972474
+Boosting,Bell Laboratories,1992-11-30,Vision,,Likely,,,https://www.semanticscholar.org/paper/Improving-Performance-in-Neural-Networks-Using-a-Drucker-Schapire/77b5185dafb9e5b884a677a32713e54c253a4e0b
+Cancer drug mechanism prediction,National Cancer Institute,1992-10-16,Medicine,53460000.0,Likely,,,https://pubmed.ncbi.nlm.nih.gov/1411538/
+Golem,Alan Turing Institute,1992-10-01,Biology,,Confident,,,https://www.semanticscholar.org/paper/Protein-secondary-structure-prediction-using-Muggleton-King/9f744e48091a24b569435d070920e60db45f4fdc
+TD-Gammon,IBM,1992-05-01,Games,18232157622832.703,Speculative,,,https://papers.nips.cc/paper/1991/file/68ce199ec2c5517597ce0a4d89620f55-Paper.pdf
+Weight Decay,,1991-12-02,Speech,75474000000.0,Confident,,,https://www.semanticscholar.org/paper/A-Simple-Weight-Decay-Can-Improve-Generalization-Krogh-Hertz/48e1de7d085808004d5f0493d486669a3d2930b5
+RAAM,,1990-11-01,Other,,Confident,,,https://www.sciencedirect.com/science/article/abs/pii/000437029090005K?via%3Dihub
+SexNet compression,,1990-10-01,Vision,78775200000.0,Confident,,,https://www.semanticscholar.org/paper/SEXNET%3A-A-Neural-Network-Identifies-Sex-From-Human-Golomb-Lawrence/cbf90aa78fea0c8a1028705d92bc4bc7808ddeeb
+SexNet classification,,1990-10-01,Vision,,Likely,,,https://www.semanticscholar.org/paper/SEXNET%3A-A-Neural-Network-Identifies-Sex-From-Human-Golomb-Lawrence/cbf90aa78fea0c8a1028705d92bc4bc7808ddeeb
+ISR network,Stanford University,1990-10-01,Vision,,Confident,,,https://papers.nips.cc/paper_files/paper/1990/hash/e46de7e1bcaaced9a54f1e9d0d2f800d-Abstract.html
+Bankruptcy-NN,,1990-06-17,Other,3059337600.0,Confident,,,https://www.semanticscholar.org/paper/A-neural-network-model-for-bankruptcy-prediction-Odom-Sharda/ead9fa02902850a7418fb5ba720f3d9d8ab2f88b
+NETtalk reimplementation,Oregon State University,1990-06-01,Speech,35811936000.0,Confident,,,https://www.sciencedirect.com/science/article/abs/pii/B9781558601413500079
+Zip CNN,"AT&T,Bell Laboratories",1989-12-01,Vision,1496338054440.0,Confident,,,https://ieeexplore.ieee.org/document/6795724
+Speaker-independent vowel classification,University of Washington,1989-11-27,Speech,7485696000.0,Confident,,,https://www.semanticscholar.org/paper/Performance-Comparisons-Between-Backpropagation-and-Atlas-Cole/e42d2b89fcb4a1a3dfa63408f424f76975ed1e1b
+Handwritten digit recognition network,AT&T,1989-11-27,Vision,181440000000.0,Confident,,,https://www.semanticscholar.org/paper/Handwritten-Digit-Recognition-with-a-Network-LeCun-Boser/86ab4cae682fbd49c5a5bedb630e5a40fa7529f6
+Truck backer-upper,Stanford University,1989-06-18,Driving,,Confident,,,https://ieeexplore.ieee.org/document/118723
+Invariant image recognition,Complutense University of Madrid,1989-06-18,Vision,27000000000.0,Confident,,,https://ieeexplore.ieee.org/document/118669
+Q-learning,University of London,1989-01-01,"Robotics,Games",,Unknown,,,http://www.cs.rhul.ac.uk/~chrisw/thesis.html
+MLP baggage detector,Science Applications International Corporation / SAIC,1989-01-01,Vision,,Confident,,,https://www.semanticscholar.org/paper/Detection-of-explosives-in-checked-airline-baggage-Shea-Lin/71da4057401f459bc079696a029aee45a0a89728
+MLN-ASR,McGill University,1988-08-01,Speech,296425000.0,Confident,,,https://aaai.org/papers/00734-aaai88-130-data-driven-execution-of-multi-layered-networks-for-automatic-speech-recognition/
+Latent semantic analysis,"University of Chicago,Bell Laboratories,University of Western Ontario",1988-04-05,Language,,Unknown,Unreleased,No,"https://asistdl.onlinelibrary.wiley.com/doi/10.1002/%28SICI%291097-4571%28199009%2941%3A6%3C391%3A%3AAID-ASI1%3E3.0.CO%3B2-9
+
+https://www.cs.csustan.edu/~mmartin/LDS/Deerwester-et-al.pdf"
+Translation-invariant MLP,Carnegie Mellon University (CMU),1987-06-15,,18032947200.0,Confident,,,https://www.cs.toronto.edu/~hinton/absps/parle.pdf
+NetTalk (transcription),Princeton University,1987-06-06,Speech,28328002560.0,Confident,,,http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=03A3D3EDF0BAF35405ABCF083411B55E?doi=10.1.1.154.7012&rep=rep1&type=pdf
+NetTalk (dictionary),Princeton University,1987-06-06,Speech,27664065000.0,Confident,,,http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=03A3D3EDF0BAF35405ABCF083411B55E?doi=10.1.1.154.7012&rep=rep1&type=pdf
+Optimized Multi-Scale Edge Detection,Massachusetts Institute of Technology (MIT),1986-11-01,Vision,,Unknown,,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4767851
+MLP with back-propagation,"University of California San Diego,Carnegie Mellon University (CMU)",1986-10-01,Mathematics,673920000.0,Confident,,,https://www.semanticscholar.org/paper/Learning-representations-by-back-propagating-errors-Rumelhart-Hinton/052b1d8ce63b07fec3de9dbb583772d860b7c769
+Distributed representation NN,Carnegie Mellon University (CMU),1986-08-15,Other,388800000.0,Confident,,,https://www.cs.toronto.edu/~hinton/absps/families.pdf
+Error Propagation,"University of California San Diego,Carnegie Mellon University (CMU)",1986-01-03,Other,,Unknown,,,https://stanford.edu/~jlmcc/papers/PDP/Volume%201/Chap8_PDP86.pdf
+Hierarchical Cognitron,NHK Broadcasting Science Research Laboratories,1984-04-01,Other,,Speculative,,,https://link.springer.com/article/10.1007/BF00337157
+ASE+ACE,University of Massachusetts Amherst,1983-09-01,Robotics,324000000.0,Likely,,,https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6313077
+Hopfield network,California Institute of Technology,1982-04-01,Other,,,,,https://www.pnas.org/doi/10.1073/pnas.79.8.2554
+Kohonen network,Helsinki University of Technology,1981-07-25,Mathematics,,,,,https://link.springer.com/article/10.1007/BF00337288
+Neocognitron,NHK Broadcasting Science Research Laboratories,1980-04-01,Vision,273738240.0,Confident,,,https://link.springer.com/article/10.1007/BF00344251
+Transfer Learning,University of Zagreb,1976-07-01,Vision,,Unknown,Unreleased,No,https://www.informatica.si/index.php/informatica/article/view/2828
+Cognitron,Biological Cybernetics,1975-09-01,Other,5184000.0,Confident,,,https://link.springer.com/article/10.1007%2FBF00342633
+Piecewise linear model,University of Kansas,1973-11-01,Vision,,Confident,,,https://ieeexplore.ieee.org/document/4309314
+Decision tree adaline,Tokyo Medical and Dental University,1969-05-01,Medicine,,Confident,,,https://pubmed.ncbi.nlm.nih.gov/5820353/
+GLEE,University of Edinburgh,1968-07-01,Games,,Unknown,,,https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.474.2430
+Boxes (pole),University of Edinburgh,1968-07-01,Games,,Unknown,,,https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.474.2430
+LTE speaker verification system,IBM,1966-11-01,Speech,105917060.0,Likely,,,https://pubs.aip.org/asa/jasa/article-abstract/40/5/966/754180/Experimental-Studies-in-Speaker-Verification-Using?redirectedFrom=fulltext
+Heuristic Reinforcement Learning,Purdue University,1965-10-01,Robotics,1080000.0,Speculative,,,https://ieeexplore.ieee.org/document/1098193
+Print Recognition Logic,IBM,1963-01-01,Vision,22500000.0,Speculative,,,https://ieeexplore.ieee.org/document/5392331
+MADALINE I,Stanford University,1962-07-01,Other,,Unknown,,,https://www.proquest.com/openview/7898314db50a218b58052ac91e3bde1e/1?
+Linear Decision Functions,Bell Laboratories,1962-06-01,Mathematics,1559250.0,Speculative,,,https://ieeexplore.ieee.org/document/4066882?denied=
+ADALINE,Stanford University,1960-06-30,Vision,6600.0,Confident,,,https://isl.stanford.edu/~widrow/papers/c1960adaptiveswitching.pdf
+Perceptron (1960),Cornell Aeronautical Laboratory,1960-03-30,Vision,720000000.0,Speculative,,,https://www.semanticscholar.org/paper/Perceptron-Simulation-Experiments-Rosenblatt/ae76ce1ba27ac29addce4aab93b927e9bc7f7c67
+Pattern recognition and reading by machine,Sandia Corporation,1959-12-01,Vision,,,,,https://dl.acm.org/doi/10.1145/1460299.1460326
+Samuel Neural Checkers,IBM,1959-07-01,Games,428400000.0,Likely,,,https://ieeexplore.ieee.org/abstract/document/5392560
+Pandemonium (morse),Massachusetts Institute of Technology (MIT),1959-02-01,Language,600000000.0,Speculative,,,https://aitopics.org/doc/classics:504E1BAC/
+Perceptron Mark I,"Cornell Aeronautical Laboratory,Cornell University",1957-01-01,Other,694894.9377361819,Likely,,,https://blogs.umass.edu/brain-wars/files/2016/03/rosenblatt-1957.pdf
+Sequence-based pattern recognition,Massachusetts Institute of Technology (MIT),1955-03-01,Vision,,Unknown,,,https://dl.acm.org/doi/10.1145/1455292.1455310
+Self Organizing System,Massachusetts Institute of Technology (MIT),1955-03-01,Other,,,,,https://dl.acm.org/doi/10.1145/1455292.1455309
+Genetic algorithm,Institute for Advanced Study,1954-07-02,"Mathematics,Biology",,Unknown,,,https://link.springer.com/article/10.1007/BF01556771
+SNARC,Harvard University,1952-01-08,Robotics,,,,,https://en.wikipedia.org/wiki/Stochastic_neural_analog_reinforcement_calculator
+Theseus,Bell Laboratories,1950-07-02,Robotics,40.0,Confident,,,https://www.technologyreview.com/2018/12/19/138508/mighty-mouse/

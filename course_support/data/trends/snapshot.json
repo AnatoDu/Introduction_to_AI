@@ -1,0 +1,21 @@
+{
+  "source": "https://epoch.ai/data/ai_models.zip",
+  "retrieved": "2026-11-13",
+  "member": "notable_ai_models.csv",
+  "source_sha256": "83c8d3384cf7b380f47d21010ca3d96650ed2a6c295745ce4121bfc8225feebb",
+  "local_sha256": "4ef710bef26ead04cada07eec070607b38128cc84338ce1402a927a0b29548d3",
+  "rows": 1092,
+  "columns": [
+    "Model",
+    "Organization",
+    "Publication date",
+    "Domain",
+    "Training compute (FLOP)",
+    "Confidence",
+    "Model accessibility",
+    "Open model weights?",
+    "Link"
+  ],
+  "changes": "Selected 9 columns; all rows retained; missing values retained; no abstracts copied",
+  "license": "CC BY 4.0"
+}

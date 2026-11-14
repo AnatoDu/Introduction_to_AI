@@ -1,0 +1,6 @@
+# Preserve exact bytes of supplied data snapshots (including CRLF and source whitespace).
+# Notebook, code and documentation whitespace checks remain enabled.
+course_support/data/annotation/*.csv -text whitespace=cr-at-eol
+project_template/course_support/data/annotation/*.csv -text whitespace=cr-at-eol
+course_support/data/trends/notable_models.csv -text -whitespace
+project_template/course_support/data/trends/notable_models.csv -text -whitespace
